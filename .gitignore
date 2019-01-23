@@ -34,3 +34,7 @@ unimap.sdf
 ipch/unimap-3c9421cb/unimap-d09ce1c0.ipch
 Debug
 Release
+data/bibcodes
+unimap.log
+data/object/tmp
+data/object/spectrum
