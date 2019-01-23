@@ -1,0 +1,2 @@
+{Guadalcanal}{1}
+Honiara=-9.43,159.91,38,

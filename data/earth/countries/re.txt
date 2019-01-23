@@ -1,0 +1,17 @@
+{Saint-Benoît}{2}
+Saint-André=-20.95,55.65,69,
+Saint-Benoit=-21.03,55.72,0,
+{Saint-Denis}{5}
+La Possession=-20.92,55.34,0,
+Le Port=-20.93,55.30,12,
+Saint-Denis=-20.87,55.46,0,
+Sainte-Marie=-20.88,55.55,0,
+Sainte-Suzanne=-20.9,55.61,0,
+{Saint-Paul}{2}
+Saint-Leu=-21.16,55.29,101,
+Saint-Paul=-21,55.27,0,
+{Saint-Pierre}{4}
+Le Tampon=-21.27,55.53,695,
+Saint-Joseph=-21.36,55.62,136,
+Saint-Louis=-21.27,55.41,108,
+Saint-Pierre=-21.32,55.47,89,

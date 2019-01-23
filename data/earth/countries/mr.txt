@@ -1,0 +1,18 @@
+{Adrar}{1}
+Âtâr=20.51,-13.05,221,
+{Assaba}{1}
+Kîfah=16.62,-11.4,130,
+{Dhakhlat Nawadîbu}{1}
+Nawadhîbu=20.96,-17.04,10,
+{Hudh-ash-Sharqi}{1}
+an-NaŽmah=16.62,-7.26,266,
+{Nawâkshût}{1}
+Nawâkshût=18.09,-15.98,8,
+{Qurqul}{1}
+Kayhaydi=16.15,-13.5,19,
+{Taqant}{1}
+Tijiqjah=18.56,-11.44,394,
+{Tiris Zammûr}{1}
+Zuwârat=22.73,-12.49,368,
+{Trarza}{1}
+Rûsû=16.52,-15.8,6,

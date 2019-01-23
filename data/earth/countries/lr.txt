@@ -1,0 +1,15 @@
+{Bomi}{1}
+Tubmanburg=6.87,-10.82,73,
+{Grand Bassa}{1}
+Buchanan=5.88,-10.05,7,
+{Grand Gedeh}{1}
+Zwedru=6.07,-8.13,214,
+{Margibi}{1}
+Harbel=6.26,-10.33,23,
+{Maryland and Grand Kru}{1}
+Harper=4.39,-7.72,3,
+{Montserrado}{2}
+Bensonville=6.45,-10.6,57,
+Monrovia=6.31,-10.8,25,
+{Nimba}{1}
+Yekepa=7.58,-8.53,515,

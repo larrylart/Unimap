@@ -1,0 +1,288 @@
+{Amnat Charoen}{1}
+Amnat Charoen=15.86,104.63,159,
+{Ang Thong}{1}
+Wiset Chai Chan=14.58,100.35,13,
+{Buri Ram}{4}
+Buri Ram=15.00,103.11,162,
+Lamplai Mat=15.02,102.83,164,
+Nang Rong=14.63,102.80,181,
+Pra Khon Chai=14.62,103.08,159,
+{Chachoengsao}{3}
+Bang Pakong=13.55,101.00,5,
+Chachoengsao=13.69,101.07,3,
+Phanom Sarakham=13.75,101.35,5,
+{Chai Nat}{1}
+Chai Nat=15.18,100.13,19,
+{Chaiyaphum}{4}
+Chaiyaphum=15.80,102.04,186,
+Kaeng Khlo=16.10,102.27,189,
+Kaset Sombun=16.28,101.95,232,
+Phu Khieo=16.37,102.13,213,
+{Chanthaburi}{2}
+Chanthaburi=12.61,102.11,10,
+Tha Mai=12.62,102.02,5,
+{Chiang Mai}{6}
+Chiang Mai=18.80,98.98,317,
+Hangdong=18.69,98.92,314,
+Maetaeng=19.12,98.95,336,
+Sankamphaeng=18.74,99.12,310,
+Sanpatong=18.62,98.89,298,
+Sansai=18.85,99.05,316,
+{Chiang Rai}{3}
+Chiang Rai=19.91,99.83,397,
+Mae Chan=20.15,99.87,409,
+Mae Sai=20.43,99.88,423,
+{Chon Buri}{8}
+Ban Bung=13.04,101.00,42,
+Bang Lamung=12.97,100.90,7,
+Chon Buri=13.40,101.00,25,
+Pattaya=12.92,100.90,22,
+Phan Thong=13.47,101.10,8,
+Phanat Nikhom=13.45,101.18,14,
+Sattahip=12.67,100.90,5,
+Si Racha=13.16,100.93,28,
+{Chumphon}{1}
+Chumphon=10.51,99.19,12,
+{Kalasin}{4}
+Kalasin=16.43,103.50,146,
+Kamalasai=16.33,103.58,146,
+Kuchinarai=16.53,104.07,171,
+Nong Kung Si=16.65,103.30,183,
+{Kamphaeng Phet}{2}
+Kamphaeng Phet=16.47,99.52,81,
+Khanu Woralaksaburi=16.07,99.87,47,
+{Kanchanaburi}{3}
+Kanchanaburi=14.02,99.53,36,
+Tha Maka=13.90,99.77,18,
+Tha Muang=13.97,99.63,31,
+{Khon Kaen}{4}
+Ban Phai=16.06,102.73,175,
+Chum Phae=16.54,102.11,227,
+Khon Kaen=16.42,102.83,158,
+Nam Phong=16.62,102.83,173,
+{Krabi}{1}
+Krabi=8.05,98.91,7,
+{Krung Thep}{1}
+Krung Thep=13.73,100.50,8,
+{Lampang}{2}
+Lampang=18.29,99.48,237,
+Thoen=17.60,99.21,162,
+{Lamphun}{2}
+Lamphun=18.50,99.08,396,
+Pa Sang=18.52,98.94,298,
+{Loei}{2}
+Loei=17.49,101.73,247,
+Phu Kra Dung=16.88,101.88,254,
+{Lop Buri}{2}
+Chai Badan=15.20,101.13,45,
+Lop Buri=14.80,100.62,18,
+{Maha Sarakham}{1}
+Maha Sarakham=16.18,103.29,144,
+{Mukdahan}{1}
+Mukdahan=16.54,104.72,147,
+{Nakhon Nayok}{1}
+Nakhon Nayok=14.20,101.22,11,
+{Nakhon Pathom}{3}
+Bang Len=14.02,100.17,6,
+Nakhon Pathom=13.82,100.06,20,
+Sam Phran=13.72,100.22,7,
+{Nakhon Phanom}{1}
+Nakhon Phanom=17.40,104.78,155,
+{Nakhon Ratchasima}{10}
+Bua Yai=15.58,102.42,169,
+Chok Chai=14.73,102.17,198,
+Dan Khun Thot=15.21,101.81,204,
+Huai Thalaeng=15.00,102.66,188,
+Khon Buri=14.52,102.25,214,
+Nakhon Ratchasima=15.00,102.10,180,
+Non Sung=15.18,102.27,167,
+Pak Chong=14.70,101.41,305,
+Pak Thong Chai=14.44,102.01,368,
+Sikhiu=14.88,101.73,226,
+{Nakhon Sawan}{4}
+Chumsaeng=15.13,103.35,152,
+Lat Yao=15.75,99.80,60,
+Nakhon Sawan=15.70,100.07,24,
+Takhli=15.26,100.35,28,
+{Nakhon Si Thammarat}{4}
+Nakhon Si Thammarat=8.40,99.97,14,
+Pak Phanang=8.35,100.21,4,
+Ron Phibun=8.15,99.85,24,
+Thung Song=8.15,99.73,67,
+{Nan}{1}
+Nan=18.78,100.77,203,
+{Narathiwat}{4}
+Narathiwat=6.43,101.82,6,
+Rangae=6.28,101.73,28,
+Sungai Kolok=6.02,101.96,22,
+Tak Bai=6.27,102.05,0,
+{Nong Bua Lam Phu}{3}
+Na Klang=17.31,102.18,257,
+Nong Bua Lam Phu=17.17,102.57,222,
+Suwan Khuha=17.58,102.27,203,
+{Nong Khai}{4}
+Nong Khai=17.88,102.74,169,
+Phon Charoen=18.03,103.17,168,
+Seka=17.93,103.95,152,
+Tha Bo=17.85,102.58,184,
+{Nonthaburi}{4}
+Bang Bo Thong=13.92,100.43,2,
+Bang Kruai=13.81,100.45,6,
+Nonthaburi=13.80,100.18,8,
+Pak Kret=13.90,100.51,6,
+{Pathum Thani}{4}
+Khlong Luang=14.07,100.65,12,
+Lam Luk Ka=13.93,100.75,7,
+Pathum Thani=14.02,100.52,8,
+Thanyaburi=14.02,100.71,9,
+{Pattani}{2}
+Pattani=6.87,101.24,4,
+Yaring=6.87,101.37,15,
+{Phatthalung}{1}
+Phatthalung=7.63,100.07,10,
+{Phayao}{2}
+Dok Kham Tai=19.17,99.98,387,
+Phayao=19.17,99.91,418,
+{Phetchabun}{5}
+Chon Daen=16.18,100.85,95,
+Lom Sak=16.78,101.25,148,
+Nong Phai=15.98,101.07,106,
+Phetchabun=16.42,101.16,119,
+Wichian Buri=15.65,101.12,74,
+{Phetchaburi}{5}
+Ban Laem=13.13,99.59,335,
+Chaam=12.80,99.97,5,
+Khao Yoi=13.23,99.83,6,
+Phetchaburi=13.11,99.95,11,
+Tha Yang=12.97,100.89,23,
+{Phichit}{4}
+Bang Mun Nak=16.03,100.38,36,
+Phichit=16.44,100.35,41,
+Taphan Hin=16.20,100.42,32,
+Thap Khlo=16.17,100.57,46,
+{Phitsanulok}{2}
+Bang Krathum=16.57,100.30,45,
+Phitsanulok=16.82,100.27,51,
+{Phra Nakhon Si Ayutthaya}{7}
+Ayutthaya=14.36,100.57,9,
+Bang Ban=14.42,100.47,6,
+Bang Pa In=14.23,100.58,7,
+Phak Hai=14.45,100.37,10,
+Se Na=14.32,100.40,6,
+Tha Rua=14.57,100.73,13,
+Wang Noi=14.22,100.73,3,
+{Phrae}{2}
+Den Chai=17.98,100.05,160,
+Phrae=18.15,100.16,167,
+{Phuket}{2}
+Kathu=7.92,98.35,30,
+Phuket=7.88,98.38,14,
+{Prachin Buri}{2}
+Kabin Buri=13.98,101.72,9,
+Prachin Buri=14.05,101.38,4,
+{Prachuap Khiri Khan}{5}
+Hua Hin=12.57,99.95,19,
+Kui Buri=12.05,99.87,8,
+Prachuap Khiri Khan=11.82,99.80,14,
+Pran Buri=12.38,99.92,10,
+Sam Roi Yot=12.20,99.88,3,
+{Ranong}{1}
+Ranong=9.97,98.63,6,
+{Ratchaburi}{5}
+Ban Pong=13.81,99.87,18,
+Bang Phae=13.70,99.93,9,
+Damnoen Saduak=13.52,99.93,14,
+Photharam=13.68,99.85,11,
+Ratchaburi=13.54,99.82,10,
+{Rayong}{3}
+Ban Chang=12.72,101.07,49,
+Klaeng=12.78,101.65,10,
+Rayong=12.68,101.28,12,
+{Roi Et}{3}
+Kaset=15.65,103.58,140,
+Roi Et=16.05,103.65,146,
+Selaphum=16.03,103.95,141,
+{Sa Kaeo}{2}
+Aranya Prathet=13.68,102.50,50,
+Sa Kaeo=13.82,102.07,46,
+{Sakon Nakhon}{2}
+Sakhon Nakhon=17.17,104.15,162,
+Sawang Daen Din=17.47,103.46,168,
+{Samut Prakan}{4}
+Bang Bo=13.57,100.83,10,
+Bang Sao Thong=13.67,100.82,9,
+Phra Pradaeng=13.67,100.53,4,
+Samut Prakan=13.61,100.61,3,
+{Samut Sakhon}{3}
+Ban Phaeo=13.58,100.12,5,
+Krathum Baen=13.65,100.27,6,
+Samut Sakhon=13.54,100.28,6,
+{Samut Songkhran}{1}
+Samut Songkhram=13.42,100.00,6,
+{Saraburi}{4}
+Kaeng Khoi=14.59,101.00,25,
+Nong Khae=14.33,100.87,8,
+Phra Phutthabat=14.72,100.79,43,
+Saraburi=14.53,100.88,15,
+{Satun}{1}
+Satun=6.62,100.07,9,
+{Si Sa Ket}{2}
+Katharalak=14.65,104.65,154,
+Si Sa Ket=15.11,104.33,133,
+{Sing Buri}{2}
+Bang Racham=14.88,100.32,14,
+Sing Buri=14.89,100.40,16,
+{Songkhla}{4}
+Hat Yai=7.00,100.47,15,
+Ranot=7.77,100.32,5,
+Sadao=6.63,100.43,41,
+Songkhla=7.21,100.56,4,
+{Sukhothai}{3}
+Sawankhalok=17.31,99.83,65,
+Si Satchanalai=17.52,99.77,73,
+Sukhothai=17.01,99.75,52,
+{Suphan Buri}{3}
+Doembang Nangbuat=14.83,100.10,11,
+Song Phi Nong=14.12,100.04,3,
+Suphan Buri=14.47,100.13,11,
+{Surat Thani}{5}
+Ban Na San=8.80,9.37,246,
+Kanchanadit=91.67,99.47,0,
+Ko Samui=9.53,99.93,0,
+Phun Phin=9.10,99.23,4,
+Surat Thani=9.14,99.33,10,
+{Surin}{1}
+Surin=14.89,103.49,153,
+{Tak}{4}
+Ban Tak=17.04,99.06,128,
+Mae Ramat=16.97,98.52,184,
+Mae Sot=16.71,98.57,216,
+Tak=16.88,99.13,113,
+{Trang}{2}
+Huai Yot=7.75,99.62,42,
+Trang=7.56,99.61,16,
+{Trat}{1}
+Trat=12.23,102.50,41,
+{Ubon Ratchathani}{4}
+Det Udom=14.91,105.08,134,
+Phibun Mangsahan=15.23,105.23,122,
+Ubon Ratchathani=15.25,104.83,127,
+Warin Chamrap=15.20,104.87,139,
+{Udon Thani}{7}
+Ban Dung=17.70,103.25,162,
+Kumphawapi=17.13,102.97,172,
+Kut Chap=17.42,102.57,190,
+Nam Som=17.77,102.19,234,
+Nong Han=17.36,103.06,181,
+Nong Wua So=17.27,103.22,181,
+Udon Thani=17.41,102.79,179,
+{Uthai Thani}{1}
+Uthai Thani=15.38,100.03,26,
+{Uttaradit}{2}
+Laplae=17.65,100.03,93,
+Uttaradit=17.63,100.10,70,
+{Yala}{2}
+Betong=5.78,101.07,287,
+Yala=6.55,101.29,26,
+{Yasothon}{1}
+Yasothon=15.79,104.15,134,

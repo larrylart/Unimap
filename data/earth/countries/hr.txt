@@ -1,0 +1,43 @@
+{Bjelovar-Bilogora}{1}
+Bjelovar=45.91,16.84,141,
+{Dubrovnik-Neretva}{1}
+Dubrovnik=42.66,18.07,59,
+{Grad Zagreb}{2}
+Sesvete=45.84,16.11,139,
+Zagreb=45.80,15.97,116,
+{Istra}{1}
+Pula=44.88,13.84,0,
+{Karlovac}{1}
+Karlovac=45.50,15.54,110,
+{Koprivnica-Krizhevci}{1}
+Koprivnica=46.16,16.83,141,
+{Medhimurje}{1}
+Chakovec=46.39,16.42,164,
+{Osijek-Baranja}{2}
+Dhakovo=45.31,18.41,111,
+Osijek=45.55,18.68,88,
+{Pozhega-Slavonija}{1}
+Pozhega=45.34,17.68,146,
+{Primorje-Gorski Kotar}{1}
+Rijeka=45.33,14.44,37,
+{Shibenik-Knin}{1}
+Shibenik=43.74,15.89,24,
+{Sisak-Moslavina}{1}
+Sisak=45.48,16.36,99,
+{Slavonski Brod-Posavina}{1}
+Slavonski Brod=45.16,18.01,89,
+{Split-Dalmacija}{2}
+Solin=43.54,16.49,5,
+Split=43.51,16.45,46,
+{Varazhdin}{1}
+Varazhdin=46.31,16.33,172,
+{Virovitica-Podravina}{1}
+Virovitica=45.84,17.39,118,
+{Vukovar-Srijem}{2}
+Vinkovci=45.29,18.80,87,
+Vukovar=45.35,18.99,102,
+{Zadar}{1}
+Zadar=44.12,15.24,18,
+{Zagreb}{2}
+Velika Gorica=45.74,16.06,103,
+Zapreshic=45.88,15.81,126,

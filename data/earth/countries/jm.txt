@@ -1,0 +1,15 @@
+{Clarendon}{1}
+May Pen=17.97,-77.24,83,
+{Kingston}{1}
+Kingston=17.99,-76.8,45,
+{Manchester}{1}
+Mandeville=18.05,-77.48,515,
+{Saint Andrew}{1}
+Half Way Tree=18.00,-76.79,75,
+{Saint Catherine}{2}
+Portmore=17.95,-76.88,88,
+Spanish Town=18.00,-76.95,27,
+{Saint James}{1}
+Montego Bay=18.47,-77.92,11,
+{Westmoreland}{1}
+Savanna la Mar=18.16,-77.95,391,

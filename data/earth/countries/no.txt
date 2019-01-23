@@ -1,0 +1,43 @@
+{Aust-Agder}{1}
+Arendal=58.46,8.76,40,
+{Buskerud}{2}
+Drammen=59.75,10.20,49,
+Kongsberg=59.67,9.63,325,
+{Hedmark}{1}
+Hamar=60.81,11.08,0,
+{Hordaland}{2}
+Askøy=60.40,5.18,0,
+Bergen=60.38,5.34,0,
+{Møre og Romsdal}{3}
+Kristiansund=63.12,7.76,0,
+Molde=62.74,7.18,0,
+Ålesund=62.48,6.20,0,
+{Nordland}{2}
+Bodø=67.29,14.37,0,
+Mo i Rana=66.33,14.17,0,
+{Oppland}{2}
+Gjøvik=60.79,10.65,0,
+Lillehammer=61.12,10.47,0,
+{Oslo / Akershus}{1}
+Oslo=59.91,10.75,10,
+{Rogaland}{2}
+Haugesund=59.42,5.27,34,
+Stavanger=58.97,5.71,48,
+{Sør-Trøndelag}{1}
+Trondheim=63.44,10.40,0,
+{Telemark}{1}
+Porsgrunn-Skien=59.15,9.66,14,
+{Troms}{2}
+Harstad=68.81,16.52,0,
+Tromsø=69.66,18.94,0,
+{Vest-Agder}{1}
+Kristiansand=58.15,7.99,25,
+{Vestfold}{4}
+Horten=59.42,10.47,62,
+Larvik=59.07,9.99,26,
+Sandefjord=59.14,10.21,45,
+Tønsberg=59.27,10.42,21,
+{Østfold}{3}
+Fredrikstad-Sarpsborg=59.24,10.94,59,
+Halden=59.13,11.37,72,
+Moss=59.43,10.68,42,

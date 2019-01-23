@@ -1,0 +1,89 @@
+Optical,DSS
+Optical,DSS1 Blue
+Optical,DSS1 Red
+Optical,DSS2 Blue
+Optical,DSS2 IR
+Optical,DSS2 Red
+Optical,H-Alpha Comp
+Optical,NEAT
+Optical,SDSSg
+Optical,SDSSi
+Optical,SDSSr
+Optical,SDSSu
+Optical,SDSSz
+Optical,SHASSA C
+Optical,SHASSA CC
+Optical,SHASSA H
+Optical,SHASSA Sm
+Infrared,2MASS-J
+Infrared,2MASS-H
+Infrared,2MASS-K
+Infrared,COBE DIRBE (OLD)
+Infrared,COBE DIRBE/AAM
+Infrared,COBE DIRBE/ZSMA
+Infrared,IRAS  12 micron
+Infrared,IRAS  25 micron
+Infrared,IRAS  60 micron
+Infrared,IRAS 100 micron
+Infrared,IRIS  12
+Infrared,IRIS  25
+Infrared,IRIS  60
+Infrared,IRIS 100
+Infrared,SFD Dust Map
+Infrared,SFD100m
+UV,EUVE 171 A
+UV,EUVE 405 A
+UV,EUVE 555 A
+UV,EUVE 83 A
+UV,GALEX Far UV
+UV,GALEX Near UV
+UV,ROSAT WFC F1
+UV,ROSAT WFC F2
+Radio,0035MHz
+Radio,0408MHz
+Radio,1420Mhz (Bonn)
+Radio,CO
+Radio,GB6 (4850Mhz)
+Radio,NVSS
+Radio,SUMSS 843 Mhz
+Radio,VLA FIRST (1.4 Ghz)
+Radio,VLSS
+Radio,WENSS
+Radio,nH
+X-ray,GRANAT/SIGMA
+X-ray,PSPC 1.0 Deg-Inten
+X-ray,GRANAT/SIGMA Flux
+X-ray,HEAO 1 A-2
+X-ray,HRI
+X-ray,PSPC 2.0 Deg-Counts
+X-ray,PSPC 2.0 Deg-Expos
+X-ray,PSPC 2.0 Deg-Inten
+X-ray,RASS-Cnt Broad
+X-ray,RASS-Cnt Hard
+X-ray,RASS-Cnt Soft
+Hard X-ray,BAT Flux 100-195
+Hard X-ray,BAT Flux 14-195
+Hard X-ray,BAT Flux 14-24
+Hard X-ray,BAT Flux 24-50
+Hard X-ray,BAT Flux 50-100
+Hard X-ray,BAT Sig 100-195
+Hard X-ray,BAT Sig 14-195
+Hard X-ray,BAT Sig 14-24
+Hard X-ray,BAT Sig 24-50
+Hard X-ray,BAT Sig 50-100
+Hard X-ray,INTEGRAL/SPI GC
+Hard X-ray,RXTE Allsky 3-20kev
+Hard X-ray,RXTE Allsky 3-8keV
+Hard X-ray,RXTE Allsky 8-20keV
+Diffuse X-ray,RASS Background 1
+Diffuse X-ray,RASS Background 2
+Diffuse X-ray,RASS Background 3
+Diffuse X-ray,RASS Background 4
+Diffuse X-ray,RASS Background 5
+Diffuse X-ray,RASS Background 6
+Diffuse X-ray,RASS Background 7
+Gamma Ray,COMPTEL
+Gamma Ray,EGRET (3D)
+Gamma Ray,EGRET <100 MeV
+Gamma Ray,EGRET >100 MeV
+

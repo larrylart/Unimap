@@ -1,0 +1,89 @@
+ 00:29:00  35°00'00"  AND  Andromeda
+ 10:12:00 -33°31'00"  ANT  Antlia
+ 16:00:00 -80°48'00"  APS  Apus
+ 22:50:00 -04°52'00"  AQR  Aquarius
+ 19:53:00 -01°52'00"  AQL  Aquila
+ 18:06:00 -57°00'00"  ARA  Ara
+ 02:33:00  20°32'00"  ARI  Aries
+ 05:51:00  43°30'00"  AUR  Auriga
+ 15:07:00  35°20'00"  BOO  Bootes
+ 04:31:00 -38°28'00"  CAE  Caelum
+ 06:38:00  69°20'00"  CAM  Camelopardalis
+ 08:24:00  16°00'00"  CNC  Cancer
+ 13:01:00  44°42'00"  CVN  Canes Venatici
+ 06:50:00 -24°46'00"  CMA  Canis Major
+ 08:09:00  08°05'00"  CMI  Canis Minor
+ 21:00:00 -22°15'00"  CAP  Capricornus
+ 07:47:00 -56°36'00"  CAR  Carina
+ 00:20:00  55°00'00"  CAS  Cassiopeia
+ 13:10:00 -43°28'00"  CEN  Centaurus
+ 22:41:00  68°30'00"  CEP  Cepheus
+ 01:10:00 -14°25'00"  CET  Cetus
+ 12:40:00 -82°02'00"  CHA  Chamaeleon
+ 14:30:00 -64°00'00"  CIR  Circinus
+ 05:39:00 -31°30'00"  COL  Columba
+ 13:33:00  31°43'00"  COM  Coma Berenices
+ 19:40:00 -34°28'00"  CRA  Corona Australis
+ 16:05:00  24°30'00"  CRB  Corona Borealis
+ 12:37:00 -13°22'00"  CRV  Corvus
+ 11:44:00 -20°19'00"  CRT  Crater
+ 12:45:00 -54°30'00"  CRU  Crux
+ 20:10:00  41°18'00"  CYG  Cygnus
+ 20:45:00  09°08'00"  DEL  Delphinus
+ 05:21:00 -60°07'00"  DOR  Dorado
+ 16:43:00  66°44'00"  DRA  Draco
+ 21:22:00  04°12'00"  EQU  Equuleus
+ 04:12:00 -19°31'00"  ERI  Eridanus
+ 02:17:00 -32°20'00"  FOR  Fornax
+ 07:20:00  26°04'00"  GEM  Gemini
+ 22:08:00 -43°27'00"  GRU  Grus
+ 17:23:00  30°01'00"  HER  Hercules
+ 03:53:00 -51°35'00"  HOR  Horologium
+ 10:10:00 -18°00'00"  HYA  Hydra
+ 02:50:00 -71°27'00"  HYI  Hydrus
+ 21:45:00 -56°55'00"  IND  Indus
+ 23:19:00  46°56'00"  LAC  Lacerta
+ 10:53:00  18°45'00"  LEO  Leo
+ 10:34:00  33°48'00"  LMI  Leo Minor
+ 05:54:00 -18°20'00"  LEP  Lepus
+ 14:48:00 -20°13'00"  LIB  Libra
+ 15:18:00 -38°10'00"  LUP  Lupus
+ 08:38:00  41°13'00"  LYN  Lynx
+ 18:51:00  32°00'00"  LYR  Lyra
+ 06:23:00 -76°58'00"  MEN  Mensa
+ 21:10:00 -35°17'00"  MIC  Microscopium
+ 07:57:00 -00°55'00"  MON  Monoceros
+ 12:06:00 -69°51'00"  MUS  Musca
+ 16:27:00 -51°20'00"  NOR  Norma
+ 20:09:00 -79°44'00"  OCT  Octans
+ 17:18:00 -07°02'00"  OPH  Ophiuchus
+ 05:38:00  03°10'00"  ORI  Orion
+ 20:15:00 -61°25'00"  PAV  Pavo
+ 22:49:00  19°14'00"  PEG  Pegasus
+ 03:49:00  38°34'00"  PER  Perseus
+ 00:19:00 -54°29'00"  PHE  Phoenix
+ 05:59:00 -48°20'00"  PIC  Pictor
+ 01:05:00  12°02'00"  PSC  Pisces
+ 22:49:00 -23°59'00"  PSA  Piscis Austrinus
+ 07:20:00 -42°10'00"  PUP  Puppis
+ 09:00:00 -25°26'00"  PYX  Pyxis
+ 04:17:00 -66°03'00"  RET  Reticulum
+ 19:34:00  18°18'00"  SGE  Sagitta
+ 19:45:00 -21°10'00"  SGR  Sagittarius
+ 16:32:00 -30°59'00"  SCO  Scorpius
+ 00:53:00 -31°45'00"  SCL  Sculptor
+ 19:01:00 -09°58'00"  SCT  Scutum
+ 15:31:00  07°45'00"  SER  Serpens Caput
+ 18:56:00  07°17'00"  SER  Serpens Cauda
+ 10:34:00 -03°12'00"  SEX  Sextans
+ 04:12:00  16°32'00"  TAU  Taurus
+ 18:04:00 -45°58'00"  TEL  Telescopium
+ 01:59:00  34°20'00"  TRI  Triangulum
+ 17:02:00 -69°47'00"  TRA  Triangulum Australe
+ 23:29:00 -64°54'00"  TUC  Tucana
+ 10:56:00  50°00'00"  UMA  Ursa Major
+ 15:27:00  82°27'00"  UMI  Ursa Minor
+ 09:38:00 -47°22'00"  VEL  Vela
+ 13:58:00 -04°03'00"  VIR  Virgo
+ 07:57:00 -64°39'00"  VOL  Volans
+ 19:15:00  24°31'00"  VUL  Vulpecula

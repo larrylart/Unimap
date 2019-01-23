@@ -1,0 +1,7 @@
+{Cayenne}{4}
+Cayenne=4.92,-52.34,0,
+Kourou=5.16,-52.65,-2,
+Matoury=4.85,-52.34,25,
+Remire-Montjoly=4.92,-52.28,37,
+{Saint-Laurent-du-Maroni}{1}
+Saint-Laurent-du-Maroni=5.50,-54.04,1,

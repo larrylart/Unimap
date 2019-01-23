@@ -1,0 +1,6 @@
+{Höfuðborgarsvæði}{3}
+Hafnarfjörður=64.06,-21.95,0,
+Kópavogur=64.12,-21.92,0,
+Reykjavík=64.14,-21.92,0,
+{Norðurland eystra}{1}
+Akureyri=65.69,-18.12,0,

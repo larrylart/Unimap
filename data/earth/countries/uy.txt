@@ -1,0 +1,52 @@
+{Artigas}{1}
+Artigas=-30.41,-56.48,134,
+{Canelones}{8}
+Camino Maldonado=-34.77,-56.02,29,
+Canelones=-34.53,-56.29,28,
+Ciudad de la Costa=-34.82,-55.95,18,
+Juan Antonio Artigas=-34.75,-55.98,15,
+Las Piedras=-34.69,-56.23,36,
+Pando=-34.72,-55.96,28,
+Progreso=-34.67,-56.22,55,
+Santa Lucía=-34.47,-56.4,10,
+{Cerro Largo}{2}
+Melo=-32.36,-54.18,104,
+Río Branco=-32.57,-53.43,7,
+{Colonia}{2}
+Carmelo=-33.99,-58.3,4,
+Colonia=-34.48,-57.84,0,
+{Durazno}{1}
+Durazno=-33.41,-56.51,100,
+{Flores}{1}
+Trinidad=-33.54,-56.9,124,
+{FLorida}{1}
+Florida=-34.1,-56.22,59,
+{Lavalleja}{1}
+Minas=-34.37,-55.23,142,
+{Maldonado}{2}
+Maldonado=-34.91,-54.96,35,
+San Carlos=-34.79,-54.91,13,
+{Montevideo}{2}
+La Paz=-34.77,-56.23,36,
+Montevideo=-34.87,-56.17,35,
+{Paysandú}{1}
+Paysandú=-32.33,-58.08,30,
+{Rivera}{1}
+Rivera=-30.9,-55.56,199,
+{Rocha}{1}
+Rocha=-34.5,-54.32,26,
+{Río Negro}{2}
+Fray Bentos=-33.13,-58.31,18,
+Young=-32.71,-57.63,72,
+{Salto}{1}
+Salto=-31.4,-57.96,14,
+{San José}{2}
+Delta del Tigre=-34.78,-56.43,0,
+San José=-34.35,-56.71,37,
+{Soriano}{2}
+Dolores=-33.55,-58.21,21,
+Mercedes=-33.26,-58.03,24,
+{Tacuarembó}{1}
+Tacuarembó=-31.71,-55.98,132,
+{Treinta y Tres}{1}
+Treinta y Tres=-33.23,-54.38,62,

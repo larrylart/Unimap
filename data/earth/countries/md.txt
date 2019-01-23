@@ -1,0 +1,34 @@
+{Balti}{3}
+Balti=47.76,27.91,119,
+Falesti=47.58,27.72,112,
+Râscani=47.96,27.57,161,
+{Cahul}{1}
+Cahul=45.91,28.19,45,
+{Chisinau Oras}{1}
+Chisinau=47.03,28.83,79,
+{Edinet}{1}
+Edinet=48.17,27.32,183,
+{Gagauzia}{3}
+Ciadâr Lunga=46.06,28.83,48,
+Comrat=46.31,28.66,52,
+Vulcanesti=45.68,28.41,25,
+{Lapusna}{2}
+Cimislia=46.53,28.78,80,
+Hâncesti=47.70,28.87,202,
+{Orhei}{1}
+Orhei=47.39,28.82,103,
+{Soroca}{3}
+Drochia=48.03,27.82,199,
+Floresti=47.89,28.31,110,
+Soroca=48.16,28.30,69,
+{Tighina}{1}
+Causani=46.64,29.41,20,
+{Transnistria}{5}
+Dubasari=47.27,29.16,45,
+Râbnita=47.77,29.00,92,
+Slobozia=46.75,29.71,21,
+Tighina=46.83,29.48,33,
+Tiraspol'=46.85,29.63,37,
+{Ungheni}{2}
+Calarasi=47.26,28.33,240,
+Ungheni=47.21,27.81,38,

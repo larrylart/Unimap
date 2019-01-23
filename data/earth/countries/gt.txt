@@ -1,0 +1,93 @@
+{Alta Verapaz}{3}
+Cobán=15.47,-90.38,1319,
+Panzós=15.40,-89.67,224,
+San Cristóbal Verapaz=15.38,-90.4,1398,
+{Baja Verapaz}{1}
+Salamá=15.10,-90.33,963,
+{Chimaltenango}{6}
+Chimaltenango=14.67,-90.83,1833,
+Comalapa=14.73,-90.88,2101,
+Patzicía=14.63,-90.93,2121,
+Patzún=14.68,-91.02,2288,
+San Andrés Itzapa=14.62,-90.85,1905,
+Tecpán Guatemala=14.77,-90.99,2290,
+{Chiquimula}{2}
+Chiquimula=14.80,-89.55,442,
+Esquipulas=14.57,-89.35,940,
+{Escuintla}{6}
+Escuintla=14.30,-90.78,341,
+La Gomera=14.08,-91.05,31,
+Palín=14.40,-90.7,1110,
+San José=13.92,-90.82,5,
+Santa Lucía Cotzumalguapa=14.33,-91.01,383,
+Tiquisate=14.28,-91.37,66,
+{Guatemala}{13}
+Amatitlán=14.48,-90.63,1215,
+Chinautla=14.70,-90.5,1215,
+Fraijanes=14.47,-90.44,1577,
+Guatemala=14.63,-90.55,1541,
+Mixco=14.64,-90.6,1676,
+Palencia=14.66,-90.36,1385,
+Petapa=14.50,-90.57,1283,
+San José Pinula=14.55,-90.41,1754,
+San Juan Sacatepéquez=14.72,-90.64,1820,
+San Pedro Ayampuc=14.79,-90.45,1112,
+Santa Catarina Pinula=14.57,-90.5,1546,
+Villa Canales=14.48,-90.53,1235,
+Villa Nueva=14.53,-90.59,1343,
+{Huehuetenango}{2}
+Huehuetenango=15.32,-91.47,1904,
+Jacaltenango=15.67,-91.73,1498,
+{Izabal}{2}
+Morales=15.48,-88.82,39,
+Puerto Barrios=15.73,-88.6,6,
+{Jalapa}{1}
+Jalapa=14.63,-90,1392,
+{Jutiapa}{2}
+Asunción Mita=14.33,-89.72,492,
+Jutiapa=14.29,-89.9,893,
+{Petén}{3}
+Flores=16.93,-89.89,118,
+Poptún=16.33,-89.42,512,
+San Benito=16.92,-89.9,124,
+{Quezaltenango}{6}
+Cantel=14.82,-91.45,2355,
+Coatepeque=14.70,-92.87,0,
+Colomba=14.72,-91.73,1072,
+Olintepeque=14.83,-91.52,2378,
+Ostuncalco=14.87,-91.62,2505,
+Quetzaltenango=14.84,-91.53,2343,
+{Quiché}{3}
+Chichicastenango=14.93,-91.12,2213,
+Nebaj=15.41,-91.15,1888,
+Santa Cruz del Quiché=15.03,-91.15,2024,
+{Retalhuleu}{1}
+Retalhuleu=14.54,-91.69,239,
+{Sacatepéquez}{8}
+Alotenango=14.48,-90.81,1386,
+Antigua Guatemala=14.56,-90.74,1531,
+Ciudad Vieja=14.52,-90.77,1547,
+Jocotenango=14.58,-90.73,1580,
+San Lucas Sacatepéquez=14.61,-90.66,2068,
+Santa Maria de Jesús=14.50,-90.72,1997,
+Santiago Sacatepéquez=14.64,-90.68,2018,
+Sumpango=14.65,-90.73,1925,
+{San Marcos}{2}
+San Marcos=14.96,-91.8,2390,
+San Pedro Sacatepéquez=14.97,-91.77,2305,
+{Santa Rosa}{1}
+Barberena=14.30,-90.37,1123,
+{Sololá}{3}
+Nahualá=14.85,-91.32,2508,
+Santiago Atitlán=14.63,-91.23,1604,
+Sololá=14.77,-91.19,2022,
+{Suchitepéquez}{2}
+Chicacao=14.53,-91.32,456,
+Mazatenango=14.53,-91.51,364,
+{Totonicapán}{3}
+Momostenango=15.04,-91.41,2247,
+San Francisco El Alto=14.95,-91.45,2612,
+Totonicapán=14.92,-91.36,2558,
+{Zacapa}{2}
+Gualán=15.13,-89.37,125,
+Zacapa=14.98,-89.53,235,

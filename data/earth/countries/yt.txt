@@ -1,0 +1,5 @@
+{Mayotte}{2}
+Koungou=-12.72,45.20,0,
+Mamoudzou=-12.78,45.20,115,
+{Pamanzi}{1}
+Dzaoudzi=-12.77,45.25,0,

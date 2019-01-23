@@ -1,0 +1,16 @@
+{Arima}{1}
+Arima=10.64,-61.28,68,
+{Point Fortín}{1}
+Point Fortín=10.16,-61.68,12,
+{Port of Spain}{1}
+Port of Spain=10.66,-61.51,21,
+{Princes Town}{1}
+Marabella=10.29,-61.45,36,
+{San Fernando}{1}
+San Fernando=10.25,-61.46,34,
+{San Juan-Laventville}{1}
+San Juan=10.46,-61.44,14,
+{Sangre Grande}{1}
+Sangre Grande=10.61,-61.12,20,
+{Tunapuna-Piarco}{1}
+Tunapuna=10.65,-61.39,48,

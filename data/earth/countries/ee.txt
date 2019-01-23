@@ -1,0 +1,14 @@
+{Harju}{2}
+Maardu=59.49,25.01,26,
+Tallinn=59.44,24.74,25,
+{Ida-Viru}{2}
+Kohtla-Järve=59.40,27.25,60,
+Narva=59.38,28.19,32,
+{Lääne-Viru}{1}
+Rakvere=59.36,26.36,78,
+{Pärnu}{1}
+Pärnu=58.38,24.51,6,
+{Tartu}{1}
+Tartu=58.38,26.71,72,
+{Viljandi}{1}
+Viljandi=58.37,25.60,89,

@@ -1,0 +1,35 @@
+{Central Bobonong}{1}
+Bobonong=-21.97,28.42,697,
+{Central Boteti}{1}
+Letlhakane=-21.42,25.59,986,
+{Central Mahalapye}{1}
+Mahalapye=-23.1,26.82,1026,
+{Central Serowe-Palapye}{2}
+Palapye=-22.56,27.13,919,
+Serowe=-22.39,26.71,1139,
+{Central Tutume}{1}
+Tonota=-21.44,27.48,951,
+{Francistown}{1}
+Francistown=-21.17,27.50,984,
+{Gaborone}{1}
+Gaborone=-24.65,25.91,1012,
+{Jwaneng}{1}
+Jwaneng=-25.42,25.55,1310,
+{Kgatleng}{1}
+Mochudi=-24.37,26.15,965,
+{Kweneng}{3}
+Mogoditshane=-24.63,25.87,1022,
+Molepolole=-24.4,25.51,1139,
+Thamaga=-24.72,25.53,1072,
+{Lobatse}{1}
+Lobatse=-25.22,25.68,1192,
+{Ngwaketse}{2}
+Kanye=-24.97,25.34,1403,
+Moshupa=-24.77,25.41,1137,
+{Okavango}{1}
+Maun=-19.99,23.42,945,
+{Selibe Phikwe}{1}
+Selibe Phikwe=-21.98,27.83,867,
+{South East}{2}
+Ramotswa=-24.83,25.84,1022,
+Tlokweng=-24.53,25.97,999,

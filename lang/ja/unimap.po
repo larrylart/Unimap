@@ -1,0 +1,55 @@
+# Frame:Menu->View
+msgid ""
+msgstr ""
+"Project-Id-Version: Unimap 0.100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Larry Lart <i@larryo.org>\n"
+"Language-Team: Larry Lart <larry@larryo.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+# Frame:Menu->File
+msgid "File"
+msgstr "ファイル"
+
+# Frame:Menu->View
+msgid "View"
+msgstr "視野"
+
+# Frame:Menu->Group
+msgid "Group"
+msgstr "グループ"
+
+# Frame:Menu->Image
+msgid "Image"
+msgstr "イメージ"
+
+# Frame:Menu->Tools
+msgid "Tools"
+msgstr "道具"
+
+# Frame:Menu->Options
+msgid "Options"
+msgstr "オプション"
+
+# Frame:Menu->Help
+msgid "Help"
+msgstr "ヘルプ"
+
+# Frame:Menu->Help->About
+msgid "About"
+msgstr "〜について"
+
+# Frame:Toolbar:match
+msgid "Match Stars"
+msgstr "一致星"
+
+# Frame:Toolbar:poshint
+msgid "Set Position Hint"
+msgstr "セットポジションのヒント"
+

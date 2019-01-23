@@ -1,0 +1,51 @@
+
+
+makeit
+{
+	dfield = newfield(prefs.image_name[0], DETECT_FIELD, nok);
+	field = newfield(prefs.image_name[1], MEASURE_FIELD, nok); // this is imp
+
+	pffield[i] = newfield(prefs.fimage_name[i], FLAG_FIELD, nok);
+
+	makeback(field, wfield);
+
+	scanimage( field, dfield, pffield, prefs.nimaflag, wfield, dwfield );
+}
+###############
+makemake - from back.c - estimate background
+{
+	readdata(field, buf, bufsize) - to read my image data
+}
+#################
+readdata - read and convert input data stream in PIXTYPE (float) format.
+{
+
+}
+
+// add counter to remeber the last position read from image char buffer
+// done global pointer
+
+- background is scanned in a window of 64 = field->backh
+
+#define	PIX(pic, x, y)	pic->strip[(((int)y)%pic->stripheight) \
+
+				*pic->width +(int)x]
+
+16,777,216 
+
+tycho 2 http://vizier.u-strasbg.fr/viz-bin/ftp-index?I/259
+simbad http://simbad.u-strasbg.fr/simbad/sim-id?protocol=html&Ident=sao257193&NbIdent=1&Radius=1&Radius.unit=deg&submit=submit+id
+
+
+http://vizier.u-strasbg.fr/viz-bin/ftp-index?I/259
+
+-------------------------------
+in hans's picture down from m81 is sao 15020
+and up left is SAO 15026
+in middle in between m81 and m82 is SAO 15014 
+at the right of m82 the brightest is SAO 6988 
+
+
+
+
+

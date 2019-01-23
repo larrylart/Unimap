@@ -1,0 +1,12 @@
+{Basse-Terre}{4}
+Baie-Mahault=16.26,-61.59,22,
+Capesterre-Belle-Eau=16.05,-61.57,41,
+Petit-Bourg=16.19,-61.59,8,
+Sainte-Rose=16.34,-61.69,0,
+{Grande-Terre}{6}
+Le Gosier=16.22,-61.49,15,
+Le Moule=16.33,-61.34,9,
+Les Abymes=16.29,-61.49,19,
+Morne-à-l'Eau=16.34,-61.45,3,
+Point-à-Pitre=16.25,-61.54,5,
+Sainte-Anne=16.24,-61.39,53,

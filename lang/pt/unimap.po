@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unimap 0.100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Larry Lart <i@larryo.org>\n"
+"Language-Team: Larry Lart <larry@larryo.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: PORTUGAL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Portuguese\n"
+
+# Frame:Menu->File
+msgid "File"
+msgstr "Arquivo"
+
+# Frame:Menu->View
+msgid "View"
+msgstr "Visualizar"
+
+# Frame:Menu->Group
+msgid "Group"
+msgstr "Grupo"
+
+# Frame:Menu->Image
+msgid "Image"
+msgstr "Imagem"
+
+# Frame:Menu->Tools
+msgid "Tools"
+msgstr "Ferramentas"
+
+# Frame:Menu->Options
+msgid "Options"
+msgstr "Opções"
+
+# Frame:Menu->Help
+msgid "Help"
+msgstr "Ajuda"
+
+# Frame:Menu->Help->About
+msgid "About"
+msgstr "Sobre"
+
+# Frame:Toolbar:match
+msgid "Match Stars"
+msgstr "Estrelas match"
+
+# Frame:Toolbar:poshint
+msgid "Set Position Hint"
+msgstr "Conjunto dica posição"
+

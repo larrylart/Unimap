@@ -1,0 +1,39 @@
+{Abkhasia}{4}
+Gagra=43.34,40.24,581,
+Ochamchira=42.72,41.46,0,
+Sukhumi=43.01,41.00,14,
+Tkvarcheli=42.84,41.67,401,
+{Ajaria}{1}
+Batumi=41.65,41.65,0,
+{Guria}{1}
+Ozurgeti=41.93,41.99,77,
+{Imereti}{6}
+Chiatura=42.29,43.27,528,
+Kutaisi=42.26,42.72,198,
+Samtredia=42.17,42.35,24,
+Tkibuli=42.35,42.96,648,
+Tskhaltubo=42.33,42.60,114,
+Zestaphoni=42.11,43.01,149,
+{Kakheti}{2}
+Sagarejo=41.74,45.34,820,
+Telavi=41.92,45.47,725,
+{Kvemo Kartli}{3}
+Gardabani=41.47,45.08,303,
+Marneuli=41.47,44.80,397,
+Rustavi=41.55,45.03,336,
+{Mtskheta-Mtianeti}{1}
+Mtskheta=41.84,44.70,466,
+{Samagrelo and Zemo Svaneti}{3}
+Poti=42.15,41.66,2,
+Senaki=42.27,42.06,38,
+Zugdidi=42.50,41.86,97,
+{Samtskhe-Javakheti}{2}
+Akhaltsikhe=41.64,42.98,972,
+Borjomi=41.85,43.37,1251,
+{Shida Kartli}{4}
+Gori=41.98,44.11,594,
+Kaspi=41.93,44.41,534,
+Khashuri=41.99,43.60,697,
+Tskhinvali=42.23,43.95,927,
+{Tbilisi}{1}
+Tbilisi=41.72,44.79,418,

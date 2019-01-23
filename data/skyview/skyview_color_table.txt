@@ -1,0 +1,26 @@
+colortables/b-w-linear.bin,Black & White
+colortables/rainbow.bin,Rainbow
+colortables/stern-special.bin,Stern Special
+colortables/blue-white.bin,Blue & White
+grn-red-blu-wht.bin,Green Red Blue White
+colortables/red-temperature.bin,Red Temperature
+colortables/blu-grn-red-yel.bin,Blue Green Red Yellow
+colortables/std-gamma-ii.bin,Std Gamma-II
+colortables/prism.bin,Prism
+colortables/red-purple.bin,Red-Purple
+colortables/green-white-linear.bin,Green/White Linear
+colortables/grn-wht-exponential.bin,Green/White Exponential
+colortables/green-pink.bin,Green-Pink
+colortables/blue-red.bin,Blue-Red
+colortables/16-level.bin,16 Level
+colortables/steps.bin,Steps
+Fire,Fire
+Ice,Ice
+Red,Red
+Yellow,Yellow
+Green,Green
+Cyan,Cyan
+Magenta,Magenta
+Grays,Grays
+Spectrum,Spectrum
+3-3-2 RGB,3-3-2 RGB

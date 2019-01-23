@@ -1,0 +1,18 @@
+{East New Britain}{1}
+Rabaul=-4.2,152.16,21,
+{East Sepik}{1}
+Wewak=-3.56,143.62,4,
+{Eastern Highlands}{1}
+Goroka=-6.09,145.38,1537,
+{Madang}{1}
+Madang=-5.23,145.79,7,
+{Morobe}{1}
+Lae=-6.72,146.99,23,
+{National Capital District}{1}
+Port Moresby=-9.48,147.18,26,
+{North Solomons}{1}
+Arawa=-6.23,155.56,22,
+{Sandaun}{1}
+Vanimo=-2.69,141.30,4,
+{West New Britain}{1}
+Kimbe=-5.55,150.14,10,

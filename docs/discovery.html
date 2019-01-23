@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Object Discovery And Trajectory Reconstruction</title>
+<meta name="keywords" content="object discovery, trajectory reconstruction, path discovery, discovery setup, discovery steps, unknown objects, automatic discovery, histogram match, object track, follow object, image sequence, unknown sky object, path reconstruction, asteroid discovery, supernova discovery, astronomical discovery, discovery tool, global setup, path deviation, how to discover, find unknown objects, find moving object, star catalog object, trajectory, path, supernova, asteroid, satellite, sky" >
+<meta name="description" content="UniMap - automatic sky object discovery and trajectory reconstruction" >
+<meta name="GENERATOR" content="Larry created this with the vi/joe and notepad editor" >
+<meta name="Author" content="Larry O Lart" >
+<meta name="revisit-after" content="7 days">
+<meta name="date" content="2010-05-08">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="copyright" content="Larry Lart">
+<meta name="Audience" content="General">
+</head>
+
+<body>
+
+<center>
+<font size=5><b>Automatic Object Discovery And Trajectory Reconstruction</b></font><br>
+<font size=4></font>
+
+<br>
+
+<table border=0 width=90%>
+
+<tr><td wrap align=left><font face="arial" size="2">
+&nbsp;&nbsp;&nbsp;First be aware that this module is highly experimental as more testing,
+debugging and improvements needs to be done. The object discovery and trajectory reconstruction module
+will first register and align all image in the sequence (stack list) , then compare the frame by frame and
+extract objects which don’t match. At this point we will have a list of possible unknown object for every frame.
+Now we compare each unknown object profile (by various criteria) for each frame with the previous and next
+frame (time recording wise) and recursively we try to reconstruct trajectories. Then we will sort all trajectories
+by highest score and add them the group profile. Unfortunately I didn’t have real cases at hand so most testing
+was done with artificially created objects.
+<br><br>
+</td>
+</tr>
+
+<tr><td align=center><font face="arial" size="2"><i>
+Trajectory discovered for an artificially created object passing over ngc891<br>
+<img src="new/object_discovery.jpg" alt="Trajectory discovered for an artificially created object passing over ngc891">
+<br><br>
+</td></tr>
+
+<tr><td align=center><font face="arial" size="2"><i>
+Object discovery setup tab<br>
+<img src="new/object_discovery_setup.jpg">
+<br><br>
+</td></tr>
+
+</table>
+
+<br>
+
+<br><center>
+<font face="courier" size=2>
+<a href="http://larryo.org/index.html">Main</a> ->
+<a href="http://larryo.org/work/index.html">Work</a> ->
+<a href="http://larryo.org/work/information/index.html">Information</a> ->
+<a href="http://larryo.org/work/information/unimap/index.html">Unimap</a>
+</center><br>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1353569-1";
+urchinTracker();
+</script>
+
+
+</body>
+</html>

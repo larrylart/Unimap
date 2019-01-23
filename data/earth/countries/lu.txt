@@ -1,0 +1,5 @@
+{Esch-sur-Alzette}{2}
+Dudelange=49.48,6.08,308,
+Esch-Alzette=49.50,5.98,298,
+{Luxembourg}{1}
+Luxembourg=49.62,6.12,322,

@@ -1,0 +1,30 @@
+/* XPM */
+#ifndef XPMMAIN
+extern const char *cut_button[];
+
+#else
+const char *cut_button[] = {
+/* columns rows colors const chars-per-pixel */
+"16 15 3 1",
+"  c None",
+". c Black",
+"X c #000080",
+/* pixels */
+"                ",
+"     .   .      ",
+"     .   .      ",
+"     .   .      ",
+"     .. ..      ",
+"      . .       ",
+"      ...       ",
+"       .        ",
+"      X.X       ",
+"      X XXX     ",
+"    XXX X  X    ",
+"   X  X X  X    ",
+"   X  X X  X    ",
+"   X  X  XX     ",
+"    XX          "
+};
+#endif
+

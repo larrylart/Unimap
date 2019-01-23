@@ -1,0 +1,19 @@
+{Bocas del Toro}{1}
+Changuinola=9.43,-82.52,12,
+{Chiriquí}{4}
+Bugaba=8.53,-82.62,267,
+David=8.44,-82.43,53,
+Puerto Armuelles=8.28,-82.87,37,
+Río Sereno=8.82,-82.86,959,
+{Coclé}{1}
+Penonomé=8.51,-80.36,84,
+{Colón}{1}
+Colón=9.36,-79.9,7,
+{Panamá}{4}
+Arraiján=8.92,-79.72,10,
+La Chorrera=8.88,-79.78,75,
+Panamá=8.97,-79.53,0,
+San Miguelito=9.03,-79.5,43,
+{Veraguas}{2}
+Santiago=8.10,-80.97,103,
+Soná=8.01,-81.32,29,

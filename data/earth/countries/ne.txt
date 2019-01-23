@@ -1,0 +1,34 @@
+{Agadez}{2}
+Agadez=17.00,7.98,507,
+Arlit=18.82,7.33,424,
+{Diffa}{2}
+Diffa=13.32,12.62,302,
+N'Guigmi=14.25,13.12,286,
+{Dosso}{4}
+Birni N'Gaouré=13.08,2.91,190,
+Dogondoutchi=13.64,4.03,232,
+Dosso=13.05,3.20,230,
+Gaya=11.89,3.49,204,
+{Maradi}{5}
+Dakoro=14.51,6.77,416,
+Guidan Roumdji=13.67,6.70,346,
+Maradi=13.49,7.10,358,
+Tessaoua=13.75,7.99,404,
+Tibiri=13.58,7.06,350,
+{Niamey}{1}
+Niamey=13.52,2.12,213,
+{Tahoua}{3}
+Birni N'Konni=13.79,5.26,275,
+Illéla=14.46,5.24,305,
+Tahoua=14.90,5.26,371,
+{Tillabéry}{4}
+Ayorou=14.74,0.93,233,
+Filingué=14.35,3.33,224,
+Tillabéry=14.21,1.45,221,
+Téra=14.01,0.76,240,
+{Zinder}{5}
+Magaria=12.99,8.91,395,
+Matameye=13.42,8.48,452,
+Mirriah=13.71,9.16,409,
+Tanout=14.97,8.89,531,
+Zinder=13.80,8.99,480,

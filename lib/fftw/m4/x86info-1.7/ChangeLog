@@ -1,0 +1,223 @@
+Released as v1.7
+
+2001-12-11	Matthew Gregan <mgregan@jade.co.nz>
+
+	* Makefile: Add x86info.exe to clean target.
+	* cpuid_UP.S: Fix for win32
+	* mptable.c: Fix for win32
+	* x86info.c: Typo.
+	* Intel/identify.c: Make Celeron coppermines show chip stepping too.
+
+2001-12-11	Dave Jones <davej@suse.de>
+
+	* Cyrix/identify.c: Add recognition for Cyrix MII
+	* IDT/identify.c: Cluster register dumps together.
+	* IDT/MSR-C3.c: Check for root capability before using readmsr.
+	* Intel/identify.c: Recognise some extra Intel CPUs / revisions.
+
+2001-12-10	Dave <dave@iol.cz>
+
+	* Cyrix/identify.c: Fix misplaced { } in Cyrix detection.
+	* Intel/eblcr.c: added 'const' to buscode[][] and mult[][] in order to be
+	  placed into .rodata section.
+
+2001-12-10	Dave Jones <davej@suse.de>
+
+	* mptable.[c|h]: Add routines to parse MP tables.
+	* x86info.c: Add --mptable option, and nrCPU sanity check.
+	* */identify.c: Move externs to x86info.h
+	* eblcr.c: Moved to Intel/
+	* get_model_name: Added generic routine.
+	* IDT/identify.c: Fathers MSR-C3.c
+	  Output changed to same order as AMD output
+	  Made to use get_model_name() instead of duplicating code.
+	* Intel/cachesize.c: Work out cache sizes for Intel CPUs.
+	* Intel/identify.c: Only read eblcr when asked to.
+	  Distinguish between Celerons & Pentiums.
+	  Make cache descriptions match in style to the AMD descriptions.
+	* features.c: Rewritten.
+
+2001-12-9	Hans-Frieder Vogt <hfvogt@nexgo.de>
+
+	* AMD/MSR-K6.c:
+	  Fix write-allocation reports on K6-III
+
+2001-12-9	Matthew Gregan <mgregan@jade.co.nz>
+
+	* AMD/AMD.h, Cyrix/Cyrix.h, Intel/Intel.h, x86info.h:
+	  Add guards
+	* AMD/MSR-K6.c, AMD/bluesmoke.c, IDT/identify.c:
+	* Intel/bluesmoke.c, rdmsr.c:
+	  s/rdmsr/readmsr/  (work around OpenBSD braindamage)
+	* Intel/identify.c:
+	  Reformat & update. Add chip revisions where known.
+	* MHz.c:
+	  Win32 support, increase usleep amount to work on win32
+	  (Also better value for Linux and other OSs)
+	* Makefile:
+	  Win32 support.
+	* bluesmoke.c: Remove, go with vendor specific version.
+	* cpuid.s: renamed to cpuid_UP.S
+	* x86info.c: Win32 support, extra sanity checks.
+
+Released as v1.6
+
+2001-09-21  Dave Jones <davej@suse.de>
+
+	* x86info.c: s/_SC_NPROCESSORS/_SC_NPROCESSORS_CONF/
+
+2001-09-19  Dave Jones <davej@suse.de>
+
+	* AMD/identify.c: Updated to recognise XP / MP.
+
+2001-09-25  Mark Zealey <mark@itsolve.co.uk>
+
+	* MHz.c: calculation can be done a lot quicker with no loss
+	  of accuracy.
+
+2001-09-10  Dave Jones	<davej@suse.de>
+
+	* rdmsr.c: dump_msr now takes msr size argument.
+	* binary.c: Added ability to dump 64 bit MSRs.
+	* IDT/identify.c: Cleaned up the 0x110A MSR dump a little.
+
+2001-09-07  Dave Jones	<davej@suse.de>
+
+	* features.c:
+	  Make Centaur 3dnow test check for Winchip family.
+	  VIA Cyrix III family also has 3dnow.
+
+2001-09-01  Dave Jones	<davej@suse.de>
+
+	* cpuid.c:
+	  Don't call cpuid_UP() for cpu #0. Scheduling means we
+	   could end up running it on cpu #1 on SMP.
+	  If we fail to open the cpuid driver once, don't try it again.
+
+2001-08-29  Mark Brown  <broonie@sirena.org.uk>
+
+	* x86info.h: Prototype silent.
+	* x86info.c (main): Tweak diagnostic for missing cpuid on SMP.
+	* rdmsr.c (rdmsr): Display diagnostic when failing to access MSR
+	driver.
+	* cpuid.c (cpuid): Likewise for CPU ID driver.
+	* x86info.1: Mention requirement for CPU ID and MSR drivers.
+
+2001-08-29 Dave Jones <davej@suse.de>
+
+	* IDT/identify.c:
+	  Work around C3 Ezra cache size bug.
+
+Released as v1.5
+
+2001-08-19 Mark Brown <broonie@sirena.org.uk>
+
+	* x86info.1: Document --show-bluesmoke.
+
+2001-08-19 Dave Jones <davej@suse.de>
+
+	* AMD/ Cyrix/ IDT/ Intel/ RiSE/:
+	  Vendor specific directories created.
+	* cpuid-*.c:
+	  Moved to vendor directories and renamed to identify.c
+	* bluesmoke.c:
+	  Moved to vendor directories that support bluesmoke.
+	  (Currently AMD & Intel).
+
+2001-08-18 Dave Jones <davej@suse.de>
+
+	* cpuid-amd.c:
+	  Pass cpu struct instead of cpu->number to dumpmsr() routines.
+	  Support K6 WHCR register dumping.
+
+2001-08-14 Dave Jones <davej@suse.de>
+
+	* eblcr.c:
+	  Now depends on --mult being passed.
+	* cpuid-rise.c:
+	* cpuid-intel.c:
+	  Remove duplicated feature flag stuff, use the common stuff.
+	* cpuid-amd.c:
+	  Detect PowerNOW! thermistor.
+	* x86info.c:
+	  Added --mult stuff, and needs_MSR_level_access.
+	  Now only spits out "Need to be root" once, and only when necessary.
+
+2001-08-10 Dave Jones <davej@suse.de>
+
+	* cpuid-amd.c:
+	* cpuid-cyrix.c:
+	* cpuid-intel.c: 
+	* cpuid-rise.c:
+	  Identify functions don't output text any more.
+	  No longer needs cpu number passed around, it's in cpudata now.
+	* x86info.c:
+	  Added silent mode.
+	  Now prints CPU #n before doing each CPU.
+
+Released as v1.4
+
+2001-08-03 Dave Jones <davej@suse.de>
+
+	* cpuid-amd.c: Recognise AMD Elan SC400
+
+2001-07-21 Dave Jones <davej@suse.de>
+
+	* eblcr.c: Parse bus speed & multiplier on Intel CPUs.
+
+2001-07-10 Dave Jones <davej@suse.de>
+
+	* cpuid-amd.c: Give AMD 486en the right names.
+
+2001-05-21 Dave Jones <davej@suse.de>
+	Released as v1.3
+
+	* cpuid-amd: Added some decoding of PowerNOW info.
+	* bluesmoke.c: Fixed reporting of extended info.
+
+2001-05-07 Dave Jones <davej@suse.de>
+
+	* cpuid-intel.c: Put values into the cpu struct.
+	  This should fix Pentium4 recognition, and a few
+	  other small Intel related bugs.
+
+2001-04-27 Wim Coekaerts <wim.coekaerts@oracle.com>
+
+	* cpuid-rise.c: 0.18um is model 2 not model 1
+	  Dump available CPU features
+	* identify.c: Additional RiSE ID added.
+
+2001-04-25 David Sterba <sterd9am@ss1000.ms.mff.cuni.cz>
+
+	* binary.c: Optimised conversion routine. 
+	* MHz.c: use sleep -> usleep for higher accuracy,
+	  Change bzero -> memset.
+
+2001-04-15 Constantine Gavrilov <const-g@optibase.com>
+	Released as v1.2
+
+	* x86info.c: SMP boxes are numbered 0..n -> 1..n
+
+2001-04-13 Dave Jones <davej@suse.de>
+
+	* *.c: Remove gcc-3.0 warnings.
+
+2001-03-17 Dave Jones <davej@suse.de>
+	Released as v1.1
+
+	* rdmsr.c: Print failure if rdmsr fails.
+	* cpuid-amd.c: Check for root before trying to dump MSRs.
+
+2001-03-16 Andrea Arcangeli <andrea@suse.de>
+
+	* MHz.c: Estimate CPU MHz.
+
+2001-03-14 Keith Schincke <kschin@unf.edu>
+
+	* x86info.c: Fix output on SMP.
+
+2001-03-12 Dave Jones <davej@suse.de>
+
+	Initial 1.0 Release.
+	Basic functionality added.
+

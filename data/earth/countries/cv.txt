@@ -1,0 +1,4 @@
+{São Tiago}{1}
+Praia=14.93,-23.54,155,
+{São Vicente}{1}
+Mindelo=16.89,-24.99,18,

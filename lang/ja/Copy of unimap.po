@@ -1,0 +1,64 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: 1.00.00\n"
+"Report-Msgid-Bugs-To: Larry Lart <larry@larryo.org>\n"
+"POT-Creation-Date: 2006-07-08 18:21+0900\n"
+"PO-Revision-Date: 2006-07-14 20:43+0900\n"
+"Last-Translator: Larry Lart <larry@larryo.org>\n"
+"Language-Team: Larry Lart <larry@larryo.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+# Frame:Menu->File
+msgid "File"
+
+msgstr ""
+
+
+
+# Frame:Menu->View
+msgid View
+
+msgstr ""
+
+
+
+# Frame:Menu->Group
+msgid "Group"
+
+msgstr ""
+
+
+
+# Frame:Menu->Image
+msgid "Image"
+
+msgstr ""
+
+
+
+# Frame:Menu->Tools
+msgid "Tools"
+
+msgstr ""
+
+
+
+# Frame:Menu->Options
+msgid "Options"
+
+msgstr ""
+
+
+
+# Frame:Menu->Help
+msgid "Help"
+
+msgstr ""
+
+

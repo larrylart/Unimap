@@ -1,0 +1,454 @@
+C 4-5 Vulpeculae Cluster                        19:25.4    +20:11    Collinder 399 open cluster, also Coathanger Cl., Al Sufi's Cl., Brocchi's Cl.
+C 9-12 Geminorum Cluster                        06:18.0    +23:38    Cr 89 cluster including 9, 10, 11 and 12 Gem (Archinal/Hynes)
+N 20 Vulpeculae Cluster        6885                                  (Archinal/Hynes)
+N 30 Doradus                   2070                                  Tarantula Nebula in LMC
+N 47 Tucanae                    104
+N "37" Cluster                 2169                                  (Goldstein, Archinal/Hynes)
+C Al Sufi's Cluster                             19:25.4    +20:11    Collinder 399 open cluster, also Coathanger Cl., Brocchi's Cl., 4-5 Vul Cl.
+C Alpha Persei Cluster                          03:22      +49:00    Melotte 20 open cluster
+N Ambartsumian's Knot          3561
+N Andromeda A                   224                                  the Andromeda Galaxy
+N Andromeda Galaxy              224                                  also radio source Andromeda A
+C Andromeda I                                   00:45.7    +38:00    in Local Group
+C Andromeda II                                  01:16.3    +33:27    in Local Group
+C Andromeda III                                 00:35.3    +36:31    in Local Group
+C Andromeda IV                                  00:42.5    +40:34    former Local Group candidate
+C Andromeda V                                   01:10.3    +47:38    in Local Group
+C Andromeda VI                                  23:51.7    +24:36    also Pegasus dSph, in Local Group
+C Andromeda VII                                 03:27.8    +50:35    also Cassiopeia dSph, in Local Group
+C Andromeda VIII                                00:42.3    +40:37    in Local Group
+C Anon Platais                                  21:30.0    +48:59    Open Cluster with Cepheid V1726 Cyg (U II 2000.0)
+C Anonymous vdB cluster                         06:37.1    +03:04    Open Cluster vdB 1 (SIMBAD, Archinal/Hynes), also CV Mon cl
+C Ant Galaxy                                    10:56.9    +06:54    UGC 6046 SBcd: galaxy (U II 2000.0)
+C Ant Nebula                                    16:17.2    -51:59    PK 331-1.1 bipolar nebula
+C Antares Cluster                               16:26.0    -26:13    Cr 302 open cluster (SC 2000.0)
+C Antares Nebula                                16:29.2    -26:27    Ced 132, IC 4606, near Antares, also Cloud Nebula
+N Antennae Galaxies            4038,4039                             also Ring Tail Galaxies, VV 245
+C Antlia Dwarf                                  10:04.1    -27:20    in Local Group
+# N Apple Core Nebula             650,651                            (Mike Frazier); also Little Dumbbell, Cork, or Butterfly Nebula
+N Apple Core Nebula            6853                                  (J.R. Freeman); also the Dumbbell Nebula
+C Aquarius Dwarf, AqrDIG                        20:46.9    -12:51    DDO 210, MCG -2-53-3, in Local Group
+C Argo Dwarf                                    07:04.5    -58:27    nearby LSB dwarf galaxy, also Carina II
+C Arp's Galaxy                                  11:19.6    +51:30
+N Atom For Peace Galaxy        7252                                  Arp 226
+N Auriga Salt-and-Pepper       2099                                  (H. Frommert and Jeff Bondono)
+C BL Lacertae                                   22:02.7    +42:17
+C BW Tauri                                      04:33.2    +05:21    UGC 3087, 3C 120. S0 Seyfert Galaxy
+C Baade's Galaxies A & B                        00:49.9    +42:35    MCG+07-02-018/19
+N Barbell Nebula                650,651                              also Little Dumbbell, Butterfly, or Cork Nebula; Apple Core Nebula (Mike Frazier)
+C Barbon's Galaxy                               23:37.7    +30:08    Markarian 328, Zwicky 497.042
+N Barnard's Galaxy             6822
+C Barnard's Loop                                05:35      -03:00    Sharpless 2-276, H V.35 ?
+N Baxendall's Nebula           7088                                  Baxendall's unphotographable Nebula
+N Bear Paw (Claw) Galaxy       2537                                  Arp 6
+N Beehive Cluster              2632                                  also Praesepe
+N Black Eye Galaxy             4826                                  also "Sleeping Beauty Galaxy"
+C Black Hole                                    18:15.6    -18:14    Barnard 92 dark nebula, in M24
+N Blinking Planetary           6826
+N Blue Flash Nebula            6905                                  (Deep Sky List)
+N Blue Planetary               3918
+N Blue Snowball                7662
+# N Bode's Galaxies (Nebulae)    3031,3034                           M81/M82
+N Bode's Galaxy                3031                                  M81  (Murdin/Allen/Malin 1979)
+C Boomerang Nebula                              12:44.8    -54:31    Bipolar Nebula
+N Box                          4169,4173,4175
+N Box Nebula                   6309
+C Brocchi's Cluster                             19:25.4    +20:11    Collinder 399 open cluster, also Coathanger Cl., Al Sufi's Cl., 4-5 Vul Cl.
+N Bubble Nebula                7635  
+N Bug Nebula                   6302
+C Burbidge Chain                                00:47.5    -20:26    MCG-04-03-010..3 galaxies
+C Burnham's Nebula                              04:22.0    +19:32    T Tauri Nebula
+N Butterfly Cluster            2447                                  (Jeff Bondono)
+# N Butterfly Cluster            6405                                (`Splendors of the Heavens', Phillips/Steaphenson 1923)
+N Butterfly Nebula              650,651                              also Little Dumbbell, Cork, or Barbell Nebula; Apple Core Nebula (Mike Frazier)
+# I Butterfly Nebula             2220
+# Butterfly Nebula                                                   M2-9 bipolar nebula, also Siamese Squid Nebula, Twinjet Nebula
+# Butterfly Nebula                              17:05.6    -10:08    PK 10+18.2 planetary nebula
+# CM Tauri                                                           SN 1054, Crab supernova which generated M1, the Crab Nebula; Crab Pulsar
+C Calabash Nebula                               07:42.3    -14:42    OH 231.8+4.2, planetary nebula in Pup (around QX Pup), also Rotten Egg Nebula
+N California Nebula            1499
+C Camelopardalis A                              04:37.2    +71:31    nearby dwarf galaxy
+C Campbell's Star                               19:34.8    +30:31    central star HD 184738 (BD+30 3639) of planetary nebula PK 64-5.1
+C Canali                                        12:35.7    -12:02    open cluster or asterism (Canali 1997, U II 2000.0)
+C Canis Major Dwarf                             07:20      -30:00    dwarf galaxy in Local Group; closest statellite to our Milky Way
+C Capricorn Dwarf                               21:46.5    -21:14    UGCA 421, A 2144; Globular Cluster Palomar 12 (former Local Group galaxy suspect)
+C Carafe Galaxy, Cannon's                       04:28.0    -47:54    near NGC 1595/98
+N Carafe Group                 1595,1598                             + Carafe Galaxy
+C Carina Dwarf                                  06:41.6    -50:58    ESO 206-A20 in Local Group
+C Carina II Dwarf                               07:04.5    -58:27    nearby LSB dwarf galaxy, also Argo Dwarf
+C Cartwheel Galaxy                              00:37.4    -33:44    MCG-06-02-022a
+C Cassiopeia A                                  23:23.4    +58:50    3C 461. SNR and strongest radio source in sky
+N Cassiopeia Salt-and-Pepper   7654                                  (H. Frommert and Jeff Bondono)
+C Cassiopeia dSph                               03:27.8    +50:35    also Andromeda VII, in <a href="../../more/local.html">Local Group</a>
+N Cat Eye Nebula               6543
+N Cat's Paw Nebula             6334                                  (Jerry Lodriguss, S&T 8/98)
+C Cave Nebula                                   22:56.8    +62:37    Sh2-155 Diffuse Nebula
+N CBS Eye                      3242                                  (Deep Sky List)
+N Centaurus A                  5128                                  Arp 153
+N Centaurus Chain              4616,4622,4650,4661                   galaxy chain, also NGC 4603D, 4622A/B, 4650A (U II 2000.0)
+N Cetus A                      1068                                  M77
+C Cetus Dwarf                                   00:26.1    -11:02    in Local Group
+N Checkmark Nebula             6618                                  also Omega, Swan, Horseshoe, or Lobster Nebula
+N Chi Persei                    884                                  Double Cluster with NGC 869 (h Persei)
+N Christmas Tree Cluster       2264                                  associated with the Cone Nebula
+N Cigar Galaxy                 3034                                  (Tom Polakis)
+C Circinus Galaxy                               14:13.2    -65:20    Highly obscured spiral galaxy
+N Cirrus Nebula                6960,6992,6995                        Cygnus SNR, Cygnus Loop, Veil Nebula
+N Cleopatra's Eye              1535                                  (Alicia Tristan)
+C Cloud Nebula                                  16:29.2    -26:27    Antares Nebula, Ced 132
+N Clown Nebula, Clown Face N.  2392                                  also Eskimo Nebula
+C Coalsack                                      12:53      -63:00    7-by-5 deg dark nebula near Alpha Crucis
+C Coathanger Cluster                            19:25.4    +20:11    Collinder 399 open cluster, also Brocchi's Cl., Al Sufi's Cl., 4-5 Vul Cl.
+N Cocoon Galaxy                4490
+I Cocoon Nebula                5146
+I Coddington's Nebula          2574
+C Coma A                                        12:54.2    +27:38    3C 277.3, PCG 43882 active galaxy
+N Coma Pinwheel Galaxy         4254                                  (prop based on RASC)
+C Coma Star Cluster                             12:26      +26:00    Melotte 111 open cluster
+N Cone Nebula (Conus N.)       2264                                  associated with the Christmas Tree Cluster
+N Cooling Tower                6913                                  (Jeff Bondono)
+N Copeland's Septet            3745-6/8/50-1/3-4
+N Cork Nebula                   650-1                                also Little Dumbbell, Butterfly, or Barbell Nebula; Apple Core Nebula (Mike Frazier)
+N Crab Nebula                  1952                                  (Rosse 1844)
+# Crab Pulsar                                                        NP0532, central star of the Crab Nebula M1
+N Crescent Nebula              6445
+N Crescent Nebula              6888
+N Crowbar Galaxy               4656                                  (Chris Schur)
+C CV Mon cluster                                06:37.1    +03:04    Open cl vdB 1 (SIMBAD, Archinal/Hynes), also Anonymous vdB cl
+C Cygnus A                                      19:59.4    +40:43    MCG+07-41-003
+C Cygnus Egg                                    21:02.3    +36:42    CRL 2688, AFGL 2688 planetary nebula; also Egg N.
+N Cygnus Loop                  6960,92,95                            Cygnus SNR, Veil Nebula, Cirrus Nebula
+C Dark Doodad                                   12:25.0    -71:30    dark nebula 150x15' (U II 2000.0)
+N De Mairan's Nebula           1982                                  Part of the Orion Nebula
+N Delle Caustiche              6603                                  (Secchi), also Sagittarius Star Cloud, Milky Way Patch
+C Delta Lyrae Cluster                           18:54.5    +36:54    Stephenson 1 open cluster (SIMBAD, Archinal/Hynes)
+N Diablo Nebula                6853                                  (Jeff Bondono, Sky Cat 2000), also the Dumbbell Nebula
+N Double Cluster                869/84                               h+Chi Persei
+N Double-Headed Shot           6853                                  (Jeff Bondono, Sky Cat 2000), also the Dumbbell Nebula
+C Draco Dwarf                                   17:20.2    +57:55    DDO 208, UGC 10822; in Local Group
+N Dragon Nebula                6523                                  Part of the Lagoon Nebula (Sky Cat. 2000)
+N Dragonfly Cluster             457                                  (Sue French; contributed by Akkana Peck), also Phi Cassiopeiae Cluster, Owl Cluster, ET Cluster
+N Duck Nebula                  2359                                  (Deep Sky List)
+N Dumbbell Nebula              6853                                  also Diablo Nebula (Jeff Bondono), Double-Head Shot (Jeff Bondono), Apple Core Nebula (J.R. Freeman)
+N Dumbbell Nebula, Little       650-1                                (Sky Catalogue 2000) also Cork, Butterfly, or Barbell Nebula; Apple Core Nebula (Mike Frazier)
+#E Nebula                     B142-143                               Barnard 142-143 (<a href="http://www.eastbayastro.org/articles/lore/aquila.htm">Constellation Aquila Chronicle</a>)
+#Eagle Nebula                 I2177                                  also Seagull Nebula
+I Eagle Nebula                 4703                                  also Star Queen Nebula; associated with cluster M16=NGC 6611
+C Egg Nebula                                    21:02.3    +36:42    CRL 2688, AFGL 2688, PK 80-6.1 planetary nebula; also Cygnus Egg
+N Eight-burst Planetary        3132                                  also Southern Ring
+C Einstein Cross                                22:39.6    +03:21    G 2237+0305 gravitational lens
+I Elephant Trunk               1396             21:37.1    +57:29    Nebula in IC 1396 cluster
+N Epsilon Orionis Nebula       1990
+C Eridanus Globular Cluster                     04:24.8    -21:11    (Sky Catalogue 2000.0)
+N Eskimo Nebula                2392                                  also Clown Nebula
+N ET Cluster                    457                                  (Rory Barnes) also Owl Cluster, Phi Cassiopeiae Cluster, Dragonfly Cluster
+N Eta Carinae Nebula           3372
+C Exclamation Mark Galaxy                       00:39.3    -43:06
+N Eye Nebula                   3242                                  (Michael Ferrio) also Ghost of Jupiter
+N Eyes                         4435/8                                in Virgo Cluster
+N Fath 703                     5892 
+N Filamentary Nebula           6960                                  part of Veil Nebula
+N Firefly Party Cluster        3532                                  (Paulo Oshikawa, Brasil)
+C Fish mouth                                    05:35:18.7 -05:23:55 < M42  dark nebula in M42
+C Fish on the platter nebula                    19:59      +35:00    B144 dark nebula
+N Flame Nebula                 2024                                  also Orion B
+I Flaming Star Nebula           405
+C Footprint Galaxy                              12:58.7    +14:13    GR-8, Imprint of Foot Galaxy, in Local Group
+C Footprint Nebula                              19:36.6    +29:33    M1-92 bipolar reflection nebula
+N Fornax A                     1316                                  Arp 154
+C Fornax Dwarf                                  02:39.9    -34:32    MCG-06-07-001; in Local Group
+C Fourcade-Figuero                              13:34.8    -45:33    MCG-07-28-004
+C Frosty Leo                                    09:39.9    +11:59    (R. Jakiel) IRAS 09371+1212, a neat bi-polar nebula
+C GR 8 (Gibson Reaves)                          12:58.7    +14:13    DDO 155, UGC 8091; Footprint Galaxy, Imprint of Foot Galaxy; in Local Group
+I Gamma Cassiopeiae Nebula       59,63
+I Gamma Cygni Nebula           1318
+N Gamma Leonis Group           3185,87,90,95                         (group of galaxies)
+C Garland                                       10:04.2    +68:40    S of NGC 3077
+N Gem Cluster                  3293
+N Ghost Head Nebula            2080                                  in LMC, near NGC 2070
+N Ghost of Jupiter             3242                                  also Eye Nebula
+N Golf of Mexico               7000                                  dark nebula in NGC 7000, the North America Nebula
+C Gomez's Hamburger                             18:09:13.4 -32:10:49 14.5 mag, < 5" bipolar nebula (Rich Jakiel)
+I Graff's Cluster              4756
+N Grus Quartet                 7552/82/90/99
+C Gum Nebula                                    8:30       -45:00    Gum 12. Also Vela SNR, 20x12 deg extended. Contains Vela pulsar (PSR 0833-45).
+N h Persei                      869                                  Double Cluster with NGC 884 (Chi Persei)
+N Hamburger Galaxy             5128                                  (Akkana Peck), also Centaurus A
+C Hardcastle's Galaxy                           13:13.0    -32:41    MCG-05-31-039
+I Heart Nebula                 1805                                  (Matt BenDaniel)  
+N Heart-Shaped Cluster         2323                                  (Jeff Bondono)
+N Helix Galaxy                 2685
+N Helix Nebula                 7293
+C Hercules A                                    16:51.2    +04:59    3C 348, MCG+01-43-006
+N Hercules Globular Cluster    6205                                  M13
+N Herring Galaxy (Nebula)      4631                                  (interstellarum No. 3); also Whale Galaxy
+N Herschel's Ray               2736
+N Hind's Variable Nebula       1554/5
+C Hoag's Object                                 15:17.2    +21:35    PGC 54559, PRC D-51; Polar Ring Galaxy in Serpens
+N Hole in a Cluster            6811                                  (Scott Houston, from Uranometria)
+C Holmberg I                                    09:40.5    +71:11    DDO 63, UGC 5139
+C Holmberg II                                   08:19.3    +70:43    Arp 268, DDO 50, UGC 4305
+C Holmberg III                                  09:14.6    +74:14    UGC 4841
+C Holmberg IV                                   13:54.7    +53:54    DDO 185, UGC 8837
+C Holmberg V                                    13:40.6    +54:20    UGC 8658
+C Holmberg VI                  N1325a           03:24.9    -21:20
+C Holmberg VII                                  12:34.7    +06:17    DDO 137, UGC 7739
+C Holmberg VIII                                 13:13.3    +36:12    DDO 166, UGC 8303
+C Holmberg IX                                   09:57.6    +69:03    DDO 66, UGC 5336
+C Hooked Galaxy                                 15:21:33   -07:27    MCG -01-39-003 near NGC 5917 in Libra (ESO PR 22-06)
+C Horologium Dwarf                              03:59.2    -21:20    also Schuster's Spiral
+C Horsehead Nebula                              05:40.9    -02:28    Barnard 33, in front of IC 434
+N Horseshoe Nebula             6618                                  also Omega, Swan, Lobster, or Checkmark Nebula
+N Hourglass Nebula             6523                                  (A.D. Thackeray 1956) brightest part of the Lagoon Nebula
+# Hourglass Planetary Nebula                                         MyCn 18 (STScI PR 96-07)
+# Hubble's Double Bubble                                             Hubble 5 PN (Bruce Balick)
+N Hubble's Variable Nebula     2261
+C Hyades                                        04:27      +16:00    Melotte 25
+C Hydra A                                       09:18.1    -12:06    3C 218, MCG-02-24-007
+C Imprint of Foot Galaxy                        12:58.7    +14:13    GR-8, Footprint Galaxy, in Local Group
+# Ink Spot                                                           Barnard 86 dark nebula
+C Integral Sign Galaxy                          07:11.4    +71:50    UGC 3697
+N Intergalactic Wanderer/Tramp 2419                                  globular cluster
+N January Salt-and-Pepper      2099                                  M37  (Jeff Bondono and H. Frommert)
+N Jewel Box                    4755
+N July Salt-and-Pepper         6705                                  (Jeff Bondono and H. Frommert)
+N Jupiter's Ghost              3242
+N Kappa Crucis Cluster         4755                                  also Jewel Box
+N [St.] Katherine's Wheel      4254                                  (Francis Jacob, 1895; communicated by Bob McGown and Dareth Murray)
+N Keenan's System              5216/6a/8                             Arp 104
+C Kemble's Cascade                              03:57.4    +63:04    Asterism Kemble 1 (Houston)
+C Kepler's supernova/SNR                        17:27:41   -21:27:11 (1950)] 3C 358
+N Keyhole Nebula               3372                                  Dark Nebula in the Eta Carinae Nebula
+N Kidney Bean Galaxy           4774
+C Kowal's Object                                19:29.9    -17:41
+N Lace-work Nebula             6960                                  = Filamentary Nebula, part of Veil Nebula
+N Lagoon Nebula                6523                                  M8  contains the Hourglass Nebula
+I Lambda Centauri Nebula       2944/48
+C Lambda Orionis Cluster                        05:35.1    +09:56    Collinder 69
+C Lambda Orionis Nebula                         05:35      +10:00    Sharpless 2-264, also North Orion Bubble (M. Covington)
+C Large Magellanic Cloud, LMC                   05:23.6    -69:45    "Nubecula Major"; in Local Group
+N "LE" Cluster                 2169                                  (McNeil, Archinal/Hynes), also "37" cluster
+C Leo I                                         10:08.5    +12:18    Regulus dwarf, DDO 74, UGC 5470, Harrington-Wilson #1; in Local Group
+C Leo II, Leo B                                 11:13.4    +22:10    DDO 93, UGC 6253, Harrington-Wilson #2; in Local Group
+C Leo III, Leo A                                09:59.3    +30:45    DDO 69, UGC 5364; in Local Group
+N Leo Triplet                  3623/7/8                              M65/M66/NGC 3628
+C LGS 3                                         01:03.8    +21:53    in Local Group; also Pisces Dwarf
+C Lindsay-Shapley Ring                          06:42.8    -74:15    Graham A
+N Little Dumbbell Nebula        650-1                                M76  (Sky Catalogue 2000) also Cork, Butterfly, or Barbell Nebula; Apple Core Nebula (Mike Frazier)
+N Little Gem                   6445
+N Little Gem                   6818                                  (Hartung)
+N Little Ghost Nebula          6369                                  (Steve Gottlieb)
+C LMC, Large Magellanic Cloud                   05:23.6    -69:45    "Nubecula Major"; in Local Group
+N Lobster Nebula               6618                                  M17  (Steve Mencinsky) also Omega, Swan, Horseshoe, or Checkmark Nebula
+N Lobster Nebula               6357                                  (Ray Palmer) also War and Peace Nebula
+N Looped Nebula                2070                                  (Mark A. Chantrand III) Tarantula Nebula, 30 Doradus in LMC, also True Lovers' Knot
+N Lord Rosse's Nebula (Galaxy) 5194                                  M51  Whirlpool Galaxy
+N Lost Galaxy                  4526                                  (RASC Finest NGC, Jeff Bondono, L.S. Copeland) in Virgo Cluster
+N Lost Galaxy                  4535                                  (RASC Galaxy Names, Jim Shields, SAC db) in Virgo Cluster
+C Lower's nebula                                06:08.9    +15:49    Sh2-261 (Arnaldo Arnal, Uranometria)
+C Maffei I                                      02:36.4    +59:39    UGCA 34
+C Maffei II                                     02:42.0    +59:37    UGCA 39
+N Maia Nebula                  1432                                  < M45  in the Pleiades
+C Malin 1                                       12:37.0    +14:20    low surface brightness galaxy behind Virgo Cluster
+# Malin 2                                                            low surface brightness galaxy 
+N Manger (Praesepe)            2632                                  M44  also Beehive Cluster
+N Markarian's Chain            4374-4501                             M84/M86/M88  + several fainter galaxies in Virgo Cluster
+C Mayall's Object                               11:03.9    +40:50    Arp 148, MCG+07-23-019
+C McLeish's Object                              20:09.7    -66:13    ESO 105-026
+N McLeish's Object             4535            
+C McNeil's Nebula                               05:46.2    -00:06    DN EQ J054614-00058, a variable relfection nebula near M78
+C Medusa Nebula                                 07:29.0    +13:15    PN Abell 21, PK 205+14.1
+N Merope Nebula                1435                                  < M45  in the Pleiades; also Tempel's Nebula
+I Merope Nebula Part            349                                  < M45  Part of Merope Nebula in the Pleiades
+N Mexican Jumping Star         2362                                  (Bill Arnett) = Tau CMa cluster
+N Mice                         4676
+N Milky Way Patch              6603                                  M24  also "Delle Caustiche"
+C Mini Cassiopeia                               18:35.0    +72:23    Asterism Kemble 2
+N Miniature Spiral             3928
+C Minkowski's Object                            01:25.8    -01:21    Arp 133, NE of NGC 541
+N Mirach's Ghost                404                                  (Deep Sky Corner)
+N Mu Normae Cluster            6169                                  (Sky Catalogue 2000.0)
+C Muscle Man Cluster                            02:15.0    +59:16    Stock 2 (Deep Sky List)
+N Network Nebula               6992/5
+N North America Nebula         7000
+C North Orion Bubble                            05:35      +10:00    (M. Covington); Sharpless 2-264, also Lambda Orionis Nebula                        
+C Northern Coalsack                             20:40      +42:00    dark nebula
+C Nubecula Major                                05:23.6    -69:45    Large Magellanic Cloud, LMC, in Local Group
+C Nubecula Minor                                00:52.7    -72:50    Small Magellanic Cloud, SMC, in Local Group
+N October Salt-and-Pepper      7654                                  M52  (Jeff Bondono and H. Frommert)
+N Omega Centauri               5139
+N Omega Nebula                 6618                                  M17  also Swan, Horseshoe, Lobster, or Checkmark Nebula
+C Omicron Canis Minorum Cl.                     06:56.3    -24:44    Open Cluster Cr 121
+I Omicron Velorum Cluster      2391
+N Orion A                      1976                                  M42  Orion Nebula
+N Orion B                      2024                                  also Flame Nebula
+N Orion Nebula                 1976                                  M42  (de Mairan's Nebula M43 is a part of it)
+C Orion's Belt                                  05:35.6    -01:05    Cr 70 cluster
+N Owl Cluster                   457                                  (D.J. Eicher, Deep Sky mag.), also Phi Cassiopeiae Cluster, Dragonfly Cluster, ET Cluster
+N Owl Nebula                   3587                                  M97
+N PacMan Nebula                 281                                  (Lars Helgeland, Jason Ware)
+N Pancake                      2685                                  Arp 336
+I Papillon                      708
+C Parrot's Head Nebula                          18:04.3    -32:30    Barnard 87 dark nebula (named by Barnard)  
+N Pavo Globular                6752
+C Pazimo's Cluster                              03:16.2    +60:07    Stock 23 Open Cluster (U II 2000.0, W.S. Houston)
+C Pegasus Dwarf                                 23:28.5    +14:44    DDO 216, UGC 12613; in Local Group
+C Pegasus dSph                                  23:51.7    +24:36    also Andromeda VI, in <a href="../../more/local.html">Local Group</a>
+I Pelican Nebula               5067/70
+N Pencil                       2736
+N Perseus A                    1275/6
+N Perseus Double Cluster        869/84                               h+Chi Persei
+N Phantom Streak               6741                                  (Deep Sky List)
+N Phi Cassiopeiae Cluster       457                                  also Owl Cluster, Dragonfly Cluster, ET Cluster
+C Phoenix Dwarf Irregular G.                    01:51.1    -44:26    in Local Group
+N Pickering's Triangular N.    6960                                  part of the Filamentary Nebula
+C Pictor A                                      05:19.9    -45:47    MSH 05-43, galaxy 15.8 m_v
+N Pinwheel Cluster             1960                                  M36  (Jeff Bondono)
+#N Pinwheel Galaxy               598                                 M33  (Burnham, RASC), also Triangulum Galaxy, prop: "Triangulum Pinwheel"
+#N Pinwheel Galaxy              4254                                 M99  (RASC) prop: "Coma Pinwheel" or "Virgo Cluster Pinwheel"
+N Pinwheel Galaxy              5457                                  M101  (Murdin/Allen/Malin 1979, Sky Catalogue 2000, RASC Observer's Handbook)
+C Pipe Nebula                                   17:33      -26:00    Barnard 59, 56-7, 65; dark nebula
+C Pipe Nebula                                   17:21.1    -26:47    LDN 1773, also Stem of the Pipe Nebula
+N Pisces Cloud                  379/80/82-5                          Arp 331
+C Pisces Dwarf                                  00:03.8    +21:54    LGS 3; in Local Group
+C Pleiades                                      03:47:28.5 +24:06:45 M45  also Subaru or the Seven Sisters
+N Polarissima Australis        2573
+N Polarissima Borealis         3172
+N Praesepe (Manger)            2632                                  M44  also Beehive Cluster
+I Prawn Nebula                 4628                                  (Ray Palmer)
+N Ptolemy's Cluster            6475                                  M7  (Ptolemy mentioned it 138 AD)
+C Puppis A                                      08:24.1    -43:00    SNR, radio source
+N Question Mark                5194                                  M51  (Lord Rosse), also Whirlpool Galaxy
+C Red Rectangle                                 06:20.0    -10:38    AFGL 915, bipolar N near mag 8.8 SAO 151362 = HD 44179 (double)
+N Red Spider Nebula            6537                                  (Bruce Balick)
+C Reinmuth 80                  N4517a           12:32.5    +00:23    UGC 7685
+C Reticulum Cluster                             04:36.2    -58:52    Glob. Cl. Candidate, diam 5.9, bst 14 (U II 2000.0)
+C Reticulum Dwarf                               04:36.2    -58:50    Sersic 040.03
+I Retina Nebula                4406                                  (STScI PRC02-14)
+I Rho Ophiuchi Complex         4603-4                                + dark nebulae; interstellar cloud
+C Rho Ophiuchi Dark Cloud                       16:38:00   -24:06    dark lanes in Rho Oph complex
+I Rho Ophiuchi Nebula          4604
+# Ring Galaxy                                                        Peculiar ring galaxy in Volans (National Audobon Society Pocket Guide p 70)
+N Ring Nebula                  6720                                  M57
+N Ring Tail Galaxies           4038-9                                also Antennae Galaxies
+N Rosette Nebula               2237-9/46
+N Rosse's Galaxy               5194                                  M51  also Whirlpool Galaxy, Lord Rosse's Question Mark
+C Rotten Egg Nebula                             07:42.3    -14:42    OH 231.8+4.2, planetary nebula in Pup (around QX Pup), also Calabash Nebula (STScI PRC99-39)
+I Running Chicken Nebula       2944/8                                Vehrenberg's Atlas of Deep-Sky Splendors (contributed by Michael Ferrio)
+C S Nebula                                      17:23.5    -23:38    Barnard 72 dark nebula; also Snake Nebula
+C SagDEG                                        18:55      -30:31    Sagittarius Dwarf Elliptical Galaxy; in Local Group
+C SagDIG                                        19:30.0    -17:41    Sagittarius Dwarf Irregular Galaxy, Sagittarius Dwarf; in Local Group
+C Sagittarius A                                 17:45.7    -29:00    Milky Way Center
+C Sagittarius Dwarf                             19:30.0    -17:41    SagDIG; in Local Group
+N Sagittarius Star Cloud       6603                                  M24  also "Delle Caustiche", Milky Way Patch
+N Sailboat Cluster              225                                  (Rod Pommier in an upcoming article in Astronomy)
+C Salt-and-Pepper Clusters                      05:52:22.0 +32:17:06 M11,M37,M52  (Jeff Bondono and Hartmut Frommert)
+N Saturn Nebula                7009
+C Schuster's Spiral                             03:59.2    -21:20    also Horologium Dwarf
+C Sculptor Dwarf                                01:00.2    -33:42    MCG-06-03-015; in Local Group
+C Sculptor Dwarf Irregular                      00:08.1    -34:34    SDIG, in the South Polar (NGC 253) group
+N Sculptor Galaxy               253                                  also Silver Coin Galaxy
+N Scutum Salt-and-Pepper       6705                                  M11  (H. Frommert and Jeff Bondono)
+C SDIG                                          00:08.1    -34:34    Sculptor Dwarf Irregular, in the South Polar (NGC 253) group
+I Seagull Nebula               2177                                  (R. Jakiel) also Eagle Nebula
+C Seashell Galaxy                               13:47.4    -30:23    Companion to NGC 5291
+C Serpens Dwarf                                 15:16.1    -00:08    UGC 9792, A 1513; Globular Cluster Palomar 5 (former Local Group galaxy suspect)
+C Seven Sisters                                 03:47:28.5 +24:06:45 M45  also Subaru, the Pleiades
+C Sextans A                                     10:11.0    -04:41    DDO 75, UGCA 205; in Local Group
+C Sextans B                                     10:00.0    +05:19    DDO 70, UGC 5373
+C Sextans C                                     10:05.6    +00:04    UGC 5439, A 1003; Globular Cluster Palomar 3 (former Local Group galaxy suspect)
+C Sextans Dwarf                                 10:13.2    -01:37    in Local Group
+N Seyfert's Sextet             6027/27a-e
+C Shapley-Ames 1                                01:05.1    -06:13
+N Shapley-Ames 2               4507
+C Shapley-Ames 3                                12:49.4    -10:07    MCG-02-33-015
+C Shapley-Ames 4                                12:55.2    +00:07    UGC 8041
+C Shapley-Ames 5                                20:24.0    -44:00    MCG-07-42-001
+C Shapley-Ames 6                                21:23.2    +45:46
+# Siamese Squid Nebula                                               M2-9 bipolar nebula, also Twinjet Nebula, Butterfly Nebula
+N Siamese Twins                4567-8                                in Virgo Cluster
+N Silver Coin Galaxy            253                                  also Sculptor Galaxy
+N Silver Sliver Galaxy          891                                  (Alicia Tristan)
+C Simeis 147                                    05:39.1    +28:00    Sh2-240 (Uranometria)
+N Sleeping Beauty Galaxy       4826                                  M64  also the Blackeye Galaxy
+N Small Cluster Nebula         7129                                  (RASC)
+C Small Magellanic Cloud, SMC                   00:52.7    -72:50    "Nubecula Minor"; in Local Group
+N Smoking Gun                  4486                                  < M87  (Nasa/STScI) the active center of M87
+C Snake Nebula                                  17:23.5    -23:38    Barnard 72 dark nebula; also S Nebula
+C Snickers                                      06:28      +15:00    Possible nearby dwarf galaxy, discovered in radio, (ApJL 201, L103 (1975))
+N Sombrero Galaxy              4594                                  M104
+I Soul Nebula                  1848                                  (Matt BenDaniel)  
+C Southern Crab Nebula                          14:11.9    -51:26    Hen 2-104 symbiotic star nebula (STScI PRC99-32)
+I Southern Integral Sign       5173
+N Southern Pinwheel Galaxy     5236                                  M83
+I Southern Pleiades            2602                                  Theta Carinae
+C Southern Ring Galaxy                          06:44.4    -74:11    ESO 34-IG 11 (Lautsen e.a.)
+N Southern Ring Nebula         3132                                  (John Caldwell's list) also Eight-burst Planetary
+C Spider                                        10:42.6    +34:27    DDO 84, UGC 5829
+N Spindle                      2686
+N Spindle Galaxy               3115
+N Spindle Galaxy               5866                                  M102?
+N Spiral Cluster               1039                                  M34  (Jeff Bondono)
+I Spirograph Nebula             418
+N Splinter Galaxy              5907                                  Deep-Sky Wonders column (contributed by Michael Ferrio)
+N St. Katherine's Wheel        4254                                  M99  (Francis Jacob, 1895; communicated by Bob McGown and Dareth Murray)
+I Star Queen Nebula            4703                                  ~ M16  also Eagle Nebula, associated with the star cluster M16=NGC 6611
+N Starfish Cluster             1922                                  M38  (Jeff Bondono)
+C Stem of the Pipe Nebula                       17:21.1    -26:47    LDN 1773, also Pipe Nebula
+N Stephan's Quintet            7317-20                               Arp 319
+# Stingray Nebula                                                    Hen-1357 young planetary nebula
+N Struve's Lost Nebula         1554
+C Subaru                                        03:47:28.5 +24:06:45 M45  also the Pleiades, Seven Sisters
+N Sunflower Nebula             7293                                  (Deep Sky List), also Helix N
+N Sunflower galaxy             5055                                  M63
+N Superwind-Galaxy             4666                                  (S. Kohle/T. Credner)
+N Swan Nebula                  6618                                  M17  also Omega, Horseshoe, Lobster, or Checkmark Nebula
+N Table of Scorpius            6231                                  (Deep Sky List)
+C Tadpole Galaxy                                16:06.1    +55:25    UGC 10214 (STScI PRC 02-11a)
+C Taffy Galaxies                                00:01.6    +23 29    UGC 12914-5 interacting galaxy pair (Rich Jakiel)
+N Tank tracks                  2024                                  (Bill Arnett), = Orion B
+N Tarantula Nebula             2070
+N Tau CMa cluster              2362                                  (Bill Arnett), = Mexican Jumping Star
+N Taurus A                     1952                                  M1  Crab Nebula
+C Taurus Dark Cloud                             04:38.7    +26:03    B22 dark nebula (U II 2000.0)
+N Tempel's Nebula              1435                                  < M45  Merope Nebula in the Pleiades
+I Thackeray's Globules         2948                                  Bok globules in diffuse nebula
+I Theta Carinae                2602                                  Southern Pleiades
+N Thor's Helmet                2359                                  (Bill Arnett)
+C Thumbprint Nebula                             12:42.9    -78:16    "bright dark nebula" (Sky Cat 2000 has wrong Dec sign ! - Kenneth Drake)
+# Toadstool Galaxies                                                 ESO B 138+IG 29/30 peculiar galaxies in Ara
+I Toby Jug Nebula              2220
+N Tom Thumb Cluster            6451                                  (Deep Sky List)
+N Trapezium Cluster            1976                                  < M42  Cluster of young stars in the Orion Nebula
+N Triangulum Galaxy             598                                  M33  also Pinwheel, Triangulum Pinwheel
+N Triangulum Pinwheel Galaxy    598                                  M33  also Triangulum Galaxy
+N Trifid Nebula                6514                                  M20
+N True Lovers' Knot            2070                                  (Mark A. Chantrand III) Tarantula Nebula, 30 Doradus in LMC, also Looped Nebula
+C Tucana Dwarf                                  22:41.7    -64:25    dSph Galaxy in Local Group
+C Tuft in the Tail of the Dog                   07:23.9    -32:12    Cr 140 (in CMa)
+N Turtle Planetary Nebula      6210            
+# Twinjet Nebula                                                     M2-9 bipolar nebula, also Siamese Squid Nebula, Butterfly Nebula
+C Tycho's Supernova/SNR                         00 25.3    +64 08    3C 10 (SN 1572)
+N Ursa Major A                 3034                                  M82
+C Ursa Major Dwarf                              11:29.3    +28:58    UGCA 237, A 1127; Globular Cluster Palomar 4 (former Local Group galaxy suspect)
+# Ursa Major Moving Cluster                                          Closest open cluster (70 ly), most stars of Big Dipper, and others
+C Ursa Minor Dwarf                              15:08.8    +67:12    DDO 199, UGC 9749; in Local Group
+# V Man Cluster                                                      Stock 2 (Deep Sky List)
+N Veil Nebula                  6960,92,95                            Cygnus SNR, Cygnus Loop, Cirrus Nebula
+C Vela SNR                                       8:30      -45:00    Gum 12, the Gum Nebula. 20x12 deg extended. Contains Vela pulsar (PSR 0833-45).
+N Virgo A                      4486                                  M87  Active center: "The Smoking Gun", in Virgo Cluster
+N Virgo Cluster Pinwheel Gal.  4254                                  M99  (prop based on RASC)
+N War and Peace Nebula         6357                                  (MSX team) also Lobster Nebula
+N Whale Galaxy                 4631                                  (Thompson & Bryan Supernova Search Charts series); also Herring Galaxy
+N Whirlpool Galaxy             5194                                  M51  also "Question Mark" (Lord Rosse)
+I White Eyed Pea               4593                                  (Deep Sky List)
+N Wild Duck Cluster            6705                                  M11  (Smyth)
+C Wild's Triplett                               11:46.8    -03:49    Arp 248, MCG-01-30-032..4
+C Winnecke 4 (WNC4)                             12:22:26.8 +58:05:27 M40
+I Witch Head Nebula            2118
+# WNC 4 (Winnecke 4)                                                 M40
+C Wolf-Lundmark-Melotte, WLM                    00:02.0    -15:28    DDO 221; in Local Group
+N X-mas Tree Cluster           2264
+C Zeta Sculptoris Cl.                           00:04.2    -29:56    Open Cluster Blanco 1
+C Zwicky #2                                     11:58.4    +38:03    DDO 105, UGC 6955
+C Zwicky's Triplet                              16:49.5    +45:30    Arp 103, CGCG 252-003 near UGC 10586

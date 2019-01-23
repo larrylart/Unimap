@@ -1,0 +1,5 @@
+{Northern}{1}
+Mosta=35.91,14.43,83,
+{Outer Harbour}{2}
+Birkirkara=35.90,14.46,46,
+Qormi=35.89,14.46,43,

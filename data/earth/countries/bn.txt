@@ -1,0 +1,7 @@
+{Belait}{2}
+Kuala Belait=4.59,114.18,3,
+Seria=4.61,114.28,0,
+{Brunei-Muara}{1}
+Bandar Seri Begawan=4.93,114.95,20,
+{Tutong}{1}
+Tutong=4.81,114.64,0,

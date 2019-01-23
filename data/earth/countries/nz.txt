@@ -1,0 +1,45 @@
+{Auckland}{4}
+Auckland=-36.85,174.76,49,
+Manukau=-37,174.88,23,
+North Shore=-36.8,174.75,30,
+Waitakere=-36.85,174.54,62,
+{Bay of Plenty}{3}
+Rotorua=-38.14,176.24,293,
+Tauranga=-37.7,176.15,8,
+Whakatane=-37.97,176.99,15,
+{Canterbury}{3}
+Ashburton=-43.91,171.75,96,
+Christchurch=-43.53,172.64,10,
+Timaru=-44.38,171.22,44,
+{Gisborne}{1}
+Gisborne=-38.66,178.02,11,
+{Hawke's Bay}{2}
+Hastings=-39.64,176.84,16,
+Napier=-39.49,176.90,63,
+{Manawatu-Wanganui}{3}
+Levin=-40.62,175.28,27,
+Palmerston North=-40.35,175.61,33,
+Wanganui=-39.93,175.03,19,
+{Marlborough}{1}
+Blenheim=-41.53,173.96,8,
+{Nelson}{1}
+Nelson=-41.29,173.24,9,
+{Northland}{1}
+Whangarei=-35.72,174.31,89,
+{Otago}{1}
+Dunedin=-45.88,170.48,140,
+{Southland}{1}
+Invercargill=-46.41,168.37,11,
+{Taranaki}{1}
+New Plymouth=-39.06,174.08,34,
+{Waikato}{3}
+Hamilton=-37.78,175.28,25,
+Pukekohe=-37.19,174.95,141,
+Taupo=-38.69,176.08,385,
+{Wellington}{6}
+Kapiti=-40.92,175.00,6,
+Lower Hutt=-41.2,174.93,14,
+Masterton=-40.95,175.65,119,
+Porirua=-41.14,174.85,29,
+Upper Hutt=-41.14,175.03,51,
+Wellington=-41.28,174.78,4,

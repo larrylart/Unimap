@@ -1,0 +1,6 @@
+{Demerara-Mahaica}{1}
+Georgetown=6.79,-58.16,4,
+{East Berbice-Corentyne}{1}
+New Amsterdam=6.25,-57.53,0,
+{Upper Demerara-Berbice}{1}
+Linden=5.99,-58.27,13,

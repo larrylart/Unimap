@@ -1,0 +1,175 @@
+{Alba}{6}
+Aiud=46.32,23.73,243,
+Alba Iulia=46.08,23.57,232,
+Blaj=46.18,23.91,242,
+Cugir=45.85,23.37,295,
+Ocna Mures=46.39,23.86,254,
+Sebes=45.96,23.57,251,
+{Arad}{1}
+Arad=46.19,21.32,107,
+{Arges}{4}
+Curtea de Arges=45.14,24.68,441,
+Câmpulung=45.27,25.04,604,
+Mioveni=44.95,24.95,370,
+Pitesti=44.86,24.87,279,
+{Bacau}{5}
+Bacau=46.58,26.92,158,
+Buhusi=46.71,26.72,248,
+Comanesti=46.43,26.45,415,
+Moinesti=46.48,26.51,411,
+Onesti=46.26,26.76,202,
+{Bihor}{3}
+Marghita=47.36,22.34,154,
+Oradea=47.07,21.92,126,
+Salonta=46.80,21.65,92,
+{Bistrita-Nasaud}{1}
+Bistrita=47.14,24.50,363,
+{Botosani}{2}
+Botosani=47.75,26.67,160,
+Dorohoi=47.96,26.40,150,
+{Braila}{1}
+Braila=45.28,27.97,18,
+{Brasov}{6}
+Brasov=45.66,25.61,562,
+Codlea=45.70,25.44,565,
+Fagaras=45.84,24.97,430,
+Rasnov=45.60,25.46,621,
+Sacele=45.62,25.71,641,
+Zarnesti=45.58,25.35,761,
+{Bucuresti}{1}
+Bucuresti=44.44,26.10,88,
+{Buzau}{2}
+Buzau=45.15,26.82,98,
+Râmnicu Sarat=45.38,27.06,116,
+{Calarasi}{2}
+Calarasi=44.20,27.33,22,
+Oltenita=44.08,26.63,13,
+{Caras-Severin}{3}
+Bocsa=45.37,21.72,187,
+Caransebes=45.41,22.22,208,
+Resita=45.30,21.89,317,
+{Cluj}{5}
+Cluj-Napoca=46.78,23.59,336,
+Câmpia Turzii=46.55,23.88,300,
+Dej=47.15,23.89,232,
+Gherla=47.02,23.90,255,
+Turda=46.57,23.78,333,
+{Constanta}{5}
+Cernavoda=44.35,28.04,100,
+Constanta=44.18,28.63,38,
+Mangalia=43.83,28.58,7,
+Medgidia=44.25,28.28,3,
+Navodari=44.33,28.61,10,
+{Covasna}{2}
+Sfântu Gheorghe=45.87,25.79,527,
+Târgu Secuiesc=46.00,26.14,566,
+{Dolj}{4}
+Bailesti=44.03,23.35,61,
+Calafat=44.00,22.95,32,
+Craiova=44.33,23.82,119,
+Filiasi=44.55,23.52,110,
+{Dâmbovita}{4}
+Gaesti=44.73,25.32,188,
+Moreni=45.00,25.64,268,
+Pucioasa=45.09,25.44,476,
+Târgoviste=44.95,25.45,288,
+{Galati}{2}
+Galati=45.44,28.04,58,
+Tecuci=45.86,27.43,34,
+{Giurgiu}{1}
+Giurgiu=43.90,25.97,19,
+{Gorj}{2}
+Motru=44.80,22.98,181,
+Târgu Jiu=45.05,23.26,207,
+{Harghita}{4}
+Gheorgheni=46.72,25.59,804,
+Miercurea-Ciuc=46.37,25.81,681,
+Odorheiu Secuiesc=46.32,25.30,478,
+Toplita=46.94,25.37,678,
+{Hunedoara}{8}
+Brad=46.13,22.79,272,
+Deva=45.89,22.91,183,
+Hunedoara=45.77,22.92,240,
+Lupeni=45.36,23.24,631,
+Orastie=45.85,23.20,216,
+Petrila=45.45,23.42,674,
+Petrosani=45.41,23.38,653,
+Vulcan=45.38,23.29,596,
+{Ialomita}{3}
+Fetesti=44.38,27.84,26,
+Slobozia=44.57,27.38,23,
+Urziceni=44.72,26.65,57,
+{Iasi}{2}
+Iasi=47.17,27.57,52,
+Pascani=47.25,26.72,252,
+{Ilfov}{4}
+Buftea=44.57,25.95,105,
+Pantelimon=44.45,26.20,72,
+Popesti-Leordeni=44.38,26.17,76,
+Voluntari=44.47,26.13,68,
+{Maramures}{5}
+Baia Mare=47.66,23.58,225,
+Baia-Sprie=47.67,23.68,479,
+Borsa=47.65,24.67,694,
+Sighetu Marmatiei=47.93,23.91,275,
+Viseu de Sus=47.72,24.42,508,
+{Mehedinti}{1}
+Drobeta-Turnu Severin=44.64,22.66,82,
+{Mures}{5}
+Ludus=46.48,24.09,267,
+Reghin=46.78,24.71,365,
+Sighisoara=46.22,24.79,351,
+Târgu-Mures=46.55,24.56,313,
+Târnaveni=46.33,24.27,352,
+{Neamt}{3}
+Piatra Neamt=46.94,26.37,501,
+Roman=46.93,26.93,204,
+Târgu-Neamt=47.21,26.36,426,
+{Olt}{4}
+Bals=44.36,24.10,124,
+Caracal=44.13,24.36,97,
+Corabia=43.79,24.51,43,
+Slatina=44.44,24.36,172,
+{Prahova}{5}
+Baicoi=45.04,25.85,311,
+Breaza=45.20,25.65,585,
+Câmpina=45.13,25.74,442,
+Mizil=45.01,26.44,124,
+Ploiesti=44.94,26.03,153,
+{Salaj}{2}
+Simleu Silvaniei=47.23,22.80,209,
+Zalau=47.18,23.06,281,
+{Satu Mare}{2}
+Carei=47.69,22.47,127,
+Satu Mare=47.79,22.89,121,
+{Sibiu}{3}
+Cisnadie=45.72,24.15,485,
+Medias=46.17,24.36,289,
+Sibiu=45.79,24.13,413,
+{Suceava}{6}
+Câmpulung Moldovenesc=47.54,25.56,764,
+Falticeni=47.46,26.30,324,
+Gura Humorului=47.56,25.90,556,
+Radauti=47.85,25.92,367,
+Suceava=47.64,26.26,335,
+Vatra Dornei=47.36,25.36,861,
+{Teleorman}{4}
+Alexandria=43.99,25.34,75,
+Rosiori de Vede=44.12,25.00,80,
+Turnu Magurele=43.76,24.87,30,
+Zimnicea=43.68,25.36,40,
+{Timis}{2}
+Lugoj=45.69,21.91,122,
+Timisoara=45.76,21.23,88,
+{Tulcea}{1}
+Tulcea=45.19,28.80,2,
+{Vaslui}{3}
+Bârlad=46.23,27.66,92,
+Husi=46.68,28.06,103,
+Vaslui=46.65,27.73,134,
+{Vrancea}{2}
+Adjud=46.10,27.18,102,
+Focsani=45.70,27.18,55,
+{Vâlcea}{2}
+Dragasani=44.67,24.26,168,
+Râmnicu Vâlcea=45.11,24.38,238,

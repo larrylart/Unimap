@@ -1,0 +1,4 @@
+{Paramaribo}{1}
+Paramaribo=5.85,-55.2,6,
+{Wanica}{1}
+Lelydorp=5.72,-55.23,7,

@@ -1,0 +1,76 @@
+{Amparai}{2}
+Amparai=7.28,81.67,26,
+Galmûnê=7.41,81.82,3,
+{Anurâdhapûraya}{1}
+Anurâdhapûraya=8.32,80.41,99,
+{Badulla}{1}
+Badulla=6.99,81.05,684,
+{Gampaha}{11}
+Daluguma=6.97,79.90,4,
+Hendala=6.98,79.87,7,
+Jaela=7.08,79.88,2,
+Kandana=7.05,79.90,13,
+Katunayaka=7.18,79.87,9,
+Kelaniya=6.96,79.92,21,
+Mîgamuwa=7.22,79.83,0,
+Peliyagoda=6.95,79.90,10,
+Râgama=7.03,79.92,18,
+Wattala=6.97,79.89,6,
+Welesara=7.03,79.90,10,
+{Gâlla}{2}
+Ambalamgoda=6.24,80.06,18,
+Gâlla=6.05,80.21,10,
+{Kalatura}{4}
+Beruwala=6.48,79.98,0,
+Kalutara=6.59,79.96,6,
+Keselwatta=6.60,79.95,0,
+Pânadraya=6.72,79.90,6,
+{Kegalla}{1}
+Kêgalla=7.25,80.35,207,
+{Kilinochchi}{1}
+Kilinochchi=9.40,80.41,23,
+{Kolamba}{11}
+Battaramulla=6.90,79.92,11,
+Dehiwala-Mount Lavinia=6.85,79.87,23,
+Homagama=6.85,80.00,26,
+Kolamba=6.93,79.85,5,
+Kolonnawa=6.93,79.88,10,
+Kotikawatta=6.94,79.92,14,
+Maharagama=6.85,79.92,25,
+Moratuwa=6.81,79.88,13,
+Mulleriyawa=6.93,79.93,12,
+Seethawakapura=6.91,80.06,11,
+Sri Jayawardenepura=6.89,79.90,14,
+{Kurunegala}{1}
+Kurunegala=7.50,80.36,135,
+{Madakalpûwa}{3}
+Eravur=7.77,81.59,7,
+Katankudi=7.69,81.73,7,
+Madakalpûwa=7.71,81.69,11,
+{Maha Nuwara}{2}
+Gampola=7.17,80.57,512,
+Maha Nuwara=7.29,80.63,506,
+{Mannârama}{1}
+Mannârama=8.97,79.89,4,
+{Matale}{2}
+Dambulla=7.85,80.65,204,
+Mâtale=7.47,80.62,368,
+{Matara}{2}
+Mâtara=5.96,80.53,12,
+Weligama=5.98,80.42,26,
+{Nuwara Eliya}{1}
+Nuwara Eliya=6.98,80.77,2013,
+{Pûttalama}{2}
+Halâwata=7.57,79.81,8,
+Pûttalama=8.04,79.82,0,
+{Ratnapûraya}{1}
+Ratnapûraya=6.70,80.38,33,
+{Tirikunâmalaya}{1}
+Tirikunâmalaya=8.58,81.22,0,
+{Vavuniyâwa}{1}
+Vavuniyâwa=8.76,80.49,100,
+{Yâpanaya}{4}
+Châvâkachchêri=9.66,80.16,11,
+Pêduru Tuduwa=9.82,80.23,11,
+Valvedditturai=9.82,80.17,10,
+Yâpanaya=9.67,80.01,10,

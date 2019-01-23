@@ -1,0 +1,8 @@
+{ad-Dawhah}{1}
+ad-Dawhah=25.30,51.51,19,
+{al-Wakrah}{1}
+al-Wakrah=25.18,51.61,7,
+{ar-Rayyân}{1}
+ar-Rayyân=25.32,51.37,39,
+{Umm Salâl}{1}
+Umm Salal=25.42,51.40,21,

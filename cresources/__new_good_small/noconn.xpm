@@ -1,0 +1,29 @@
+/* XPM */
+#ifndef XPMMAIN
+extern const char *noconn_button[];
+
+#else
+const char *noconn_button[] = {
+/* columns rows colors const chars-per-pixel */
+"16 15 2 1",
+"  c None",
+"- c Blue",
+/* pixels */
+"                ",
+"                ",
+"  -         -   ",
+"   -       -    ",
+"    -     -     ",
+"     -   -      ",
+"      - -       ",
+"       -        ",
+"      - -       ",
+"     -   -      ",
+"    -     -     ",
+"   -       -    ",
+"  -         -   ",
+"                ",
+"                "
+};
+#endif
+

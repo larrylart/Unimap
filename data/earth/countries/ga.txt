@@ -1,0 +1,15 @@
+{Estuaire}{1}
+Libreville=0.39,9.45,19,
+{Haut-Ogooué}{2}
+Masuku=-1.63,13.60,308,
+Moanda=-1.56,13.22,428,
+{Moyen-Ogooué}{1}
+Lambaréné=-0.7,10.21,54,
+{Ngounié}{1}
+Mouila=-1.88,11.00,98,
+{Ogooué-Ivindo}{1}
+Makokou=0.56,12.85,518,
+{Ogooué-Maritime}{1}
+Port-Gentil=-0.72,8.78,7,
+{Woleu-Ntem}{1}
+Oyem=1.60,11.57,655,

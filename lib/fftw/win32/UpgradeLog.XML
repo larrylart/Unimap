@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="fftw-vs2008">
+</Property><Property Name="Solution File" Value="C:\home\projects\unimap\lib\fftw\win32\fftw-vs2008.sln">
+</Property><Property Name="User Options File" Value="C:\home\projects\unimap\lib\fftw\win32\fftw-vs2008.suo">
+</Property><Property Name="Date" Value="14 April 2013">
+</Property><Property Name="Time" Value="18:30">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="fftw-vs2008.sln" Description="File successfully backed up as C:\home\projects\unimap\lib\fftw\win32\fftw-vs2008.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="fftw-vs2008.suo" Description="File successfully backed up as C:\home\projects\unimap\lib\fftw\win32\fftw-vs2008.suo.old">
+</Event><Event ErrorLevel="0" Project="libfftw" Source="libfftw.vcproj" Description="Converting project file 'C:\home\projects\unimap\lib\fftw\win32\libfftw.vcproj'.">
+</Event><Event ErrorLevel="1" Project="libfftw" Source="libfftw.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="libfftw" Source="libfftw.vcproj" Description="Done converting to new project file 'C:\home\projects\unimap\lib\fftw\win32\libfftw.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="libfftw" Source="libfftw.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="bench" Source="bench.vcproj" Description="Converting project file 'C:\home\projects\unimap\lib\fftw\win32\bench.vcproj'.">
+</Event><Event ErrorLevel="1" Project="bench" Source="bench.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="bench" Source="bench.vcproj" Description="Done converting to new project file 'C:\home\projects\unimap\lib\fftw\win32\bench.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="bench" Source="bench.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="fftw-vs2008.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="fftw-vs2008.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

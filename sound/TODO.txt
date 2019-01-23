@@ -1,0 +1,3 @@
+
+- here I sould probably use the portaudio instead of this simple class 
+- also I could use lame library for mp3 encoding ... 

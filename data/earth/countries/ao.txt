@@ -1,0 +1,43 @@
+{Bengo}{1}
+Caxito=-8.58,13.66,21,
+{Benguela}{2}
+Benguela=-12.58,13.40,9,
+Lobito=-12.36,13.53,6,
+{Bié}{4}
+Catabola=-12.15,17.28,1531,
+Catumbela=-12.43,13.55,69,
+Chissamba=-12.17,17.33,1395,
+Kuito=-12.38,16.94,1702,
+{Cabinda}{1}
+Cabinda=-5.55,12.19,0,
+{Huambo}{3}
+Caála=-12.85,15.58,1681,
+Huambo=-12.76,15.73,1662,
+Longonjo=-12.9,15.25,1415,
+{Huíla}{2}
+Caluquembe=-13.78,14.68,1714,
+Lubango=-14.91,13.49,1742,
+{Kuando-Kubango}{1}
+Menongue=-14.65,17.65,1372,
+{Kwanza Norte}{1}
+N'dalatando=-9.3,14.91,787,
+{Kwanza Sul}{2}
+Sumbe=-11.21,13.85,36,
+Waku-Kungo=-11.34,15.11,1277,
+{Luanda}{1}
+Luanda=-8.82,13.24,64,
+{Lunda Norte}{1}
+Lucapa=-8.42,20.74,943,
+{Lunda Sul}{1}
+Saurimo=-9.65,20.38,1045,
+{Malanje}{1}
+Malanje=-9.54,16.34,1135,
+{Moxico}{1}
+Luena=-11.79,19.90,1329,
+{Namibe}{1}
+Namibe=-15.17,12.16,5,
+{Uíge}{1}
+Uíge=-7.62,15.05,816,
+{Zaire}{2}
+M'banza-Kongo=-6.27,14.24,536,
+Soyo=-6.13,12.37,2,

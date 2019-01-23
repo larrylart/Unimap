@@ -1,0 +1,49 @@
+{Atlántico Norte}{1}
+Puerto Cabezas=14.03,-83.39,14,
+{Atlántico Sur}{3}
+Bluefields=12.01,-83.77,12,
+El Rama=12.15,-84.22,10,
+Nueva Guinea=11.69,-84.46,195,
+{Boaco}{2}
+Boaco=12.47,-85.66,357,
+Camoapa=12.38,-85.51,519,
+{Carazo}{4}
+Diriamba=11.86,-86.25,586,
+Jinotepe=11.85,-86.2,571,
+Masatepe=11.91,-86.16,431,
+San Marcos=11.92,-86.2,546,
+{Chinandega}{4}
+Chichigalpa=12.57,-87.03,79,
+Chinandega=12.63,-87.13,72,
+Corinto=12.48,-87.18,0,
+El Viejo=12.67,-87.18,43,
+{Chontales}{1}
+Juigalpa=12.11,-85.38,156,
+{Estelí}{1}
+Estelí=13.09,-86.36,839,
+{Granada}{2}
+Granada=11.94,-85.96,68,
+Nandaime=11.76,-86.06,158,
+{Jinotega}{1}
+Jinotega=13.10,-86,998,
+{León}{3}
+La Paz Centro=12.33,-86.68,58,
+León=12.43,-86.89,86,
+Nagarote=12.26,-86.57,92,
+{Madriz}{1}
+Somoto=13.48,-86.59,737,
+{Managua}{4}
+Managua=12.15,-86.27,61,
+Mateare=12.23,-86.32,45,
+San Rafael del Sur=11.85,-86.44,126,
+Tipitapa=12.20,-86.1,51,
+{Masaya}{1}
+Masaya=11.98,-86.1,238,
+{Matagalpa}{2}
+Matagalpa=12.93,-85.93,853,
+Sébaco=12.83,-86.05,768,
+{Nueva Segovia}{2}
+Jalapa=13.92,-86.14,856,
+Ocotal=13.64,-86.48,636,
+{Rivas}{1}
+Rivas=11.44,-85.82,57,

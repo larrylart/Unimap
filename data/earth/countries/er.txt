@@ -1,0 +1,13 @@
+{Anseba}{1}
+Keren=15.68,38.45,1703,
+{Debub}{1}
+Âddî Ugrî=14.89,38.82,1971,
+{Debub-Keih-Bahri}{2}
+Âsseb=13.01,42.74,22,
+Êdd=13.93,41.69,10,
+{Gash-Barka}{1}
+Barentu=15.12,37.59,997,
+{Maekel}{1}
+Âsmara=15.33,38.94,2354,
+{Semien-Keih-Bahri}{1}
+Mitsiwa=15.61,39.44,14,

@@ -1,0 +1,19 @@
+{Flacq}{2}
+Bel Air=-20.25,57.75,72,
+Central Flacq=-20.2,57.71,94,
+{Grand Port}{1}
+Mahébourg=-20.41,57.70,14,
+{Moka}{1}
+Saint Pierre=-20.22,57.52,368,
+{Pamplempousses}{2}
+Le Hochet=-20.14,57.53,32,
+Triolet=-20.05,57.53,5,
+{Plaines Wilhelm}{4}
+Beau Bassin-Rose Hill=-20.23,57.46,228,
+Curepipe=-20.31,57.51,527,
+Quatre Bornes=-20.26,57.47,325,
+Vascoas-Phoenix=-20.3,57.48,402,
+{Port Louis}{1}
+Port Louis=-20.17,57.51,30,
+{Riviere du Rempart}{1}
+Goodlands=-20.03,57.63,38,

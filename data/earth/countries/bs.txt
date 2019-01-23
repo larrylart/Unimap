@@ -1,0 +1,4 @@
+{Grand Bahama}{1}
+Freeport=26.54,-78.64,10,
+{New Providence}{1}
+Nassau=25.06,-77.33,8,

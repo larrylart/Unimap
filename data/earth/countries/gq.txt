@@ -1,0 +1,4 @@
+{Bioko Norte}{1}
+Malabo=3.74,8.79,52,
+{Litoral}{1}
+Bata=1.87,9.76,0,

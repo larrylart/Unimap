@@ -1,0 +1,29 @@
+{Batha}{2}
+Ati=13.22,18.33,338,
+Oum Hadjer=13.31,19.68,393,
+{Chari-Baguirmi}{3}
+Dourbali=11.80,15.86,329,
+Massaguet=12.47,15.44,290,
+N'Djaména=12.11,15.05,297,
+{Guéra}{2}
+Bitkine=11.99,18.21,477,
+Mongo=12.19,18.69,428,
+{Kanem}{1}
+Mao=14.12,15.31,339,
+{Logone Occidental}{1}
+Moundou=8.55,16.09,391,
+{Logone Oriental}{1}
+Doba=8.66,16.85,389,
+{Mayo-Kébbi}{2}
+Bongor=10.28,15.37,335,
+Pala=9.36,14.90,417,
+{Moyen-Chari}{2}
+Koumra=8.91,17.55,397,
+Sarh=9.15,18.39,374,
+{Ouaddaï}{1}
+Abéché=13.84,20.83,536,
+{Salamat}{1}
+Am Timan=11.05,20.28,437,
+{Tandjilé}{2}
+Kélo=9.31,15.81,374,
+Laï=9.39,16.30,360,

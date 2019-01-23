@@ -1,0 +1,2548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e7a5df40-34bc-4dea-a29e-a2006ab64652}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\wcs">
+      <UniqueIdentifier>{edca6686-64e5-4f14-8976-3a2c47a39b45}</UniqueIdentifier>
+      <Extensions>.cpp;.c</Extensions>
+    </Filter>
+    <Filter Include="Source Files\sextractor">
+      <UniqueIdentifier>{20256129-7053-4bf3-908d-265c930b34f5}</UniqueIdentifier>
+      <Extensions>.cpp;.c</Extensions>
+    </Filter>
+    <Filter Include="Source Files\fits">
+      <UniqueIdentifier>{c47456c8-e10c-4752-a41d-7401e8b08faa}</UniqueIdentifier>
+      <Extensions>.cpp;.c</Extensions>
+    </Filter>
+    <Filter Include="Source Files\match">
+      <UniqueIdentifier>{394b19fb-dc4b-4c00-a228-867c75675d0a}</UniqueIdentifier>
+      <Extensions>*.c;*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{6da7d02d-99a7-4728-9ff3-29503e31efb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tps">
+      <UniqueIdentifier>{0dad420e-4f2d-4404-be8a-87738d9b556c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{a75d0ee3-af64-49f6-a24d-0296f493625a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\process">
+      <UniqueIdentifier>{9e07403c-d7b8-4df6-8ac6-1340c4461a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image">
+      <UniqueIdentifier>{ea107346-ec5d-4098-b887-5238b2778874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image\process">
+      <UniqueIdentifier>{d2e7c4ea-c9e3-4d8b-854f-234a9fbcd2a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{d6ef373b-ce27-4ab7-ae99-b6c9a67c86e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sky">
+      <UniqueIdentifier>{e617f669-2619-4158-8dda-05bd2677be60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sky\solar">
+      <UniqueIdentifier>{1718d60e-2ad6-43ad-a8a3-18d181ebab3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sky\libastro">
+      <UniqueIdentifier>{4908c316-480e-4c4c-87a2-989cec310be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sky\sat_code">
+      <UniqueIdentifier>{cad3cc19-f15e-44ee-8b92-210146390f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\agg">
+      <UniqueIdentifier>{20fe15e4-287a-451e-b754-5eb1ff252675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libwcs">
+      <UniqueIdentifier>{13ac7b80-5226-4a91-9c0b-00ac7607d607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\weather">
+      <UniqueIdentifier>{77f6d2e7-f213-4a6b-bf39-f4b174e8ac15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{16ff13c5-bdd5-4a19-bb56-b6a69a361b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\online">
+      <UniqueIdentifier>{3cf7b549-0579-40ad-8c4d-8e83eafa73f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\telescope">
+      <UniqueIdentifier>{a08fedcb-1aec-47cc-beb3-7537f51d82ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{3d5fcea7-29c7-436c-8dfa-0497f43250fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\news">
+      <UniqueIdentifier>{83d5d655-a9fa-4c4d-adaa-27445fb9a431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{994906d0-0e62-4cc1-b98e-5ccdf24f833b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sextractor headers">
+      <UniqueIdentifier>{20c57b16-ff4b-43f5-863e-569337a042cd}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+    <Filter Include="Header Files\graphics headers">
+      <UniqueIdentifier>{bdd1c525-e734-4b6f-b453-cf304b7a2bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui headers">
+      <UniqueIdentifier>{340f5d6a-d2bd-481d-b15b-4b2d794db9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui headers\process headers">
+      <UniqueIdentifier>{5093804f-25ac-4806-9aec-922facbd049c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image headers">
+      <UniqueIdentifier>{6314fef7-80a3-4f93-9e69-37631e55835f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image headers\process">
+      <UniqueIdentifier>{bf9d64f8-f868-4b4c-b993-4a1529e539be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math headers">
+      <UniqueIdentifier>{cee6457b-501e-4492-a0d2-f0b6b85bebd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sky headers">
+      <UniqueIdentifier>{365e1d85-be19-474e-af4f-d7187937d687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sky headers\solar">
+      <UniqueIdentifier>{433860aa-000c-4fc7-ae1e-ea36676387a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sky headers\libastro">
+      <UniqueIdentifier>{4ebcacaf-8d59-49bf-bc4d-b22cb9cec498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sky headers\sat_code">
+      <UniqueIdentifier>{ecf32be4-577f-40e4-8077-2608772c92d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\weather">
+      <UniqueIdentifier>{35a7e24f-d155-4565-849f-25c840665b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util headers">
+      <UniqueIdentifier>{5ee7d857-0db8-4d2a-8b7f-ee1442c0bfe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\online headers">
+      <UniqueIdentifier>{7afbff5d-a886-4b16-a8d3-5fca6e485e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\telescope headers">
+      <UniqueIdentifier>{25f26d96-2bcc-422c-b06c-761acc07c13e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\camera headers">
+      <UniqueIdentifier>{181171e9-6785-487e-910b-5eb815008523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\news">
+      <UniqueIdentifier>{d773a7d8-e83f-4df8-b573-810f3bf1c54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{589c4e30-83e2-4b37-818e-0483be0d04f5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Source Files\image\formats">
+      <UniqueIdentifier>{cd085b86-1b40-413c-bdc2-21c3c5b6da47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image headers\formats">
+      <UniqueIdentifier>{816c348c-dc50-40fa-ae6b-7ba21a84c71a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image headers\formats\cftisio">
+      <UniqueIdentifier>{a4ec4abb-f42f-4c35-b676-070ad2526e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image\formats\cftisio">
+      <UniqueIdentifier>{4797a205-3023-4388-8f26-33f7997026c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util\json">
+      <UniqueIdentifier>{d43d0d24-f19e-4cc8-814b-de5b022bc38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\service">
+      <UniqueIdentifier>{6a4343fa-37be-4d84-8bd2-975952c16a5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{7f964ab8-f247-4523-9367-5ad4a828d6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\db">
+      <UniqueIdentifier>{43e08607-7d37-4a23-ac68-5f3765787c64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\detectconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\detectfilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="land\earth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="land\geoip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="config\mainconfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="observer\observatories.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="observer\observer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="observer\observer_hardware.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="observer\observer_site.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\sound_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sound\sound_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stack\stack_func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="match\starmatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sysinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unimap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unimap_worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util\webfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dataport\winserial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="worker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\wcs\tnx.c">
+      <Filter>Source Files\wcs</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\init_static.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_analyse.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_assoc.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_astrom.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_back.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_bpro.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_catout.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_check.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_clean.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_extract.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_field.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_filter.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_flag.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_growth.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_image.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_interpolate.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_manobjlist.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_neurro.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_pc.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_photom.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_plist.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_poly.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_prefs.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_psf.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_readimage.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_refine.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_retina.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_scan.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_som.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_weight.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_winpos.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\sextractor_xml.cpp">
+      <Filter>Source Files\sextractor</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitsbody.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitscat.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitscheck.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitscleanup.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitsconv.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitshead.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitskey.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitsmisc.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitsread.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitstab.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitsutil.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fits\fitswrite.c">
+      <Filter>Source Files\fits</Filter>
+    </ClCompile>
+    <ClCompile Include="match\atpmatch.c">
+      <Filter>Source Files\match</Filter>
+    </ClCompile>
+    <ClCompile Include="match\misc.c">
+      <Filter>Source Files\match</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\spline\Assert.c">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\spline\intersect.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\spline\Spline.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\tps\linalg3d.cpp">
+      <Filter>Source Files\tps</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\about.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\astro_img_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\calc_units_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\canoneos_setup_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\catalog_download.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\catalog_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\catalogconfig.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\designSkin.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\detectconfigview.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dist_tool_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\dynamic_img_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\earth_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\file_export_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\finddlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\frame.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\frame_instruments.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\graph_base_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\grid_data_view.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\group_add_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\groupdlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\groupproperty.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\groupview.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\hardware_add_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\hardware_select_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\HistogramView.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\image3dbase.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\image_notes_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\image_save_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\img_view_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgproperty.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgview3dcolormap.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgview3ddistmap.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\imgview3dspacedist.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\instruments_cfg_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\light_pollution_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\location_dialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\mainconfigview.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\matchconfig.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\mmMultiButton.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\news_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\observatories_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\observer_cfg_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\online_browse_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\online_cfg_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\online_comments_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\poshintdlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\print.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\RadialProfileView.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\simple_common_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\skyobj_select_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\slideshow_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\starviewdlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\sun_view_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\taskbar_icon.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\telescope_setup_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\tlens_select_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\upload_custom_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\user_feedback_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\view_objects_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\waitdialog.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\waitdialogmatch.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\waitdialogstack.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\weather_cforecast_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\weather_satvis_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\weather_seeing_dlg.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\blur_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\colors_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\deconv_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\edge_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\filter_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\gradient_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\process_base_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="gui\process\sharp_dlg.cpp">
+      <Filter>Source Files\gui\process</Filter>
+    </ClCompile>
+    <ClCompile Include="image\astroimage.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\baseimage.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\digitalimage.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\histogram.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image_note.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\image_shift.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imagechannel.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imagedb.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imagefft.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imagegroup.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\imagelayer.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\radialprofile.cpp">
+      <Filter>Source Files\image</Filter>
+    </ClCompile>
+    <ClCompile Include="image\process\imagecolors.cpp">
+      <Filter>Source Files\image\process</Filter>
+    </ClCompile>
+    <ClCompile Include="math\fitgsl.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\ads_site.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\bibdb.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_aes.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_aes_celestrak.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_asteroids.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_asteroids_omp.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_blackholes.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_blackholes_rxe_agn.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_blackholes_sdss_dr5.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_comets.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_comets_cocom.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_assoc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_ic.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_messier.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_mgc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_names.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_ngc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_pgc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_dso_ugc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_exoplanets.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_exoplanets_eu.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_mstars.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_mstars_ccdm.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_mstars_wds.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_radio.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_radio_msl.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_radio_nvss.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_radio_specfind.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_radio_vlss.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_2mass.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_assoc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_gsc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_hipparcos.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_names.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_nomad.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_sao.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_tycho.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_stars_unsob.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_supernovas.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_supernovas_asc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_supernovas_ssc.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma_2xmmi.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma_batse.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma_bepposax.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma_heao.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma_integral.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\catalog_xgamma_rosat.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\celestraksite.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\constellations.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\exoplaneteusite.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\ledasite.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\ned_site.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\nofs_navy_mil.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\nstars_site.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\objdetails.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\simbad.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sky.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sky_finder.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\skyview_site.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar_orbits.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar_planets.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="spectrum\spectrum.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\star.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sun_fetch.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\unimapsite.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\vizier.cpp">
+      <Filter>Source Files\sky</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\alt_az.cpp">
+      <Filter>Source Files\sky\solar</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\astfuncs.cpp">
+      <Filter>Source Files\sky\solar</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\date.cpp">
+      <Filter>Source Files\sky\solar</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\delta_t.cpp">
+      <Filter>Source Files\sky\solar</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\eart2000.cpp">
+      <Filter>Source Files\sky\solar</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\miscell.cpp">
+      <Filter>Source Files\sky\solar</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\aa_hadec.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\aberration.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\actan.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\airmass.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\anomaly.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\ap_as.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\atlas.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\auxil.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\bdl.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\chap95.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\chap95_data.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\circum.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\comet.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\dbfmt.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\deep.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\deltat.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\earthsat.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\eq_ecl.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\eq_gal.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\formats.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\helio.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\jupmoon.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\libration.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\magdecl.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\marsmoon.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\misc.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\mjd.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\moon.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\mooncolong.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\moonnf.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\nutation.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\obliq.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\parallactic.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\parallax.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\plans.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\plmoon.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\plshadow.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\precess.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\probfunc.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\reduce.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\refract.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\rings.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\riset.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\riset_cir.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\satmoon.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\sdp4.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\sgp4.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\sphcart.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\sun.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\thetag.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\twobody.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\umoon.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\utc_gst.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\vsop87.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\libastro\vsop87_data.cpp">
+      <Filter>Source Files\sky\libastro</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\basics.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\common.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\fdeep.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\fsdp4.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\fsgp4.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\get_el.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\obliquit.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\observe.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\sdp8.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\sgp.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\sgp8.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\snutation.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\solar\sprecess.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="sky\sat_code\tle_out.cpp">
+      <Filter>Source Files\sky\sat_code</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_arc.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_arrowhead.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_bezier_arc.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_bspline.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_curves.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_embedded_raster_fonts.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_gsv_text.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_image_filters.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_line_aa_basics.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_line_profile_aa.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_rounded_rect.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_sqrt_tables.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\examples\svg_viewer\agg_svg_parser.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\examples\svg_viewer\agg_svg_path_renderer.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\examples\svg_viewer\agg_svg_path_tokenizer.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_trans_affine.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_trans_double_path.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_trans_single_path.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_trans_warp_magnifier.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vcgen_bspline.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vcgen_contour.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vcgen_dash.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vcgen_markers_term.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vcgen_smooth_poly1.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vcgen_stroke.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vpgen_clip_polygon.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vpgen_clip_polyline.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\agg\src\agg_vpgen_segmentator.cpp">
+      <Filter>Source Files\agg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\caphot.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\cel.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\distort.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\dsspos.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\hget.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\hput.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\iget.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\imio.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\lin.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\platepos.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\proj.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\sph.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\tnxpos.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\wcs.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\wcscon.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\wcsinit.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\wcslib.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\wcstrig.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\wcstools-3.7.7\libwcs\worldpos.c">
+      <Filter>Source Files\libwcs</Filter>
+    </ClCompile>
+    <ClCompile Include="weather\clear_sky_chart.cpp">
+      <Filter>Source Files\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="weather\meteo_blue.cpp">
+      <Filter>Source Files\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="weather\satimg_fetch.cpp">
+      <Filter>Source Files\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="weather\weather.cpp">
+      <Filter>Source Files\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="weather\weather_under.cpp">
+      <Filter>Source Files\weather</Filter>
+    </ClCompile>
+    <ClCompile Include="util\apps_manager.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\astro_algorithms.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\crypt-md5.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\files_manager.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="httpengine\wxcurl_base.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="httpengine\wxcurl_http.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="online\unimap_online.cpp">
+      <Filter>Source Files\online</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\ascom.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\focuser.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\focuser_driver.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\focuser_jmi.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\focusevent.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\telescope.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\telescope_driver.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\telescope_lx200.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\telescope_nexstar.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="telescope\telworker.cpp">
+      <Filter>Source Files\telescope</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera_canoneos.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera_driver.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera_video.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\camera_wia.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\wia\wiaBitmapUtil.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\wia\wiaDataCallback.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\wia\wiaEventCallback.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\worker_dcam.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="camera\worker_vcam.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="news\esa_news.cpp">
+      <Filter>Source Files\news</Filter>
+    </ClCompile>
+    <ClCompile Include="news\nasa_news.cpp">
+      <Filter>Source Files\news</Filter>
+    </ClCompile>
+    <ClCompile Include="news\news.cpp">
+      <Filter>Source Files\news</Filter>
+    </ClCompile>
+    <ClCompile Include="news\sciencedaily_news.cpp">
+      <Filter>Source Files\news</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\image_fits.cpp">
+      <Filter>Source Files\image\formats</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\buffers.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\cfileio.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\checksum.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\compress.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\drvrfile.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\drvrgsiftp.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\drvrmem.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\drvrnet.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\drvrsmem.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\editcol.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\edithdu.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\eval_f.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\eval_l.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\eval_y.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\f77_wrap1.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\f77_wrap2.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\f77_wrap3.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\f77_wrap4.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\fits_hcompress.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\fits_hdecompress.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\fitscopy.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\fitscore.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\fpackutil.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcol.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcolb.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcold.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcole.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcoli.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcolj.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcolk.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcoll.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcols.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcolsb.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcolui.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcoluj.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getcoluk.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\getkey.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\group.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\grparser.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\histo.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\imcompress.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\iraffits.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\modkey.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\pliocomp.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcol.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcolb.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcold.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcole.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcoli.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcolj.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcolk.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcoll.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcols.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcolsb.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcolu.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcolui.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcoluj.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putcoluk.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\putkey.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\quantize.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\region.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\ricecomp.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\scalnull.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\swapproc.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\wcssub.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="image\format\cfitsio\wcsutil.c">
+      <Filter>Source Files\image\formats\cftisio</Filter>
+    </ClCompile>
+    <ClCompile Include="util\func.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\image_func.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\geometry.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\windows_func.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\json\jsonreader.cpp">
+      <Filter>Source Files\util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="util\json\jsonval.cpp">
+      <Filter>Source Files\util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="util\json\jsonwriter.cpp">
+      <Filter>Source Files\util\json</Filter>
+    </ClCompile>
+    <ClCompile Include="unimap_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\gsoap-2.7\gsoap\stdsoap2.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\soapC.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="service\soapUnimapSoapXmlBindingService.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\sqlite\sqlite3.c">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+    <ClCompile Include="db\unimap_db.cpp">
+      <Filter>Source Files\db</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\detectconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\detectfilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="land\earth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\folders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="land\geoip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config\mainconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="observer\observatories.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="observer\observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="observer\observer_hardware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="observer\observer_site.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\sound_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sound\sound_player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stack\stack_func.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="match\starmatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sysinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unimap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unimap_worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util\webfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dataport\winserial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="worker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\init_static.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_assoc.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_astrom.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_back.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_bpro.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_check.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_clean.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_define.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_extract.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_field.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_filter.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_flag.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_globals.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_growth.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_image.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_interpolate.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_key.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_neurro.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_param.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_photom.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_plist.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_poly.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_preflist.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_prefs.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_psf.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_retina.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_sexhead.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_sexhead1.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_sexheadsc.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_som.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_types.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_weight.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_winpos.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\sextractor_xml.h">
+      <Filter>Header Files\sextractor headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Assert.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\intersect.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\line2.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Line3.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Matrix2.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Matrix3.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\matrix4.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\MatrixN.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\plane.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\quaternion.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\random.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Rect.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Spline.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\Utility.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\vector2.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\vector3.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\spline\vector4.h">
+      <Filter>Header Files\graphics headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\about.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\astro_img_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\calc_units_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\canoneos_setup_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\catalog_download.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\catalog_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\catalogconfig.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\custom_wxwidgets.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\designSkin.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\detectconfigview.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\dist_tool_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\dynamic_img_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\earth_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\file_export_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\finddlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\frame.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\graph_base_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\grid_data_view.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\group_add_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\groupdlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\groupproperty.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\groupview.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\hardware_add_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\hardware_select_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\HistogramView.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\image3dbase.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\image_notes_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\image_save_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\img_view_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgproperty.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgview3dcolormap.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgview3ddistmap.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\imgview3dspacedist.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\instruments_cfg_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\light_pollution_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\location_dialog.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\mainconfigview.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\matchconfig.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\news_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\observatories_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\observer_cfg_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\online_browse_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\online_cfg_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\online_comments_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\poshintdlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\print.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\RadialProfileView.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\simple_common_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\skyobj_select_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\slideshow_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\starviewdlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\sun_view_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\taskbar_icon.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\telescope_setup_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\tlens_select_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\upload_custom_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\user_feedback_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\view_objects_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\waitdialog.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\waitdialogmatch.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\waitdialogstack.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\weather_cforecast_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\weather_satvis_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\weather_seeing_dlg.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\wxaggPixelFormatConvertor.h">
+      <Filter>Header Files\gui headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\blur_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\colors_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\deconv_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\edge_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\filter_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\gradient_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\process_base_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui\process\sharp_dlg.h">
+      <Filter>Header Files\gui headers\process headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\astroimage.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\baseimage.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\digitalimage.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\histogram.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_note.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\image_shift.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imagearea.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imagechannel.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imagedb.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imagefft.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imagegroup.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\imagelayer.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\radialprofile.h">
+      <Filter>Header Files\image headers</Filter>
+    </ClInclude>
+    <ClInclude Include="image\process\imagecolors.h">
+      <Filter>Header Files\image headers\process</Filter>
+    </ClInclude>
+    <ClInclude Include="math\fitgsl.h">
+      <Filter>Header Files\math headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\ads_site.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\bibdb.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_aes.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_aes_celestrak.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_asteroids.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_asteroids_omp.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_blackholes.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_blackholes_rxe_agn.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_blackholes_sdss_dr5.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_comets.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_comets_cocom.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_assoc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_ic.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_messier.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_mgc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_names.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_ngc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_pgc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_dso_ugc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_exoplanets.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_exoplanets_eu.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_mstars.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_mstars_ccdm.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_mstars_wds.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_radio.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_radio_msl.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_radio_nvss.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_radio_specfind.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_radio_vlss.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_2mass.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_assoc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_gsc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_hipparcos.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_names.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_nomad.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_sao.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_tycho.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_stars_usnob.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_supernovas.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_supernovas_asc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_supernovas_ssc.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_types.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma_2xmmi.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma_batse.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma_bepposax.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma_heao.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma_integral.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\catalog_xgamma_rosat.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\celestraksite.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\constellations.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\exoplaneteusite.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\ledasite.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\ned_site.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\nofs_navy_mil.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\nstars_site.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\objdetails.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\simbad.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sky.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sky_finder.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\skyview_site.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\solar_orbits.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\solar_planets.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="spectrum\spectrum.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\star.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sun_fetch.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\unimapsite.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\vizier.h">
+      <Filter>Header Files\sky headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\solar\afuncs.h">
+      <Filter>Header Files\sky headers\solar</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\astro.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\chap95.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\deepconst.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\libastro.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\misc.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\preferences.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\probfunc.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\satlib.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\satspec.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\sattypes.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\vector.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\libastro\vsop87.h">
+      <Filter>Header Files\sky headers\libastro</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sat_code\deep.h">
+      <Filter>Header Files\sky headers\sat_code</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sat_code\norad.h">
+      <Filter>Header Files\sky headers\sat_code</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sat_code\norad_in.h">
+      <Filter>Header Files\sky headers\sat_code</Filter>
+    </ClInclude>
+    <ClInclude Include="sky\sat_code\observe.h">
+      <Filter>Header Files\sky headers\sat_code</Filter>
+    </ClInclude>
+    <ClInclude Include="weather\clear_sky_chart.h">
+      <Filter>Header Files\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="weather\meteo_blue.h">
+      <Filter>Header Files\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="weather\satimg_fetch.h">
+      <Filter>Header Files\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="weather\weather.h">
+      <Filter>Header Files\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="weather\weather_under.h">
+      <Filter>Header Files\weather</Filter>
+    </ClInclude>
+    <ClInclude Include="util\apps_manager.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\astro_algorithms.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="httpengine\base64.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\crypt-md5.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\files_manager.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="httpengine\wxcurl_base.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="httpengine\wxcurl_http.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="online\unimap_online.h">
+      <Filter>Header Files\online headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\ascom.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\focuser.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\focuser_driver.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\focuser_jmi.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\focusevent.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\protocol.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\telescope.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\telescope_driver.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\telescope_lx200.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\telescope_nexstar.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="telescope\telworker.h">
+      <Filter>Header Files\telescope headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera_canoneos.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera_defs.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera_driver.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera_video.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\camera_wia.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\gdiplus_init.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\wia\wiaBitmapUtil.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\wia\wiaDataCallback.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\wia\wiaEventCallback.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\worker_dcam.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera\worker_vcam.h">
+      <Filter>Header Files\camera headers</Filter>
+    </ClInclude>
+    <ClInclude Include="news\esa_news.h">
+      <Filter>Header Files\news</Filter>
+    </ClInclude>
+    <ClInclude Include="news\nasa_news.h">
+      <Filter>Header Files\news</Filter>
+    </ClInclude>
+    <ClInclude Include="news\news.h">
+      <Filter>Header Files\news</Filter>
+    </ClInclude>
+    <ClInclude Include="news\sciencedaily_news.h">
+      <Filter>Header Files\news</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\image_fits.h">
+      <Filter>Header Files\image headers\formats</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\cfortran.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\compress.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\drvrgsiftp.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\drvrsmem.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\eval_defs.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\eval_tab.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\f77_wrap.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\fitsio.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\fitsio2.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\fpack.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\group.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\grparser.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\longnam.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\region.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="image\format\cfitsio\ricecomp.h">
+      <Filter>Header Files\image headers\formats\cftisio</Filter>
+    </ClInclude>
+    <ClInclude Include="util\image_func.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\geometry.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\func.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\units.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="util\windows_func.h">
+      <Filter>Header Files\util headers</Filter>
+    </ClInclude>
+    <ClInclude Include="unimap_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\gsoap-2.7\gsoap\stdsoap2.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="db\unimap_db.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="unimap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="unimap.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="unimap2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\unmap5.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\resources\zoom_in.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram31.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="unimap.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

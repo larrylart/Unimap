@@ -1,0 +1,30 @@
+{al-Ahmadî}{7}
+Abû Hulayfah=29.14,48.12,30,
+al-Ahmadî=29.07,48.08,75,
+al-Fuhayhîl=29.10,48.13,15,
+al-Manqaf=29.10,48.13,15,
+ar-Riqqah=29.15,48.11,24,
+as-Sabahîyah=29.12,48.11,31,
+Jabbar-al-ŽAli=29.17,48.08,53,
+{al-Fârwanîyah}{6}
+Abraq Khîtân=29.29,47.98,30,
+al-Farwânîyah=29.27,47.91,0,
+ar-Rabbîyah=29.29,47.90,22,
+Ardîyah=29.29,47.88,37,
+Jalîb ash-Shuyûh=29.27,47.94,20,
+Khîtân-al-Janûbîyah=29.26,47.95,42,
+{al-Jahrâ}{1}
+al-Jahrâ=29.35,47.69,8,
+{al-Kuwayt}{4}
+al-Kuwayt=29.33,47.97,20,
+ar-Rawdah=29.34,47.98,22,
+as-Sulaybihât=29.32,47.87,10,
+Kayfan=29.34,47.98,22,
+{Hawallî}{7}
+al-Jabirîyah=29.31,48.02,25,
+ar-Rumaythiyah=29.32,48.07,10,
+as-Sâlimîyah=29.33,48.06,13,
+Bayân=29.30,48.03,33,
+Hawallî=29.35,47.98,18,
+Salwâ'=29.28,48.08,9,
+Subbah-as-Salim=29.26,48.06,29,

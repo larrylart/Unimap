@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unimap 0.100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Larry Lart <i@larryo.org>\n"
+"Language-Team: Larry Lart <larry@larryo.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: GREECE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Greek\n"
+
+# Frame:Menu->File
+msgid "File"
+msgstr "Αρχείο"
+
+# Frame:Menu->View
+msgid "View"
+msgstr "Προβολή"
+
+# Frame:Menu->Group
+msgid "Group"
+msgstr "Ομάδα"
+
+# Frame:Menu->Image
+msgid "Image"
+msgstr "Oμοίωμα"
+
+# Frame:Menu->Tools
+msgid "Tools"
+msgstr "Εργαλεία"
+
+# Frame:Menu->Options
+msgid "Options"
+msgstr "Επιλογές"
+
+# Frame:Menu->Help
+msgid "Help"
+msgstr "Βοήθεια"
+
+# Frame:Menu->Help->About
+msgid "About"
+msgstr "Σχετικά"
+
+# Frame:Toolbar:match
+msgid "Match Stars"
+msgstr "Βρείτε Ηθοποιοί"
+
+# Frame:Toolbar:poshint
+msgid "Set Position Hint"
+msgstr "Ορισμός θέση Συμβουλή"
+

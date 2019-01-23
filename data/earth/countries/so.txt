@@ -1,0 +1,53 @@
+{Awdâl}{2}
+Baki=10.53,43.12,541,
+Bôramâ=9.92,43.19,1457,
+{Banâdir}{1}
+Muqdîsho=2.05,45.33,56,
+{Bari}{5}
+Bandarbeyla=9.50,50.81,17,
+BandarmuŽayo=11.66,50.44,608,
+Berêda=11.85,51.05,162,
+Bôsâso=11.28,49.18,12,
+Qardho=9.50,49.08,733,
+{Bay}{3}
+Baydhabo=3.12,43.64,452,
+Bûr Hakkaba=2.80,44.08,214,
+Dînsôr=2.48,42.97,355,
+{Galgudûg}{1}
+ŽÊldhêre=3.85,47.18,19,
+{Gedo}{3}
+Bârdhêre=2.34,42.28,87,
+Garbahârey=3.33,42.23,223,
+SâŽo=1.63,42.44,63,
+{Hîrân}{2}
+Beled Wêyne=4.73,45.19,182,
+Bûlobarde=3.86,45.57,148,
+{Jubbada Hôse}{3}
+Bûr Gâbo=-1.21,41.83,3,
+Jamâme=0.08,42.75,12,
+Kismâyo=-0.35,42.53,34,
+{Jubbadha Dexe}{1}
+Jilib=0.50,42.77,22,
+{Mudug}{1}
+GâlkaŽyo=6.78,47.42,287,
+{Nugâl}{2}
+Garôwe=8.41,48.48,463,
+LâsŽânôd=8.40,47.33,810,
+{Sanâg}{1}
+ŽÊrigabo=10.63,47.36,1802,
+{Shabêllaha Dhexe}{3}
+Awdhêgle=1.99,44.83,77,
+Jawhar=2.78,45.51,125,
+Mahadday Weyne=2.99,45.53,113,
+{Shabêllaha Hôse}{5}
+Afgôye=2.14,45.12,87,
+Barâwe=1.11,44.02,23,
+Marka=1.72,44.76,75,
+Qoryôley=1.79,44.53,71,
+Wanlaweyn=2.62,44.89,91,
+{Togdhêr}{1}
+BurŽo=9.53,45.53,1047,
+{Woqôyi Galbêd}{3}
+Berbera=10.44,45.00,0,
+Hargeysa=9.56,44.06,1268,
+ŽAdâdlay=9.77,44.65,1241,

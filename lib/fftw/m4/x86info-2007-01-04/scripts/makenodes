@@ -1,0 +1,22 @@
+#!/bin/bash
+
+NRNODES=`grep processor /proc/cpuinfo | wc -l`
+
+if [ ! -d /dev/cpu ] ; then
+	mkdir /dev/cpu
+fi
+
+for i in `seq 0 $NRNODES`
+do
+	if [ ! -d /dev/cpu/$i ] ; then
+		mkdir /dev/cpu/$i
+	fi
+	if [ ! -c /dev/cpu/$i/cpuid ] ; then
+		(cd /dev/cpu/$i ; mknod cpuid c 203 $i)
+	fi
+	if [ ! -c /dev/cpu/$i/msr ] ; then
+		(cd /dev/cpu/$i ; mknod msr c 202 $i)
+	fi
+done
+
+echo "All cpuid & msr /dev nodes present."

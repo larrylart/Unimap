@@ -1,0 +1,1987 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{fbaf6275-412b-410f-a3c8-fd88034ff239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cell">
+      <UniqueIdentifier>{31be37e6-de3d-4914-8b86-3f1acdb2db8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dft">
+      <UniqueIdentifier>{eb6d4ae3-9e35-4e15-8e06-05ac0279482e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dft\scalar">
+      <UniqueIdentifier>{970440d7-dc7f-484a-b363-a17df77a8c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dft\scalar\codelets">
+      <UniqueIdentifier>{d762bb8c-4e12-405f-bd4e-dd0fb4d9bbf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dft\simd">
+      <UniqueIdentifier>{45cf2f25-f2ca-4067-abee-bd658b2a4c11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dft\simd\codelets">
+      <UniqueIdentifier>{3036b90d-b752-408a-b0d0-3a35d0097bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kernel">
+      <UniqueIdentifier>{5faee30f-7332-4bef-b1bf-5a56824d73a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft">
+      <UniqueIdentifier>{7af85ab4-520e-495a-97c5-074a92d74aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft\scalar">
+      <UniqueIdentifier>{9869c0f5-1a3a-49aa-ab40-c3059a00a48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft\scalar\r2cb">
+      <UniqueIdentifier>{1aa8f7ec-35fa-42c1-91a9-25eb0e261e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft\scalar\r2cf">
+      <UniqueIdentifier>{6431f0a9-04c2-4362-b7e8-903d3b7439d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft\scalar\r2r">
+      <UniqueIdentifier>{99ecb826-3a3e-4bf1-b061-0788041c49d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft\simd">
+      <UniqueIdentifier>{8ea6f09c-3240-4564-9e5e-eed9225d4557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="rdft\simd\codelets">
+      <UniqueIdentifier>{1b7df487-409b-4a6c-85c0-9ff11733c6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reodft">
+      <UniqueIdentifier>{5281464f-60b1-4454-92cc-6764a07f91f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dft\simd\nonportable">
+      <UniqueIdentifier>{b4feab4f-d6f9-45b8-b458-915cbb3c6a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{a57aeed0-c92f-42fd-b729-119447dd4365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="threads">
+      <UniqueIdentifier>{bea3d27c-add8-4dc5-9fa7-6c272915c195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\api\apiplan.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\configure.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-r2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-split-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-split-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute-split-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\execute.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\export-wisdom-to-file.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\export-wisdom-to-string.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\export-wisdom.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\f77api.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\flops.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\forget-wisdom.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\import-system-wisdom.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\import-wisdom-from-file.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\import-wisdom-from-string.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\import-wisdom.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\malloc.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\map-r2r-kind.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\mapflags.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\mkprinter-file.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\mktensor-iodims.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\mktensor-iodims64.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\mktensor-rowmajor.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-1d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-2d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-3d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-c2r-1d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-c2r-2d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-c2r-3d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-r2c-1d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-r2c-2d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-r2c-3d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-r2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-split-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-split-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru-split-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-r2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-split-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-split-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-guru64-split-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-many-dft-c2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-many-dft-r2c.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-many-dft.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-many-r2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-r2r-1d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-r2r-2d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-r2r-3d.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\plan-r2r.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\print-plan.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\rdft2-pad.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\the-planner.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\version.c">
+      <Filter>api</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\cell.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\conf.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\copy.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\dft-direct-cell.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\plans-double.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\plans-single.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cell\transpose.c">
+      <Filter>cell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\bluestein.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\buffered.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\conf.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\ct.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\dftw-direct.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\dftw-directsq.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\dftw-generic.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\dftw-genericbuf.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\direct.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\generic.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\indirect-transpose.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\indirect.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\kdft-dif.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\kdft-difsq.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\kdft-dit.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\kdft.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\nop.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\plan.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\problem.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\rader.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\rank-geq2.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\solve.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\vrank-geq1.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\zero.c">
+      <Filter>dft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\n.c">
+      <Filter>dft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\t.c">
+      <Filter>dft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\codlist.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_10.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_11.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_12.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_13.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_14.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_15.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_16.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_2.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_20.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_25.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_3.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_32.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_4.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_5.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_6.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_64.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_7.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_8.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\n1_9.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\q1_2.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\q1_3.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\q1_4.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\q1_5.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\q1_6.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\q1_8.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_10.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_12.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_15.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_16.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_2.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_20.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_25.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_3.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_32.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_4.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_5.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_6.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_64.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_7.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_8.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t1_9.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_10.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_16.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_20.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_25.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_32.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_4.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_5.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_64.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\scalar\codelets\t2_8.c">
+      <Filter>dft\scalar\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\n1b.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\n1f.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\n2b.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\n2f.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\n2s.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\q1b.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\q1f.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\t.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\ts.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\codlist.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_11.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_12.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_13.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_14.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_15.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_3.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_7.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1bv_9.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_11.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_12.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_13.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_14.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_15.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_3.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_7.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n1fv_9.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_12.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_14.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2bv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_12.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_14.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2fv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2sv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2sv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2sv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2sv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\n2sv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1bv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1bv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1bv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1bv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1fv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1fv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1fv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\q1fv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_3.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_7.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1buv_9.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_12.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_15.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_3.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_7.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1bv_9.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_3.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_7.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fuv_9.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_12.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_15.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_3.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_6.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_7.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1fv_9.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1sv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1sv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1sv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1sv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t1sv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2bv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_2.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_64.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2fv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2sv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2sv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2sv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t2sv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3bv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_10.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_16.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_20.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_25.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_32.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_4.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_5.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dft\simd\codelets\t3fv_8.c">
+      <Filter>dft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\align.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\alloc.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\assert.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\awake.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\buffered.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\cpy1d.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\cpy2d-pair.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\cpy2d.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\ct.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\debug.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\extract-reim.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\hash.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\iabs.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\kalloc.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\md5-1.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\md5.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\minmax.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\ops.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\pickdim.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\plan.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\planner.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\primes.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\print.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\problem.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\rader.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\scan.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\solver.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\solvtab.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\stride.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor1.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor2.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor3.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor4.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor5.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor7.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor8.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tensor9.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\tile2d.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\timer.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\transpose.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\trig.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kernel\twiddle.c">
+      <Filter>kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\buffered.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\buffered2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\conf.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\ct-hc2c-direct.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\ct-hc2c.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\dft-r2hc.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\dht-r2hc.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\dht-rader.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\direct-r2c.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\direct-r2r.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\direct2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\generic.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\hc2hc-direct.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\hc2hc-generic.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\hc2hc.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\indirect.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\khc2c.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\khc2hc.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\kr2c.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\kr2r.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\nop.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\nop2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\plan.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\plan2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\problem.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\problem2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rank-geq2-rdft2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rank-geq2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rank0-rdft2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rank0.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rdft-dht.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rdft2-inplace-strides.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rdft2-rdft.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rdft2-strides.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\rdft2-tensor-max-index.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\solve.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\solve2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\vrank-geq1-rdft2.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\vrank-geq1.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\vrank3-transpose.c">
+      <Filter>rdft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\hc2c.c">
+      <Filter>rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\hfb.c">
+      <Filter>rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2c.c">
+      <Filter>rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2r.c">
+      <Filter>rdft\scalar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\codlist.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_25.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_5.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb2_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_10.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_12.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_15.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_2.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_25.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_3.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_5.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_6.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_64.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_7.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hb_9.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb2_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb2_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb2_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb2_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb2_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_10.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_12.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_2.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_6.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cb_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft2_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft2_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft2_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft2_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft2_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_10.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_12.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_2.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_6.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\hc2cbdft_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_10.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_11.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_12.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_128.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_13.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_14.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_15.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_25.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_3.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_5.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_6.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_64.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_7.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cb_9.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_10.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_12.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_15.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_16.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_2.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_20.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_25.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_3.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_32.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_4.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_5.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_6.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_64.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_7.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_8.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cb\r2cbIII_9.c">
+      <Filter>rdft\scalar\r2cb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\codlist.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf2_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf2_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf2_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf2_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf2_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_10.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_12.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_2.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_6.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cf_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft2_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft2_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft2_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft2_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft2_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_10.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_12.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_2.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_6.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hc2cfdft_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_25.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_5.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf2_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_10.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_12.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_15.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_2.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_25.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_3.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_5.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_6.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_64.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_7.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\hf_9.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_10.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_11.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_12.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_128.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_13.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_14.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_15.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_2.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_25.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_3.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_5.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_6.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_64.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_7.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cf_9.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_10.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_12.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_15.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_16.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_2.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_20.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_25.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_3.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_32.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_4.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_5.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_6.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_64.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_7.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_8.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2cf\r2cfII_9.c">
+      <Filter>rdft\scalar\r2cf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2r\codlist.c">
+      <Filter>rdft\scalar\r2r</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2r\e01_8.c">
+      <Filter>rdft\scalar\r2r</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\scalar\r2r\e10_8.c">
+      <Filter>rdft\scalar\r2r</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\hc2cbv.c">
+      <Filter>rdft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\hc2cfv.c">
+      <Filter>rdft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\codlist.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_10.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_12.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_16.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_2.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_20.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_32.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_4.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_6.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cbdftv_8.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_10.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_12.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_16.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_2.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_20.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_32.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_4.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_6.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\rdft\simd\codelets\hc2cfdftv_8.c">
+      <Filter>rdft\simd\codelets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\conf.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\redft00e-r2hc-pad.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\redft00e-r2hc.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\reodft00e-splitradix.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\reodft010e-r2hc.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\reodft11e-r2hc-odd.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\reodft11e-r2hc.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\reodft11e-radix2.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\rodft00e-r2hc-pad.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\reodft\rodft00e-r2hc.c">
+      <Filter>reodft</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\altivec.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\mips_ps.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\sse.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\sse2.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\taint.c">
+      <Filter>dft\simd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\nonportable\sse.c">
+      <Filter>dft\simd\nonportable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\simd\nonportable\sse2.c">
+      <Filter>dft\simd\nonportable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\support\addchain.c">
+      <Filter>support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\api.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\conf.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\ct.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\dft-vrank-geq1.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\f77api.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\hc2hc.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\openmp.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\rdft-vrank-geq1.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\threads.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\threads\vrank-geq1-rdft2.c">
+      <Filter>threads</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

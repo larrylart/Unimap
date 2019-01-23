@@ -1,0 +1,108 @@
+{Buenos Aires}{24}
+Azul=-36.78,-59.87,140,
+Bahía Blanca=-38.72,-62.28,23,
+Campana=-34.16,-58.96,7,
+Chacabuco=-34.65,-60.49,73,
+Chivilcoy=-34.9,-60.04,59,
+Dolores=-36.33,-57.69,8,
+Junín=-34.59,-60.96,80,
+La Plata=-34.92,-57.96,19,
+Lincoln=-34.88,-61.54,79,
+Luján=-34.58,-59.11,30,
+Mar del Plata=-38,-57.58,19,
+Mercedes=-34.66,-59.44,37,
+Necochea=-38.56,-58.75,20,
+Nueve de Julio=-35.46,-60.89,81,
+Olavarría=-36.9,-60.33,167,
+Pergamino=-33.9,-60.57,61,
+Punta Alta=-38.88,-62.08,9,
+San Nicolás=-33.33,-60.24,20,
+San Pedro=-33.67,-59.69,26,
+San Vicente=-35.03,-58.42,27,
+Tandil=-37.32,-59.15,188,
+Tres Arroyos=-38.37,-60.27,112,
+Veinticinco de Mayo=-35.43,-60.18,55,
+Zárate=-34.09,-59.04,27,
+{Catamarca}{1}
+Catamarca=-28.47,-65.78,528,
+{Chaco}{2}
+Presidencia Roque Sáenz Peña=-26.79,-60.45,95,
+Resistencia=-27.46,-58.99,55,
+{Chubut}{4}
+Comodoro Rivadavia=-45.86,-67.49,29,
+Puerto Madryn=-42.77,-65.04,12,
+Rawson=-43.3,-65.11,10,
+Trelew=-43.25,-65.33,30,
+{Corrientes}{4}
+Corrientes=-27.49,-58.81,64,
+Goya=-29.14,-59.27,42,
+Mercedes=-29.18,-58.08,97,
+San Lorenzo=-28.12,-58.77,62,
+{Córdoba}{8}
+Alta Gracia=-31.66,-64.43,560,
+Bell Ville=-32.6,-62.68,125,
+Córdoba=-31.4,-64.19,419,
+Río Cuarto=-33.13,-64.35,444,
+Río Tercero=-32.18,-64.12,376,
+San Francisco=-31.43,-62.09,118,
+Villa Carlos Paz=-31.42,-64.5,647,
+Villa María=-32.41,-63.26,204,
+{Distrito Federal / Buenos Aires}{1}
+Buenos Aires=-34.61,-58.37,44,
+{Entre Ríos}{6}
+Concepción del Uruguay=-32.48,-58.24,18,
+Concordia=-31.39,-58.03,33,
+Gualeguay=-33.15,-59.34,15,
+Gualeguaychú=-33.02,-58.52,9,
+Paraná=-31.74,-60.52,80,
+Victoria=-32.61,-60.18,7,
+{Formosa}{1}
+Formosa=-26.18,-58.18,63,
+{Jujuy}{3}
+Jujuy=-24.19,-65.3,1264,
+Libertador General San Martín=-23.82,-64.79,463,
+San Pedro=-24.22,-64.87,606,
+{La Pampa}{2}
+General Pico=-35.66,-63.77,141,
+Santa Rosa=-36.62,-64.3,174,
+{La Rioja}{1}
+La Rioja=-29.41,-66.85,501,
+{Mendoza}{5}
+Luján=-33.03,-68.9,976,
+Mendoza=-32.89,-68.83,747,
+Rivadavia=-33.19,-68.47,666,
+San Martín=-33.07,-68.49,666,
+San Rafael=-34.62,-68.34,705,
+{Misiones}{3}
+Eldorado=-26.2,-54.6,188,
+Oberá=-27.48,-55.13,301,
+Posadas=-27.4,-55.91,125,
+{Neuquén}{2}
+Cutral Có=-38.94,-69.24,635,
+Neuquén=-38.95,-68.06,289,
+{Río Negro}{3}
+General Roca=-39.02,-67.61,238,
+San Carlos de Bariloche=-41.14,-71.32,875,
+Viedma=-40.81,-63,7,
+{Salta}{3}
+Salta=-24.79,-65.41,1186,
+San Ramón de la Nueva Orán=-23.14,-64.32,358,
+Tartagal=-22.55,-63.81,504,
+{San Juan}{1}
+San Juan=-31.54,-68.53,641,
+{San Luis}{2}
+Mercedes=-33.69,-65.47,521,
+San Luis=-33.31,-66.35,709,
+{Santa Cruz}{1}
+Río Gallegos=-51.62,-69.24,15,
+{Santa Fé}{6}
+Rafaela=-31.25,-61.5,103,
+Reconquista=-29.14,-59.65,48,
+Rosario=-32.94,-60.67,27,
+Santa Fé=-31.6,-60.69,19,
+Venado Tuerto=-33.75,-61.97,115,
+Villa Constitución=-33.23,-60.35,23,
+{Santiago del Estero}{1}
+Santiago del Estero=-27.8,-64.28,191,
+{Tucumán}{1}
+Tucumán=-26.83,-65.22,445,

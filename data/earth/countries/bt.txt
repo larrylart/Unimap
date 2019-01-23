@@ -1,0 +1,6 @@
+{Punakha}{1}
+Punakha=27.78,89.90,4015,
+{Samchi}{1}
+Phuntsholing=26.85,89.38,204,
+{Timphu}{1}
+Timphu=27.48,89.70,3174,

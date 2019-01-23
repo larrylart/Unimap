@@ -1,0 +1,16 @@
+{Eastern}{4}
+Kenema=7.88,-11.19,183,
+Koidu=8.44,-10.85,270,
+Koindu=8.38,-10.41,377,
+Yengema=8.72,-11.17,381,
+{Northern}{4}
+Lunsar=8.69,-12.55,48,
+Magburaka=8.72,-11.95,86,
+Makeni=8.88,-12.05,100,
+Port Loko=8.77,-12.8,16,
+{Southern}{3}
+Binkolo=8.95,-11.97,112,
+Bo=7.97,-11.74,106,
+Taiama=8.20,-12.06,71,
+{Western}{1}
+Freetown=8.49,-13.24,0,

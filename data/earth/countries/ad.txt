@@ -1,0 +1,4 @@
+{Andorra la Vella}{1}
+Andorra la Vella=42.51,1.51,1451,
+{Les Escaldes}{1}
+Les Escaldes=42.50,1.53,1312,

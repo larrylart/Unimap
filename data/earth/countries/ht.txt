@@ -1,0 +1,24 @@
+{Artibonite}{5}
+Desdunes=19.29,-72.6,7,
+Gonaïves=19.45,-72.69,6,
+L'Artibonite=19.12,-72.48,32,
+Saint-Marc=19.11,-72.7,13,
+Verrettes=19.06,-72.46,45,
+{Centre}{1}
+Hinche=19.15,-72.01,238,
+{Grand'Anse}{1}
+Jérémie=18.65,-74.12,31,
+{Nord}{2}
+Cap-Haïtien=19.76,-72.2,11,
+Limbe=19.71,-72.41,36,
+{Nord-Ouest}{1}
+Port-de-Paix=19.94,-72.84,8,
+{Ouest}{4}
+Carrefour=18.53,-72.42,135,
+Delmas=18.55,-72.28,143,
+Port-au-Prince=18.54,-72.34,23,
+Pétionville=18.52,-72.29,316,
+{Sud}{1}
+Les Cayes=18.20,-73.75,10,
+{Sud-Est}{1}
+Jacmel=18.24,-72.54,22,

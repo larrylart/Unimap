@@ -1,0 +1,87 @@
+
+* unimap.cpp - main app entry point, config, init, start threads, etc
+
+
+* unimap_worker.cpp - main worker thread for unimap actions(plate solving, etc) - see CheckForCommands() for functions
+
+
+* telescope\telworker.cpp - worker thread for telescope commands - see CheckForCommands() for functions
+
+* telescope\telescope.cpp - main handler for telecope drivers/config
+
+
+* camera\worker_dcam.cpp - worker thread for digital camera
+
+* camera\worker_vcam.cpp - worker thread for video/stream camera
+
+* camera\camera.cpp - main camera object - detect and init avalilable cameras 
+
+* image\astroimage.cpp - main class which handles the raw image, detected sources and matched objects 
+
+
+* sky\sky.cpp - main class to manage sky objects/catalogs/structures/processes(plate solving, objects finding)/projections etc
+
+* proc\sextractor.cpp - main class for source extraction (points/stars/shapes) from image (using sextractor port to c++ encapsulation) - creates a lists o possible sources with PFS(point spread function) and other masurments in image coordinates - to be passed latter to catalog matching 
+
+
+* match\starmatch.cpp - main class to do the plate solving, encapsulates atpmath calls and adopts various strategies to get best/valid score - will return sky coord for image and matched objects
+
+
+* gui\frame.cpp - main GUI implementation
+
+* gui\frame_instruments.cpp - telecope/camera frame panel
+
+* gui\astro_img_view.cpp - draws image and data on the screen 
+
+* gui\waitdialog.cpp - popup waitdialog and procesing dialog - would/can forward action to be done to the worker thread while waiting to finish
+
+* gui\image3dbase.cpp - base class for opengl/3d windows
+
+* gui\imgproperty.cpp - right click image property with all details, histogram, spectrum etc
+
+
+* online\unimap_online.cpp - doanload/upload images and platesolving online, will also manage catalogs in binary format
+
+* unimap_service.cpp - soap(gsoap) service implementation - a first prototype to allow extranal thrid party apps to do plate solving and telescope control 
+
+
+
+***** EXTERNAL LIBS : c:/lib/
+
+* eLynx - image processing, filters, load/save formats 
+	- REP: https://sourceforge.net/projects/elynx/
+	- CODE: image/fromat, process, astroimage.cpp (save, load functions)
+	- TODO: maybe replace this with ImageMagik ?
+
+* OpenCV - (version 1.0) used for image flow tracking (only partially imaplemented) in the telescope control panel, and object discovery 
+	 - REP: http://opencv.org/
+	 - CODE: camera\camera.cpp, camera_video.cpp, image\image_shift.cpp
+
+
+* wxWidgets-2.8.11 - cross platform GUI - currently using 2.8 - newer version will need twiking for compatibility
+	- REP: https://www.wxwidgets.org/
+
+* BOOST - REP: http://www.boost.org/
+
+* libgsl - GNU Scientific Library
+	- REP: http://www.gnu.org/software/gsl/
+	- CODE: gui\RadialProfileView.cpp
+
+* openssl-0.9.8k - mainly used for the md5/crypto functions 
+	- REP: https://www.openssl.org/
+
+* curl-7.19.6 - for online function uploading/downloading, catalogs, etc - used with wxcurl wrapper
+	- REP: https://curl.haxx.se/
+
+
+**** OTHER TOOLS
+
+* Inno Setup - to create the setup install package
+	- REP: http://www.jrsoftware.org/isinfo.php
+	- SEE: unimap/installer/unimap.iss script
+
+* PO EDIT - used for translations 
+	- REP: https://poedit.net/download
+
+
+

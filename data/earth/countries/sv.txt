@@ -1,0 +1,48 @@
+{Ahuachapán}{1}
+Ahuachapán=13.93,-89.86,730,
+{Cabañas}{2}
+Ilobasco=13.84,-88.54,139,
+Sensuntepeque=13.88,-88.63,785,
+{Chalatenango}{1}
+Chalatenango=14.04,-88.95,311,
+{Cuscatlán}{1}
+Cojutepeque=13.73,-88.94,781,
+{La Libertad}{4}
+Antiguo Cuscatlán=13.68,-89.23,831,
+La Libertad=13.48,-89.33,1,
+Nueva San Salvador=13.68,-89.29,940,
+Quezaltepeque=13.84,-89.28,425,
+{La Paz}{1}
+Zacatecoluca=13.51,-88.88,207,
+{La Unión}{1}
+La Unión=13.34,-87.85,14,
+{San Miguel}{2}
+San Miguel=13.47,-88.18,125,
+San Rafael=13.38,-88.36,188,
+{San Salvador}{12}
+Aguilares=13.96,-89.19,298,
+Apopa=13.80,-89.18,437,
+Ayutuxtepeque=13.74,-89.2,713,
+Cuscatancingo=13.74,-89.19,620,
+Delgado=13.72,-89.17,641,
+Ilopango=13.70,-89.12,613,
+Mejicanos=13.73,-89.2,700,
+San Marcos=13.66,-89.19,731,
+San Martín=13.79,-88.92,596,
+San Salvador=13.69,-89.19,652,
+Santo Tomás=13.65,-89.14,733,
+Soyapango=13.70,-89.16,630,
+{San Vicente}{1}
+San Vicente=13.64,-88.79,411,
+{Santa Ana}{3}
+Chalchuapa=13.99,-89.7,703,
+Metapán=14.33,-89.45,475,
+Santa Ana=14.00,-89.54,619,
+{Sonsonate}{4}
+Acajutla=13.59,-89.83,24,
+Izalco=13.74,-89.68,410,
+Sonsonate=13.72,-89.73,225,
+Sonzacate=13.74,-89.72,290,
+{Usulután}{2}
+Puerto El Triunfo=13.28,-88.55,11,
+Usulután=13.34,-88.44,82,

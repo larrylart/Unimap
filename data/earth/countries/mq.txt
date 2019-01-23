@@ -1,0 +1,11 @@
+{Fort-de-France}{4}
+Fort-de-France=14.60,-61.08,0,
+Le Lamentin=14.60,-61,9,
+Saint-Joseph=14.67,-61.04,230,
+Schoelcher=14.63,-61.12,11,
+{La Trinité}{2}
+Le Robert=14.67,-60.94,0,
+Sainte-Marie=14.78,-61,7,
+{Le Marin}{2}
+Ducos=14.57,-60.98,32,
+Le François=14.60,-60.9,95,

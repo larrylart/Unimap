@@ -1,0 +1,31 @@
+{Bulawayo}{1}
+Bulawayo=-20.17,28.58,1356,
+{Harare}{2}
+Chitungwiza=-18,31.10,1452,
+Harare=-17.82,31.05,1493,
+{Manicaland}{3}
+Mutare=-18.97,32.65,1099,
+Rusape=-18.53,32.12,1404,
+Sakubva=-18.98,32.62,1069,
+{Mashonaland Central}{1}
+Bindura=-17.31,31.32,1104,
+{Mashonaland East}{1}
+Marondera=-18.19,31.55,1671,
+{Mashonaland West}{6}
+Chegutu=-18.13,30.14,1186,
+Chinhoyi=-17.36,30.18,1148,
+Kadoma=-18.33,29.91,1188,
+Kariba=-16.53,28.80,643,
+Karoi=-16.82,29.68,1277,
+Norton=-17.88,30.68,1355,
+{Masvingo}{1}
+Masvingo=-20.06,30.82,1094,
+{Matabeleland North}{2}
+Hwange=-18.37,26.50,768,
+Victoria Falls=-17.93,25.84,923,
+{Midlands}{5}
+Gweru=-19.45,29.82,1412,
+Kwekwe=-18.93,29.80,1237,
+Redcliffe=-19.03,29.77,1324,
+Shurugwi=-19.66,30.00,1503,
+Zvishavane=-20.33,30.05,926,

@@ -1,0 +1,6 @@
+{Njazídja}{2}
+Mitsamiouli=-11.4,43.28,17,
+Moroni=-11.74,43.23,0,
+{Nzwani}{2}
+Domoni=-12.25,44.53,34,
+Mutsamudu=-12.15,44.41,0,

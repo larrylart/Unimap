@@ -1,0 +1,41 @@
+{al-Balqa'}{3}
+al-BaqŽah=32.07,35.84,652,
+as-Salt=32.05,35.72,890,
+ŽAyn al-Bâshâ=32.07,35.83,640,
+{al-Karak}{1}
+al-Karak=31.18,35.70,931,
+{al-Mafraq}{1}
+al-Mafraq=32.36,36.22,678,
+{al-ŽAqabah}{1}
+al-ŽAqabah=29.53,35.00,6,
+{at-Tafîlah}{1}
+at-Tafîlah=30.84,35.60,981,
+{az-Zarqâ'}{2}
+ar-Russayfah=32.02,36.02,669,
+az-Zarqâ'=32.07,36.10,592,
+{Irbid}{4}
+al-Husun=32.48,35.89,660,
+ar-Ramtha=32.57,36.01,506,
+as-Sarîh=32.50,35.90,603,
+Irbid=32.55,35.85,569,
+{Jarash}{1}
+Jarash=32.27,35.89,544,
+{MaŽân}{1}
+MaŽân=30.19,35.73,1110,
+{Mâdabâ}{1}
+Mâdabâ=31.72,35.79,802,
+{ŽAjlûn}{1}
+Kufranjah=32.30,35.70,566,
+{ŽAmmân}{12}
+Abû ŽAlandâ=31.90,35.97,970,
+al-Jubayhah=32.02,35.86,1044,
+al-Juwaydah=31.89,35.93,929,
+al-Quwaysimah=31.92,35.95,908,
+Askân Abû Nusayr=32.09,35.87,651,
+Khalda wa TilâŽ-al-ŽAlî=32.01,35.85,1064,
+Khraybat As-Sûq=31.87,35.93,871,
+Sahâb=31.88,36.00,875,
+Suwaylih=32.03,35.83,993,
+Umm Qusayr wal Muqâbalîn=31.90,35.90,914,
+Wâdî as-Sîr=31.95,35.82,811,
+ŽAmmân=31.95,35.93,829,

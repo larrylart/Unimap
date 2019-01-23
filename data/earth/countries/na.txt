@@ -1,0 +1,21 @@
+{Caprivi}{1}
+Katima Mulilo=-17.5,24.26,951,
+{Erongo}{2}
+Swakopmund=-22.67,14.52,0,
+Walvis Bay=-22.95,14.50,3,
+{Hardap}{1}
+Rehoboth=-23.32,17.08,1392,
+{Karas}{1}
+Keetmanshoop=-26.58,18.13,988,
+{Kavango}{1}
+Rundu=-17.92,19.75,1112,
+{Khomas}{1}
+Windhoek=-22.56,17.09,1695,
+{Oshana}{1}
+Oshakati=-17.78,15.69,1096,
+{Oshikoto}{1}
+Tsumeb=-19.24,17.71,1300,
+{Otjozondjupa}{3}
+Grootfontein=-19.56,18.09,1487,
+Okahandja=-21.98,16.91,1345,
+Otjiwarongo=-20.46,16.64,1466,

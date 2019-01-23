@@ -1,0 +1,3 @@
+ UniMap is a free/opensource application which I mainly developed to do the plate-solving (automated detection and sky catalog matching) for astrophotography. Additionally, I implemented a wide range of features like plotting the asteroids path, artificial Earth satellites passing through, integrated telescope and digital/video camera control, online database/interface to work as a colaboration tool for plate solutions. 
+
+ 

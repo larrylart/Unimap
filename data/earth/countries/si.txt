@@ -1,0 +1,16 @@
+{Gorenjska}{1}
+Kranj=46.25,14.36,401,
+{Jugovzhodna Slovenija}{1}
+Novo Mesto=45.80,15.16,187,
+{Obalno-krashka}{1}
+Koper=45.55,13.73,2,
+{Osrednjeslovenska}{1}
+Ljubljana=46.06,14.51,299,
+{Podravska}{2}
+Maribor=46.55,15.64,281,
+Ptuj=46.42,15.86,220,
+{Savinjska}{2}
+Celje=46.24,15.27,237,
+Velenje=46.37,15.11,420,
+{Zasavska}{1}
+Trbovlje=46.15,15.03,350,

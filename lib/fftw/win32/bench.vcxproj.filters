@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libbench2">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libbench2\after-ccopy-from.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\after-ccopy-to.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\after-hccopy-from.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\after-hccopy-to.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\after-rcopy-from.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\after-rcopy-to.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\aligned-main.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\allocate.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\aset.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\bench-cost-postprocess.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\bench-exit.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\bench-main.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\can-do.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\caset.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\dotens2.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\info.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\main.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\mflops.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\mp.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\my-getopt.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\ovtpvt.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\pow2.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\problem.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\report.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\speed.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\tensor.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\timer.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\useropt.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\util.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\verify-dft.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\verify-lib.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\verify-r2r.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\verify-rdft2.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\verify.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libbench2\zero.c">
+      <Filter>libbench2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\bench.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\fftw-bench.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\hook.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

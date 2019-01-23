@@ -1,0 +1,19 @@
+{al-Biqa}{3}
+BaŽlabakk=34.01,36.21,1161,
+Rîyâk=33.86,36.01,930,
+Zahlah=33.84,35.92,911,
+{al-Janub}{2}
+Saydâ'=33.57,35.39,77,
+Sûr=33.28,35.21,0,
+{an-Nabatiyah}{2}
+an-Nabatîyat-at-Tahtâ=33.41,35.48,469,
+Marj ŽUyun=33.14,35.59,67,
+{ash-Shamal}{1}
+Tarâbulus ash-Sham=34.43,35.87,101,
+{Bayrût}{1}
+Bayrût=33.88,35.50,78,
+{Jabal Lubnan}{4}
+BŽabda=33.88,35.57,127,
+Jubayl=34.13,35.66,154,
+Jûniyah=33.97,35.63,107,
+ŽÂlayh=33.81,35.61,895,

@@ -1,0 +1,36 @@
+{Atlántida}{2}
+La Ceiba=15.78,-86.79,7,
+Tela=15.78,-87.46,9,
+{Choluteca}{1}
+Choluteca=13.30,-87.2,44,
+{Colón}{1}
+Tocoa=15.65,-86.01,44,
+{Comayagua}{2}
+Comayagua=14.46,-87.65,559,
+Siguatepeque=14.60,-87.84,1085,
+{Copán}{2}
+La Entrada=15.05,-88.73,487,
+Santa Rosa de Copán=14.77,-88.78,1150,
+{Cortés}{6}
+Choloma=15.61,-87.96,47,
+Cofradía=15.40,-88.15,112,
+La Lima=15.43,-87.93,32,
+Puerto Cortés=15.85,-87.94,6,
+San Pedro Sula=15.47,-88.03,68,
+Villanueva=15.31,-87.99,67,
+{El Paraíso}{2}
+Danli=14.04,-86.58,773,
+El Paraíso=13.86,-86.56,795,
+{Francisco Morazán}{1}
+Tegucigalpa=14.09,-87.22,994,
+{La Paz}{1}
+La Paz=14.32,-87.69,714,
+{Olancho}{2}
+Catacamas=14.85,-85.89,437,
+Juticalpa=14.67,-86.23,434,
+{Valle}{1}
+San Lorenzo=13.42,-87.45,8,
+{Yoro}{3}
+El Progreso=15.40,-87.82,30,
+Olanchito=15.48,-86.58,154,
+Yoro=15.13,-87.13,664,

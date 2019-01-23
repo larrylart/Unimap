@@ -1,0 +1,37 @@
+{Alto Paraná}{4}
+Ciudad del Este=-25.42,-54.63,190,
+Hernandaríaz=-25.4,-54.65,220,
+Minga Guazú=-25.5,-54.73,241,
+Presidente Franco=-25.57,-54.61,225,
+{Amambay}{1}
+Pedro Juan Caballero=-22.53,-55.75,645,
+{Asunción}{1}
+Asunción=-25.3,-57.63,150,
+{Caaguazú}{2}
+Caaguazú=-25.46,-56.02,340,
+Coronel Oviedo=-25.45,-56.44,160,
+{Central}{11}
+Capiatá=-25.35,-57.42,106,
+Fernando de la Mora=-25.32,-57.59,151,
+Itauguá=-25.38,-57.34,143,
+Itá=-25.51,-57.36,128,
+Lambaré=-25.33,-57.64,62,
+Limpio=-25.18,-57.53,76,
+Luque=-25.27,-57.49,129,
+San Antonio=-25.38,-57.61,91,
+San Lorenzo=-25.34,-57.52,126,
+Villa Elisa=-25.37,-57.62,102,
+Ñemby=-25.36,-57.6,147,
+{Concepción}{1}
+Concepción=-23.4,-57.43,75,
+{Cordillera}{1}
+Caacupé=-25.39,-57.14,181,
+{Guairá}{1}
+Villarrica=-25.78,-56.46,159,
+{Itapúa}{1}
+Encarnación=-27.33,-55.88,84,
+{Presidente Hayes}{2}
+Mariano Roque Alonso=-25.17,-57.55,62,
+Villa Hayes=-25.09,-57.53,73,
+{Ñeembucú}{1}
+Pilar=-26.87,-58.3,57,

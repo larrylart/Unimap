@@ -1,0 +1,9 @@
+{Government controlled area}{4}
+Larnaka=34.92,33.63,8,
+Lefkosia=35.16,33.38,151,
+Lemesos=34.68,33.05,9,
+Pafos=34.77,32.41,17,
+{Turkish controlled area}{3}
+Gazimagusa=35.11,33.94,13,
+Girne=35.33,33.33,39,
+Lefkosa=35.18,33.37,137,

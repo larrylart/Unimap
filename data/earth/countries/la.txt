@@ -1,0 +1,31 @@
+{Attopu}{1}
+Samakhixai=14.81,106.84,95,
+{Bokeo}{1}
+Huayxay=20.80,104.30,377,
+{Bolikhamsay}{1}
+Pakxan=18.40,103.64,174,
+{Champasak}{3}
+Champasak=14.90,105.86,98,
+Muang Khongxedon=15.58,105.80,128,
+Pakxe=15.12,105.80,100,
+{Houaphanh}{1}
+Xam Nua=20.42,104.04,1009,
+{Khammouane}{1}
+Thakek=17.40,104.81,148,
+{Luang Nam Tha}{2}
+Muang Sing=21.19,101.15,643,
+Nam Tha=20.96,101.40,547,
+{Luang Prabang}{1}
+Luang Prabang=19.89,102.14,285,
+{Phongsaly}{1}
+Phongsaly=21.75,102.19,449,
+{Saravan}{1}
+Saravan=15.72,106.41,186,
+{Savannakhet}{1}
+Savannakhet=16.57,104.75,145,
+{Viangchan Prefecture}{1}
+Viangchan=17.97,102.61,172,
+{Xaignabury}{1}
+Xaignabury=19.20,101.48,807,
+{Xiang Khuang}{1}
+Pek=19.34,103.37,1089,

@@ -1,0 +1,13 @@
+{Banjul}{1}
+Banjul=13.46,-16.6,3,
+{Basse}{1}
+Basse=13.31,-14.23,27,
+{Brikama}{2}
+Brikama=13.28,-16.66,22,
+Sukuta=13.40,-16.71,26,
+{Kanifing}{2}
+Bakau=13.49,-16.69,0,
+Serekunda=13.45,-16.68,18,
+{Kerewan}{2}
+Farafenni=13.57,-15.61,13,
+Lamin=13.37,-16.44,26,

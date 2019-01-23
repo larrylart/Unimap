@@ -1,0 +1,119 @@
+{Changhwa}{8}
+Changhwa=24.08,120.52,11,
+Chihu=23.96,120.47,24,
+Erhlin=23.90,120.37,16,
+Homei=24.11,120.49,14,
+Lukang=24.06,120.43,12,
+Peitou=23.87,120.51,30,
+Tienchung=23.86,120.57,47,
+Yuanlin=23.96,120.55,17,
+{Chiayi Hsien}{4}
+Potzu=23.47,120.24,5,
+Putai=23.38,120.15,5,
+Taipao=23.47,120.32,13,
+Talin=23.60,120.45,30,
+{Chiayi Shih}{1}
+Chiayi=23.48,120.43,34,
+{Hsinchu Hsien}{4}
+Chupei=24.85,121.00,20,
+Chutung=24.73,121.07,222,
+Hsinpu=24.83,121.07,63,
+Kuanhsi=24.79,121.17,117,
+{Hsinchu Shih}{1}
+Hsinchu=24.82,120.98,16,
+{Hualien}{3}
+Fenglin=23.75,121.43,184,
+Hualian=23.99,121.59,22,
+Yuli=23.33,121.30,256,
+{Ilan}{4}
+Ilan=24.77,121.74,15,
+Lotung=24.69,121.76,13,
+Suao=24.60,121.84,140,
+Toucheng=24.86,121.81,31,
+{Kaohsiung Hsien}{4}
+Chishan=22.89,120.47,141,
+Fengshan=22.63,120.35,14,
+Kangshan=22.80,120.27,3,
+Meinung=22.90,120.53,45,
+{Kaohsiung Shih}{1}
+Kaohsiung=22.63,120.27,101,
+{Keelung Shih}{1}
+Keelung=25.13,121.73,51,
+{Kinmen}{1}
+Kincheng=24.44,118.33,20,
+{Miaoli}{7}
+Cholan=24.32,120.82,318,
+Chunan=24.70,120.92,27,
+Houlung=24.62,120.78,13,
+Miaoli=24.57,120.81,56,
+Toufen=24.69,120.91,22,
+Tunghsiao=24.49,120.67,10,
+Yuanli=24.45,120.65,14,
+{Nantou}{4}
+Chushan=23.75,120.66,137,
+Nantou=23.92,120.67,140,
+Puli=23.97,120.96,442,
+Tsaotun=23.98,120.68,103,
+{Penghu}{1}
+Makung=23.57,119.56,0,
+{Pingtung}{4}
+Chaochou=22.55,120.53,9,
+Hengchun=24.37,120.60,13,
+Pingtung=22.68,120.48,28,
+Tungkang=22.46,120.44,0,
+{Taichung Hsien}{6}
+Chingshui=24.28,120.57,6,
+Fengyuan=23.93,120.30,0,
+Shalu=24.24,120.55,7,
+Tachia=24.35,120.62,45,
+Tali=24.10,120.67,42,
+Wuchi=24.27,120.52,0,
+{Taichung Shih}{1}
+Taichung=24.15,120.68,94,
+{Tainan Hsien}{9}
+Chiali=23.17,120.17,11,
+Hsinhua=23.04,120.30,12,
+Hsinying=23.30,120.31,22,
+Hsuechia=23.24,120.17,6,
+Matou=23.19,120.24,7,
+Paiho=23.35,120.41,30,
+Shanhwa=23.14,120.28,5,
+Yenshui=23.33,120.26,8,
+Yungkang=22.94,121.12,320,
+{Tainan Shih}{1}
+Tainan=23.00,120.19,11,
+{Taipei Hsien}{14}
+Chungho=24.99,121.50,14,
+Hsichih=25.07,121.65,15,
+Hsinchuang=25.04,121.44,3,
+Hsintien=24.96,121.53,25,
+Juifang=25.11,121.81,109,
+Luchou=25.08,121.47,10,
+Panchiao=25.02,121.44,9,
+Sanchung=25.07,121.48,7,
+Sanhsia=24.93,121.36,136,
+Shulin=25.00,121.42,11,
+Tanshui=25.19,121.42,3,
+Tucheng=24.98,121.44,24,
+Yingko=24.96,121.35,75,
+Yungho=25.02,121.51,6,
+{Taipei Shih / Taipei Hsien}{1}
+Taipei=25.02,121.45,11,
+{Taitung}{1}
+Taitung=22.76,121.14,21,
+{Taoyuan}{8}
+Chengkung=24.20,120.83,407,
+Chungli=24.96,121.22,141,
+Pate=24.92,121.28,156,
+Pingchen=24.95,121.21,142,
+Tachi=24.88,121.28,87,
+Taoyuan=25.00,121.31,97,
+Tungshih=24.27,120.82,318,
+Yangmei=24.91,121.13,219,
+{Yunlin}{6}
+Hsilo=23.80,120.45,31,
+Huwei=23.72,120.39,19,
+Peikang=23.57,120.29,6,
+Touliu=23.71,120.53,50,
+Tounan=23.68,120.47,39,
+Tuku=23.67,120.37,16,

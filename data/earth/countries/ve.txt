@@ -1,0 +1,128 @@
+{Amazonas}{1}
+Puerto Ayacucho=5.67,-67.64,52,
+{Anzoátegui}{6}
+Anaco=9.44,-64.46,228,
+Barcelona=10.13,-64.72,0,
+Cantaura=9.31,-64.37,251,
+El Tigre=8.89,-64.26,297,
+Puerto la Cruz=10.17,-64.68,0,
+San José de Guanipa=8.88,-64.1,226,
+{Apure}{2}
+Guasdualito=7.24,-70.74,128,
+San Fernando=7.90,-67.47,45,
+{Aragua}{9}
+Cagua=10.19,-67.46,464,
+El Limón=10.30,-67.63,477,
+La Victoria=10.23,-67.34,570,
+Las Teyerías=10.26,-67.17,693,
+Maracay=10.33,-67.47,882,
+Palo Negro=10.19,-67.58,419,
+San Mateo=10.22,-67.42,518,
+Turmero=10.22,-67.48,466,
+Villa de Cura=10.04,-67.49,520,
+{Barinas}{2}
+Barinas=8.60,-70.25,209,
+Barinitas=8.77,-70.42,578,
+{Bolívar}{3}
+Ciudad Bolívar=8.10,-63.6,108,
+Ciudad Guayana=8.37,-62.62,83,
+Upata=8.02,-62.41,358,
+{Carabobo}{9}
+Goaigoaza=10.42,-67.96,124,
+Guacara=10.24,-67.89,449,
+Güigüe=10.08,-67.78,447,
+Mariara=10.29,-67.72,449,
+Morón=10.49,-68.2,15,
+Puerto Cabello=10.47,-68.17,243,
+San Joaquín=10.27,-67.78,431,
+Tacarigua=10.10,-67.92,423,
+Valencia=10.23,-67.98,583,
+{Cojedes}{2}
+San Carlos=9.66,-68.6,161,
+Tinaquillo=9.91,-68.31,419,
+{Delta Amacuro}{1}
+Tucupita=9.06,-62.06,4,
+{Distrito Federal}{1}
+Caracas=10.54,-66.93,1473,
+{Falcón}{3}
+Coro=11.42,-69.68,15,
+Punta Cardón=11.66,-70.22,32,
+Punto Fijo=11.72,-70.21,0,
+{Guárico}{5}
+Altagracia de Orituco=9.85,-66.38,338,
+Calabozo=8.93,-67.44,98,
+San Juan de los Morros=9.90,-67.36,449,
+Valle de la Pascua=9.21,-66.02,177,
+Zaraza=9.34,-65.32,50,
+{Lara}{6}
+Barquisimeto=10.05,-69.3,484,
+Cabudare=10.03,-69.27,466,
+Carora=10.19,-70.08,414,
+El Tocuyo=9.78,-69.8,620,
+Los Rastrojos=10.04,-69.25,429,
+Quíbor=9.93,-69.63,684,
+{Miranda}{18}
+Baruta=10.43,-66.88,1117,
+Carrizal=10.35,-66.99,1313,
+Catia La Mar=10.56,-67.03,697,
+Caucagüita=10.48,-66.74,707,
+Chacao=10.50,-66.85,894,
+Charallave=10.24,-66.86,307,
+Cúa=10.17,-66.9,254,
+El Cafetal=10.43,-66.83,1204,
+El Hatillo=10.44,-66.82,1113,
+Guarenas=10.47,-66.62,361,
+Guatire=10.47,-66.53,329,
+La Dolorita=10.48,-66.78,0,
+Los Dos Caminos=10.52,-66.84,1408,
+Los Teques=10.42,-67.02,1116,
+Ocumare del Tuy=10.12,-66.78,197,
+Petare=10.52,-66.83,1466,
+San Antonio de los Altos=10.39,-66.95,1397,
+Santa Teresa=10.23,-66.66,126,
+{Monagas}{1}
+Maturín=9.75,-63.17,68,
+{Mérida}{3}
+Ejido=8.56,-71.23,1378,
+El Vigía=8.63,-71.65,86,
+Mérida=8.40,-71.13,2776,
+{Nueva Esparta}{2}
+La Asunción=11.03,-63.87,70,
+Porlamar=10.96,-63.85,7,
+{Portuguesa}{4}
+Acarigua=9.58,-69.2,187,
+Araure=9.59,-69.22,212,
+Guanare=9.05,-69.75,224,
+Villa Bruzual=9.34,-69.13,137,
+{Sucre}{2}
+Carúpano=10.67,-63.23,19,
+Cumaná=10.45,-64.18,5,
+{Trujillo}{2}
+Trujillo=9.38,-70.44,1030,
+Valera=9.32,-70.62,587,
+{Táchira}{6}
+La Fría=8.22,-72.25,116,
+Rubio=7.71,-72.36,822,
+San Antonio del Táchira=7.82,-72.45,413,
+San Cristóbal=7.77,-72.25,826,
+San Juan de Colón=8.04,-72.26,772,
+Táriba=7.82,-72.24,989,
+{Vargas}{3}
+Caraballeda=10.62,-66.84,0,
+La Guaira=10.61,-66.89,6,
+Maiquetía=10.60,-66.97,30,
+{Yaracuy}{4}
+Chivacoa=10.16,-68.91,325,
+Nirgua=10.16,-68.57,805,
+San Felipe=10.34,-68.75,331,
+Yaritagua=10.08,-69.13,377,
+{Zulia}{9}
+Bachaquero=9.93,-71.14,0,
+Cabimas=10.43,-71.45,-7,
+Ciudad Ojeda=10.26,-71.34,7,
+Lagunillas=10.16,-71.26,-5,
+Machiques=10.07,-72.55,91,
+Maracaibo=10.73,-71.66,9,
+San Carlos del Zulia=9.01,-71.92,5,
+Santa Rita=10.53,-71.51,11,
+Villa del Rosario=10.33,-72.31,89,

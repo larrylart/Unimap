@@ -1,0 +1,8 @@
+{al-ŽAyûn}{1}
+al-ŽAyûn=27.16,-13.2,40,
+{as-Samârah}{1}
+as-Samârah=26.74,-11.67,195,
+{Bû Jaydûr}{1}
+Bû Jaydûr=26.13,-14.48,31,
+{Wad-adh-Dhahab}{1}
+ad-Dakhlah=23.71,-15.93,7,

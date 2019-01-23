@@ -1,0 +1,42 @@
+{al-Khalîl}{5}
+ad-Dâhirîyah=31.43,34.96,588,
+al-Khalîl=31.54,35.09,916,
+Dûrâ=31.52,35.04,743,
+Halhul=31.60,35.11,946,
+Yattah=31.46,35.12,825,
+{al-Quds}{2}
+al-Quds=31.78,35.24,706,
+MaŽale Adummim=31.76,35.30,448,
+{Arîhâ}{1}
+Arîhâ=31.85,35.43,-168,
+{Bayt Lahm}{2}
+Bayt Lahm=31.71,35.21,692,
+Bayt Sâhur=31.69,35.23,604,
+{Dayr-al-Balah}{3}
+al-Burayj=31.43,34.40,40,
+al-Insayrât=31.46,34.38,7,
+Dayr-al-Balah=31.42,34.35,14,
+{Ghazzah}{1}
+Ghazzah=31.53,34.44,14,
+{Ghazzah ash-Shamâliyah}{3}
+Bayt Hânûn=31.55,35.05,786,
+Bayt Lâhiyah=31.56,34.50,16,
+Jabâliyah=31.53,34.29,0,
+{Janin}{2}
+Janin=32.47,35.30,121,
+Qabâtiyah=32.43,35.26,253,
+{Khân Yûnis}{2}
+Banî Suhaylah=31.34,34.32,73,
+Khân Yûnis=31.35,34.29,53,
+{Nâbulus}{1}
+Nâbulus=32.23,35.26,694,
+{Qalqîlyah}{1}
+Qalqîlyah=32.20,34.97,52,
+{Rafah}{1}
+Rafah=31.29,34.25,65,
+{Râm Allâh wal-Bîrah}{3}
+al-Bîrah=31.91,35.21,882,
+ar-Râm=31.85,35.24,708,
+Râm Allâh=31.90,35.20,838,
+{Tûlkarm}{1}
+Tûlkarm=32.32,35.03,75,

@@ -1,0 +1,30 @@
+{Balaka}{1}
+Balaka=-14.98,34.96,630,
+{Blantyre City}{1}
+Blantyre=-15.79,34.99,999,
+{Dedza}{1}
+Dedza=-14.36,34.33,1776,
+{Karonga}{1}
+Karonga=-9.94,33.95,476,
+{Kasungu}{1}
+Kasungu=-13.02,33.48,1044,
+{Lilongwe City}{1}
+Lilongwe=-13.97,33.80,1026,
+{Machinga}{1}
+Liwonde=-15.05,35.22,472,
+{Mangochi}{1}
+Mangochi=-14.46,35.27,476,
+{Mzimba}{1}
+Mzimba=-11.89,33.60,1299,
+{Mzuzu City}{1}
+Mzuzu=-11.46,34.02,1269,
+{Nkhotakota}{1}
+Nkhotakota=-12.91,34.30,476,
+{Nsanje}{1}
+Nsanje=-16.91,35.27,43,
+{Rumphi}{1}
+Rumphi=-11.01,33.87,1201,
+{Salima}{1}
+Salima=-13.77,34.43,508,
+{Zomba Municipality}{1}
+Zomba=-15.39,35.31,966,

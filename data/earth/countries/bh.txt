@@ -1,0 +1,12 @@
+{al-Manâmah}{1}
+al-Manâmah=26.21,50.58,5,
+{al-Muharraq}{1}
+al-Muharraq=26.26,50.62,6,
+{ar-RifaŽa}{1}
+ar-RifaŽa=26.12,50.54,53,
+{Jidd Hafs}{1}
+Jidd Hafs=26.22,50.53,12,
+{Sitrah}{1}
+Sitrah=26.15,50.63,0,
+{ŽÎsâ}{1}
+ŽÎsâ=26.17,50.55,10,

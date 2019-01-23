@@ -1,0 +1,17 @@
+{Butare}{2}
+Butare=-2.59,29.73,1683,
+Nyanza=-2.35,29.74,1774,
+{Byumba}{1}
+Byumba=-1.58,30.06,2112,
+{Cyangugu}{1}
+Cyangugu=-2.48,28.90,1489,
+{Gisenyi}{1}
+Gisenyi=-1.69,29.26,1511,
+{Gitarama}{1}
+Gitarama=-2.07,29.76,1831,
+{Kibungo}{1}
+Kibungo=-2.16,30.55,1479,
+{Kigali-ngali}{1}
+Kigali=-1.94,30.06,1480,
+{Ruhengeri}{1}
+Ruhengeri=-1.5,29.63,1857,

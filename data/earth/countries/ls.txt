@@ -1,0 +1,13 @@
+{Berea}{1}
+Teyateyaneng=-29.15,27.74,1702,
+{Leribe}{2}
+Hlotse=-28.85,28.06,1617,
+Maputsoa=-28.88,27.90,1560,
+{Mafeteng}{1}
+Mafeteng=-29.83,27.25,1687,
+{Maseru}{1}
+Maseru=-29.31,27.49,1514,
+{Mohale's Hoek}{1}
+Mohale's Hoek=-30.16,27.48,1738,
+{Quthing}{1}
+Quthing=-30.39,27.72,1570,

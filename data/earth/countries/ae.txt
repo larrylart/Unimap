@@ -1,0 +1,16 @@
+{Abû Zabi}{2}
+Abû Zabi=24.48,54.37,14,
+al-ŽAyn=24.23,55.74,272,
+{al-Fujayrah}{2}
+al-Fujayrah=25.13,56.34,9,
+Khawr Fakkân=25.34,56.36,60,
+{ash-Shâriqah}{1}
+ash-Shâriqah=25.37,55.41,5,
+{Dubayy}{1}
+Dubayy=25.27,55.33,1,
+{Ras al-Khaymah}{1}
+Râ's al-Khaymah=25.79,55.94,5,
+{Umm al Qaywayn}{1}
+Umm al-Qaywayn=25.59,55.56,0,
+{ŽAjman}{1}
+ŽAjmân=25.42,55.43,0,

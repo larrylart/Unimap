@@ -1,0 +1,114 @@
+{al-Bahr-al-Ahmar}{3}
+Bûr Sûdân=19.63,37.12,89,
+Sawâkîn=19.10,37.33,4,
+Tawkar=18.43,37.72,25,
+{al-Buhayrât}{2}
+Rumbîk=6.81,29.69,424,
+Yirôl=6.55,30.49,437,
+{al-Jazîrah}{9}
+al-Hawsh=14.12,33.57,417,
+al-Hilâlîyah=14.94,33.23,394,
+al-Husayhisah=14.73,33.30,403,
+al-Kâmilin=15.08,33.18,399,
+al-Manâqil=14.25,32.98,412,
+Maharaybah=15.06,32.93,396,
+RufâŽa=14.76,33.36,392,
+Wad Madanî=14.40,33.51,412,
+âl-Huda=14.55,32.92,398,
+{al-Khartûm}{4}
+al-Khartûm=15.58,32.52,385,
+al-Khartûm Bahrî=15.64,32.52,383,
+Umm Dawm=15.56,32.58,386,
+Umm Durmân=15.65,32.48,393,
+{al-Qadârif}{4}
+al-Hawâtah=13.45,34.62,441,
+al-Qadârif=14.04,35.38,596,
+Doka=13.52,35.77,664,
+Shuwak=14.40,35.87,495,
+{an-Nîl-al-Abyad}{9}
+ad-Duwaym=13.99,32.30,387,
+al-Jazîrah=13.20,32.64,388,
+al-Kawah=13.76,32.51,392,
+al-Qutaynah=14.86,32.36,385,
+Kinânah=14.03,33.17,436,
+Kûstî=13.17,32.66,388,
+Rabak=13.18,32.74,398,
+Shabashah=14.14,32.23,381,
+Tandalti=13.01,31.86,423,
+{an-Nîl-al-Azraq}{2}
+ad-Damazîn=11.77,34.35,486,
+ar-Rusayris=11.86,34.37,469,
+{ash-Shamâlîyah}{6}
+ad-Dabbah=18.05,30.95,243,
+Dunqulah=19.17,30.47,227,
+Kuraymah=18.57,31.86,266,
+Kûrtî=18.11,31.57,248,
+Tangasi-ar-RuŽays=18.39,31.79,253,
+Wâdî Halfâ=21.79,31.37,178,
+{AŽâlî-an-Nîl}{4}
+ar-Rank=11.76,32.88,398,
+Kodok=9.91,32.12,396,
+Malakâl=9.53,31.65,402,
+Nâsir=8.62,33.04,402,
+{Bahr-al-Jabal}{2}
+Jûbâ=4.85,31.60,499,
+Yei=4.09,30.68,830,
+{Gharb Bahr-al-Ghazâl}{1}
+Wâw=7.70,27.99,444,
+{Gharb Dârfûr}{2}
+al-Junaynah=13.45,22.44,802,
+Zalinqay=12.90,23.47,907,
+{Gharb Kurdufân}{4}
+Abû Zabad=12.35,29.24,570,
+al-Mijlad=11.04,27.74,432,
+an-Nuhûd=12.69,28.42,569,
+Babanûsah=11.33,27.80,451,
+{Gharb-al-IstiwâŽîyah}{2}
+Nzara=4.64,28.25,635,
+Yambio=4.58,28.39,662,
+{Janûb Dârfûr}{3}
+ad-DuŽayn=11.43,26.16,473,
+Niyâlâ=12.06,24.89,662,
+Rahad-al-Bardî=11.30,23.89,589,
+{Janûb Kurdufân}{5}
+Abû Jubayhah=11.45,31.23,573,
+ad-Dillinj=12.04,29.66,685,
+al-ŽAbbâsîyah=12.17,31.30,643,
+Kâduqlî=11.01,29.70,513,
+Talawdî=10.63,30.39,480,
+{Junqalî}{1}
+Bûr=6.23,31.56,431,
+{Kassalâ}{4}
+Halfa al-Jadîdah=15.32,35.58,452,
+Kassalâ=15.46,36.39,508,
+Khashm-al-Qirbah=14.97,35.91,453,
+Wagar=16.15,36.20,414,
+{Nahr-an-Nil}{5}
+ad-Dâmîr=17.59,33.96,355,
+al-Bawga=18.28,33.92,340,
+Barbar=18.02,33.99,349,
+Shandî=16.68,33.42,364,
+ŽAtbarah=17.71,33.98,351,
+{Shamâl Bahr-al-Ghazâl}{2}
+Gogrial=8.53,28.11,418,
+Uwayl=8.78,27.39,422,
+{Shamâl Dârfûr}{1}
+al-Fâshir=13.63,25.35,748,
+{Shamâl Kurdufân}{4}
+al-Ubayyid=13.19,30.22,574,
+ar-Rahad=12.73,30.63,498,
+Bârah=13.70,30.37,481,
+Umm Ruwâbah=12.91,31.20,458,
+{Sharq-al-IstiwâŽîyah}{1}
+Torit=4.41,32.57,613,
+{Sinnâr}{7}
+ad-Dindar=13.20,34.16,437,
+as-Sûkî=13.32,33.87,428,
+Karkawj=12.93,34.02,431,
+Mayurnu=13.42,33.65,430,
+Sinjah=13.16,33.93,437,
+Sinnâr=13.55,33.60,428,
+Umm Shawkah=13.31,33.77,430,
+{Warab}{2}
+Mashra ar-Raqq=8.42,29.25,391,
+Warab=8.18,28.72,405,

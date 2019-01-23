@@ -1,0 +1,20 @@
+{Bouenza}{1}
+Nkayi=-4.18,13.28,173,
+{Brazzaville}{1}
+Brazzaville=-4.25,15.26,314,
+{Cuvette}{1}
+Owando=-0.48,15.92,320,
+{Kouilou}{2}
+Loandjili=-4.75,11.86,11,
+Pointe Noire=-4.77,11.87,7,
+{Lékoumou}{1}
+Sibiti=-3.69,13.35,503,
+{Niari}{2}
+Loubomo=-4.18,12.67,378,
+Mossendjo=-2.94,12.72,471,
+{Plateaux}{1}
+Djambala=-2.54,14.75,797,
+{Pool}{1}
+Kinkala=-4.35,14.76,453,
+{Sangha}{1}
+Ouesso=1.61,16.05,347,
