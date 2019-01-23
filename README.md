@@ -1,10 +1,8 @@
 
 <center>
 <h1><font color="#ff0011">uni</font><font color="#0000ff">Map<br></h1>
-<h3>(version 0.0.1.pre-alpha.4)</h3>
-
+<h3>(version 0.0.4.pre-alpha)</h3>
 <br><br>
-
 &nbsp;&nbsp;&nbsp;<b>UniMap</b> is a free/opensource application which I mainly developed to do the plate-solving (automated detection and sky catalog matching) for astrophotography -
 <a href="find_star.html">see how detection works</a>. Additionally, I implemented a wide range of features like plotting the asteroids path, artificial Earth satellites
 passing through, integrated telescope and digital/video camera control, online database/interface to work as a colaboration tool for plate solutions -
