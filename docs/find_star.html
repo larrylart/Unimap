@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
@@ -8,23 +7,28 @@
 <meta name="GENERATOR" content="Larry created this with the vi/joe and notepad editor" >
 <meta name="Author" content="Larry O." >
 <meta name="revisit-after" content="3 days">
-<meta name="date" content="2010-02-02">
+<meta name="date" content="2011-09-04">
 <meta name="robots" content="INDEX,FOLLOW">
 <meta name="copyright" content="Larry Lart">
 <meta name="Audience" content="General">
+<link rel='stylesheet' href='css/styles.css' type='text/css' media='screen'>
+<script type='text/javascript' language='javascript' src='/google_track.js'></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 </head>
 
 <body>
 
 <center>
-<font size=6><b><B>Unimap :: Detect & Match Preview</B></b></font><br>
-<font size=3></font>
-
+<?php
+	require_once("lib/page_func.php");
+	CreatePageHeader( 'unimap', 'features', 'Features_Find_Stars', 'How to find stars' );
+?>
+</center>
 <br><br>
 
-<table border=0 width=90%>
+<table border=0 width=90%  align=center>
 
-<tr><td  align=center>
+<tr><td  align=center><font face="Comic Sans MS">
 For the basic detection/matching all you have to do is load your image, select the desired catalogs and do detect/match as you can see bellow.
 <br>
 </td></tr>
@@ -68,31 +72,32 @@ For the basic detection/matching all you have to do is load your image, select t
 <tr><td align=center>
 <br><br>You can zoom drag the image to your point of interest<br>
 <a name=""><img src="new/match_step_5.jpg" alt="You can zoom drag the image to your point of interest"></a>
-<br><br>
+<br><br><br>
 </td></tr>
 
 <tr><td align=center bgcolor=#ffff00>
 <font size=5><b>MATCHING USING A HINT</b></font><br>
 </td></tr>
 
-<tr><td>
+<tr><td><br>
 However, if your photo has been shot at a higher focal length, you can speed up the matching process by setting an image hint, like the name of any well known object in the photo and specify the instruments setup used. The software comes with a database with specifications for hundreds of cameras and telescopes to help you with that.
-<br><br>
+<br><br><br>
 </td></tr>
 
 <tr><td align=center>
+Set image hint (position/instruments)<br>
 <a name="hint"><img src="new/hint.jpg" alt="Set image hint (position/instruments)"></a><br>
-Set image hint (position/instruments)<br><br>
+<br>
 </td></tr>
 
 <tr><td align=center>
-<img src="new/hint_camera.jpg" alt="Select your camera"><br><br>
 Select your camera<br>
+<img src="new/hint_camera.jpg" alt="Select your camera"><br><br>
 </td></tr>
 
 <tr><td align=center>
+Select your lens system (telescope/camera lens/focal reducer/etc)<br>
 <img src="new/hint_lens.jpg" alt="Select your lens system (telescope/camera lens/focal reducer/etc)"><br>
-Select your lens system (telescope/camera lens/focal reducer/etc)
 </td></tr>
 
 
@@ -135,7 +140,7 @@ Artificial Eart Satellites (ISS) detection<br>
 <tr><td align=center>
 <br><br>
 Other samples of astrophotography plate-solving:<br><br>
-<li><a href="low_q_solved.html">Solving low quality images</a></li>
+<li><a href="plate_solve.html">Solving low quality images</a></li>
 <br>
 </td></tr>
 
@@ -145,20 +150,13 @@ Other samples of astrophotography plate-solving:<br><br>
 <br>
 
 <br><center>
+<font face="courier" size=2>
 <a href="http://larryo.org/index.html">Main</a> ->
 <a href="http://larryo.org/work/index.html">Work</a> ->
 <a href="http://larryo.org/work/information/index.html">Information</a> ->
 <a href="http://larryo.org/work/information/unimap/index.html">Unimap</a>
+</font>
 </center><br>
-
-
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-1353569-1";
-urchinTracker();
-</script>
-
 
 </body>
 </html>

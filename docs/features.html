@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<title>UniMap - Features: astrometry, camera/telescope control</title>
+<meta name="keywords" content="unimap, astrometry, identification, astrophotography, dso, astronomy, discovery, universe, galaxy, nebula, star, planet, asteroid, sao, usnob, satellite, stacking, 2mass, telescope, meade, celestron, x-ray, gamma, supernova, exo-planet, canon, cluster, focuser, catalog, space, sun" >
+<meta name="description" content="UniMap - features: plate-solving, astrometry, camera/telescope control, image processing, stacking, tagging, online collaboration, etc." >
+<meta name="GENERATOR" content="Larry created this with the vi/joe and notepad editor" >
+<meta name="Author" content="Larry O." >
+<meta name="revisit-after" content="3 days">
+<meta name="date" content="2011-09-04">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="copyright" content="Larry Lart">
+<meta name="Audience" content="General">
+<link rel='stylesheet' href='css/styles.css' type='text/css' media='screen'>
+<script type='text/javascript' language='javascript' src='/google_track.js'></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+</head>
+
+<body>
+
+<center>
+<?php
+	require_once("lib/page_func.php");
+	CreatePageHeader( 'unimap', 'features', 'Features', 'features' );
+?>
+</center>
+<br><br>
+
+<table border=0 width=90%>
+
+<tr><td><font face="Comic Sans MS">
+<ul>
+<li> <b>IMAGE DETECTION/ANALYSIS/PROCESSING</b><br><br>
+
+<ul>
+<li><a href="find_star.html">automatic detection</a> of stars using several <a href="star_catalog.html">catalogs: SAO, HIPPARCOS, TYCHO-2, USNO B1.0, NOMAD, 2MASS, GSC</a></li>
+<li>automatic image mapping of DSO by Messier, NGC/IC, HYPERLEDA, UGC, MGC</li>
+<li>automatic mapping of radio sources, xray/gamma sources, supernovas, extra-solar planets, asteroids, comets and artificial earth satellites</li>
+<li><a href="sky_object_info.html">on click details</a> (catalog info, measurements, spectrum, note and citations)  for detected stars and galaxies. Data is mostly fetched from online source like Centre de Données astronomiques de Strasbourg, United States Naval Observatory Flagstaff Station , Centre de Recherche Astrophysique de Lyon, The Extrasolar Planets Encyclopaedia, NASA Orbital Information, NED - NASA/IPAC Extragalactic Database .. etc.</li>
+<li><a href="sky_object_info.html">access to imaging</a> from various surveys(DSS, etc)</li>
+<li><a href="index.html#maincnstl">draw constellations</a> lines+artwork for several cultures( Western, Chinese, Norse, Navajo, etc)</li>
+<li>in image object/source search tool</li>
+<li><a href="star_distance.html">Astronomical Distances Measurement Tool</a> - measure distances in the sky between stars and galaxies</li>
+<li><a href="index.html#maingrd">equatorial grid</a> overlay</li>
+<li>2D image distortion grid (test)</li>
+<li>3D image distortion</li>
+<li><a href="3d_color_view.html">3D image color graph</a></li>
+<li>image processing(color/filters)</li>
+<li><a href="tag_images.html">Image tagging</a> with automatic EXIF data extraction(if available), position, target details, equipment used, weather conditions and text/record audio notes</li>
+<li>Can open/save images in any of the formats: FITS, JPEG, TGA, BMP, GIF, TGA, TIFF, PSD, and a number of raw formats from digital cameras such as Canon, Nikon, Pentax, FujiFilm, Minolta, Olympus.</li>
+<li>can print images with or without annotations</li>
+<li>can <a href="unimap_online.html">upload/download/browse images and analysis data</a> associated to an online collaboration site</li>
+<li><a href="config_main.html">customize the appearance</a> (objects marks/units/lines/paths/etc)</li>
+
+</ul></ul>
+</td></tr>
+
+
+<tr><td><font face="Comic Sans MS">
+<ul>
+<li> <b>IMAGE SEQUENCE ANALYSIS/PROCESSING</b><br><br>
+
+<ul>
+<li><a href="stack_images.html">Image registration/stacking</a></li>
+<li>automatic discovery of unknown objects</li>
+<li><a href="discovery.html">automatic path discovery of moving objects</a> (test)</li>
+<li>group info tagging</li>
+
+</ul></ul>
+</td></tr>
+
+<tr><td><font face="Comic Sans MS">
+<ul>
+<li> <b><a href="telescope_control.html">INSTRUMENTS CONTROL PANEL</a></b><br><br>
+<ul>
+<li>works with <a href="telescope_control.html">multiple cameras</a> simultaneous</li>
+<li>most digital and web cameras are supported however only Canon Eos is fully implemented as per their SDK.</li>
+<li><a href="telescope_control.html">telescope and focus control.</a> Does goto to any of the available catalog targets, tracking, and guiding. It works with ascom as well as a full implementation of the communication specification for meade and Celestron</li>
+<li><a href="telescope_control.html">realtime graphs</a>: image histogram, weather conditions and focus</li>
+</ul></ul>
+</td></tr>
+
+<tr><td><font face="Comic Sans MS">
+<ul>
+<li> <b>OTHER TOOLS</b><br><br>
+<ul>
+<li><a href="observer.html">Observer profile</a>: location(manually,geoip,gps), hardware setup, sites</li>
+<li><a href="weather_sky.html">Environment/weather monitoring tools</a>: satellite imaging, forecast, seeing, light pollution map.</li>
+<li><a href="astronomical_observatories.html">World Wide Astronomical Observatories Interactive Map</a> with photos and details</li>
+<li><a href="sun_view.html">Latest Sun image</a> from SOHO and also XRay and last B-Field Event</li>
+<li>Latest news headlines browser and calendar of ESA and NASA events</li>
+<li>Planner - basic tasks/observation logs</li>
+<li>Various calculators - instruments focal length, field of view, iso, units conversion etc.</li>
+
+</ul></ul>
+</td></tr>
+
+
+</table>
+
+<br>
+
+<br><center>
+<font face="courier" size=2>
+<a href="http://larryo.org/index.html">Main</a> ->
+<a href="http://larryo.org/work/index.html">Work</a> ->
+<a href="http://larryo.org/work/information/index.html">Information</a> ->
+<a href="http://larryo.org/work/information/unimap/index.html">Unimap</a>
+</center><br>
+
+</body>
+</html>

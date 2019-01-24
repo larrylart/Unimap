@@ -1,0 +1,23 @@
+
+/* tables */
+
+table.tdata, td.tdata
+{
+    border-color: #600;
+    border-style: solid;
+}
+
+table.tdata
+{
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td.tdata
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+    background-color: #FFC;
+}
