@@ -1,0 +1,1672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D25E30B1-29BE-46C1-AD09-C824FE7F5004}</ProjectGuid>
+    <RootNamespace>unimap</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Release\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release64\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</EmbedManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\lib\boost_1_53_0;../lib/exiv2-0.20/msvc/include;C:\Lib\eLynx\include;C:\lib\gsoap-2.7\gsoap;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Boost\include;C:\home\work\prj_me\unimap\lib\exiv2-0.20\msvc\include;C:\Lib\eLynx\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../lib;C:\Lib\eLynx\lib\vc9_dll;C:\lib\boost_1_53_0\stage\lib;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">./lib;C:\Lib\eLynx\lib\vc9_dll;C:\Boost\lib\i386;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\lib\boost_1_53_0;../lib\exiv2-0.20\msvc\include;C:\Lib\eLynx\include;C:\lib\gsoap-2.7\gsoap;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Boost\include;C:\home\work\prj_me\unimap\lib\exiv2-0.20\msvc\include;C:\Lib\eLynx\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../lib;C:\lib\boost_1_53_0\stage\lib;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;../lib/canon;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">./lib;C:\Boost\lib\i386;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;$(LibraryPath)</LibraryPath>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\Debug64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\Debug64\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/unimap.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Lib\wxWidgets-2.8.11\include\msvc;C:\Lib\wxWidgets-2.8.11\include;../lib/agg/include;C:\Lib\OpenCV\cv\include;C:\Lib\OpenCV\cxcore\include;C:\Lib\OpenCV\cvaux\include;C:\Lib\OpenCV\otherlibs\highgui;C:\Lib\curl-7.19.6\include;C:\Lib\libgsl\include;C:\Lib\eLynx\include;../lib\expat-2.0.1\lib;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\lib\boost_1_53_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;XML_STATIC;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;wxUSE_UNICODE=1;_UNICODE;wxUSE_GLCANVAS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SmallerTypeCheck>true</SmallerTypeCheck>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x1809</Culture>
+      <AdditionalIncludeDirectories>C:\home\work\prj_me\unimap\lib\_debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/fixed:no  %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libcurld.lib;ws2_32.lib;wldap32.lib;libeay32.lib;ssleay32.lib;libgsl_d.lib;libgslcblas_d.lib;libfftwd.lib;elcd.lib;elid.lib;elmd.lib;vldmt.lib;exiv2d.lib;zlibd.lib;xmpsdkd.lib;wxexpatd.lib;wxmsw28ud_html.lib;wxbase28ud_net.lib;wxmsw28ud_adv.lib;wxmsw28ud_core.lib;wxbase28ud_xml.lib;wxbase28ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxthingsud.lib;wxplotctrlud.lib;cxcore100d.lib;cv100d.lib;libjasperd.lib;highgui100d.lib;opengl32.lib;glu32.lib;wxmsw28ud_gl.lib;../lib/canon/EDSDK.lib;Setupapi.lib;wiaguid.lib;gdiplus.lib;strmbasd.lib;Strmiids.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>.\Debug/unimap.exe</OutputFile>
+      <Version>0.7</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../lib;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\eLynx\bin\vc9_mswd;C:\Lib\eLynx\lib\vc9_dll;C:\Lib\eLynx\lib\vc9_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\lib\boost_1_53_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>.\debug/unimap.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <Profile>false</Profile>
+      <CLRThreadAttribute>DefaultThreadingAttribute</CLRThreadAttribute>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/unimap.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Debug/unimap.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Lib\wxWidgets-2.8.11\include\msvc;C:\Lib\wxWidgets-2.8.11\include;./lib/agg/include;C:\Lib\OpenCV\cv\include;C:\Lib\OpenCV\cxcore\include;C:\Lib\OpenCV\cvaux\include;C:\Lib\OpenCV\otherlibs\highgui;C:\Lib\curl-7.19.6\include;C:\Lib\libgsl\include;C:\Lib\eLynx\include;C:\home\work\prj_me\unimap\lib\expat-2.0.1\lib;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\Boost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;_DEBUG;_WINDOWS;XML_STATIC;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;wxUSE_UNICODE=1;_UNICODE;wxUSE_GLCANVAS=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerListingLocation>.\Debug64/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug64/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug64/</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles>false</GenerateXMLDocumentationFiles>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x1809</Culture>
+      <AdditionalIncludeDirectories>C:\home\work\prj_me\unimap\lib\_debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/fixed:no  %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>libcurld.lib;ws2_32.lib;wldap32.lib;libeay32.lib;ssleay32.lib;libgsl_d.lib;libgslcblas_d.lib;libfftwd.lib;elcd.lib;elid.lib;elmd.lib;fits.lib;vldmt.lib;exiv2d.lib;zlibd.lib;xmpsdkd.lib;wxexpatd.lib;wxmsw28ud_html.lib;wxbase28ud_net.lib;wxmsw28ud_adv.lib;wxmsw28ud_core.lib;wxbase28ud_xml.lib;wxbase28ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxthingsud.lib;wxplotctrlud.lib;cxcore100d.lib;cv100d.lib;libjasperd.lib;highgui100d.lib;opengl32.lib;glu32.lib;wxmsw28ud_gl.lib;lib/canon/EDSDK.lib;Setupapi.lib;wiaguid.lib;gdiplus.lib;strmbasd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ShowProgress>NotSet</ShowProgress>
+      <OutputFile>.\Debug64/unimap.exe</OutputFile>
+      <Version>0.7</Version>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>./lib;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\home\work\prj_me\unimap\lib;C:\Lib\eLynx\bin\vc9_mswd;C:\Lib\eLynx\lib\vc9_dll;C:\Lib\eLynx\lib\vc9_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;C:\Program Files %28x86%29\Common Files\ASCOM\Interface;C:\Boost\lib\i386;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <ProgramDatabaseFile>.\debug64/unimap.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <MapExports>false</MapExports>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <Profile>false</Profile>
+      <CLRThreadAttribute>DefaultThreadingAttribute</CLRThreadAttribute>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/unimap.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/unimap.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Lib\OpenCV\cv\include;C:\Lib\OpenCV\cxcore\include;C:\Lib\OpenCV\cvaux\include;C:\Lib\OpenCV\otherlibs\highgui;C:\Lib\wxWidgets-2.8.11\include\msvc;C:\Lib\wxWidgets-2.8.11\include;../lib/agg/include;C:\Lib\curl-7.19.6\include;C:\Lib\libgsl\include;C:\Lib\eLynx\include;C:\lib\boost_1_53_0;../lib/expat-2.0.1/lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;XML_STATIC;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;__WXMSW__;wxUSE_UNICODE=1;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeaderOutputFile>.\Release/unimap.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x1809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;ws2_32.lib;wldap32.lib;libeay32.lib;ssleay32.lib;libgsl.lib;libgslcblas.lib;libfftw.lib;elc.lib;elm.lib;eli.lib;exiv2.lib;xmpsdk.lib;zlib.lib;wxexpat.lib;wxmsw28u_html.lib;wxbase28u_net.lib;wxmsw28u_adv.lib;wxmsw28u_core.lib;wxbase28u_xml.lib;wxbase28u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxthingsu.lib;wxplotctrlu.lib;cxcore100.lib;cv100.lib;libjpeg.lib;libjasper.lib;highgui100.lib;opengl32.lib;glu32.lib;wxmsw28u_gl.lib;../lib/canon/EDSDK.lib;Setupapi.lib;wiaguid.lib;gdiplus.lib;strmbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/unimap.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../lib;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;C:\lib\boost_1_53_0\stage\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/unimap.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Manifest>
+      <AdditionalOptions>
+ %(AdditionalOptions)</AdditionalOptions>
+    </Manifest>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/unimap.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TypeLibraryName>.\Release/unimap.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>C:\Lib\OpenCV\cv\include;C:\Lib\OpenCV\cxcore\include;C:\Lib\OpenCV\cvaux\include;C:\Lib\OpenCV\otherlibs\highgui;C:\Lib\wxWidgets-2.8.11\include\msvc;C:\Lib\wxWidgets-2.8.11\include;./lib/agg/include;C:\Lib\curl-7.19.6\include;C:\Lib\libgsl\include;C:\Lib\eLynx\include;C:\Lib\Boost\include\boost-1_37;C:\home\work\prj_me\unimap\lib\expat-2.0.1\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN64;NDEBUG;_WINDOWS;XML_STATIC;_CRT_SECURE_NO_WARNINGS;CURL_STATICLIB;__WXMSW__;wxUSE_UNICODE=1;_UNICODE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>false</OpenMPSupport>
+      <PrecompiledHeaderOutputFile>.\Release/unimap.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release64/</AssemblerListingLocation>
+      <ObjectFileName>.\Release64/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release64/</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x1809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;ws2_32.lib;wldap32.lib;libeay32.lib;ssleay32.lib;libgsl.lib;libgslcblas.lib;libfftw.lib;elc.lib;elm.lib;eli.lib;exiv2.lib;xmpsdk.lib;zlib.lib;wxexpat.lib;wxmsw28u_html.lib;wxbase28u_net.lib;wxmsw28u_adv.lib;wxmsw28u_core.lib;wxbase28u_xml.lib;wxbase28u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxthingsu.lib;wxplotctrlu.lib;cxcore100.lib;cv100.lib;libjpeg.lib;libjasper.lib;highgui100.lib;opengl32.lib;glu32.lib;wxmsw28u_gl.lib;lib/canon/EDSDK.lib;Setupapi.lib;wiaguid.lib;gdiplus.lib;strmbase.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release64/unimap.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>./lib;C:\Lib\wxWidgets-2.8.11\lib\vc_lib;C:\Lib\curl-7.19.6\lib;C:\Lib\libgsl\lib;C:\Lib\openssl-0.9.8k\openssl-0.9.8k\out32;C:\Lib\OpenCV\binlib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release64/unimap.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <LargeAddressAware>true</LargeAddressAware>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <SupportUnloadOfDelayLoadedDLL>true</SupportUnloadOfDelayLoadedDLL>
+    </Link>
+    <Manifest>
+      <AdditionalOptions>
+ %(AdditionalOptions)</AdditionalOptions>
+    </Manifest>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/unimap.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="../src/config\config.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/config\detectconfig.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/db\unimap_db.cpp" />
+    <ClCompile Include="../src/image\format\cfitsio\buffers.c" />
+    <ClCompile Include="../src/image\format\cfitsio\cfileio.c" />
+    <ClCompile Include="../src/image\format\cfitsio\checksum.c" />
+    <ClCompile Include="../src/image\format\cfitsio\compress.c" />
+    <ClCompile Include="../src/image\format\cfitsio\drvrfile.c" />
+    <ClCompile Include="../src/image\format\cfitsio\drvrgsiftp.c" />
+    <ClCompile Include="../src/image\format\cfitsio\drvrmem.c" />
+    <ClCompile Include="../src/image\format\cfitsio\drvrnet.c" />
+    <ClCompile Include="../src/image\format\cfitsio\drvrsmem.c" />
+    <ClCompile Include="../src/image\format\cfitsio\editcol.c" />
+    <ClCompile Include="../src/image\format\cfitsio\edithdu.c" />
+    <ClCompile Include="../src/image\format\cfitsio\eval_f.c" />
+    <ClCompile Include="../src/image\format\cfitsio\eval_l.c" />
+    <ClCompile Include="../src/image\format\cfitsio\eval_y.c" />
+    <ClCompile Include="../src/image\format\cfitsio\f77_wrap1.c" />
+    <ClCompile Include="../src/image\format\cfitsio\f77_wrap2.c" />
+    <ClCompile Include="../src/image\format\cfitsio\f77_wrap3.c" />
+    <ClCompile Include="../src/image\format\cfitsio\f77_wrap4.c" />
+    <ClCompile Include="../src/image\format\cfitsio\fitscopy.c" />
+    <ClCompile Include="../src/image\format\cfitsio\fitscore.c" />
+    <ClCompile Include="../src/image\format\cfitsio\fits_hcompress.c" />
+    <ClCompile Include="../src/image\format\cfitsio\fits_hdecompress.c" />
+    <ClCompile Include="../src/image\format\cfitsio\fpackutil.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcol.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcolb.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcold.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcole.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcoli.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcolj.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcolk.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcoll.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcols.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcolsb.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcolui.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcoluj.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getcoluk.c" />
+    <ClCompile Include="../src/image\format\cfitsio\getkey.c" />
+    <ClCompile Include="../src/image\format\cfitsio\group.c" />
+    <ClCompile Include="../src/image\format\cfitsio\grparser.c" />
+    <ClCompile Include="../src/image\format\cfitsio\histo.c" />
+    <ClCompile Include="../src/image\format\cfitsio\imcompress.c" />
+    <ClCompile Include="../src/image\format\cfitsio\iraffits.c" />
+    <ClCompile Include="../src/image\format\cfitsio\modkey.c" />
+    <ClCompile Include="../src/image\format\cfitsio\pliocomp.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcol.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcolb.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcold.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcole.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcoli.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcolj.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcolk.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcoll.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcols.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcolsb.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcolu.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcolui.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcoluj.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putcoluk.c" />
+    <ClCompile Include="../src/image\format\cfitsio\putkey.c" />
+    <ClCompile Include="../src/image\format\cfitsio\quantize.c" />
+    <ClCompile Include="../src/image\format\cfitsio\region.c" />
+    <ClCompile Include="../src/image\format\cfitsio\ricecomp.c" />
+    <ClCompile Include="../src/image\format\cfitsio\scalnull.c" />
+    <ClCompile Include="../src/image\format\cfitsio\swapproc.c" />
+    <ClCompile Include="../src/image\format\cfitsio\wcssub.c" />
+    <ClCompile Include="../src/image\format\cfitsio\wcsutil.c" />
+    <ClCompile Include="../src/image\format\image_fits.cpp" />
+    <ClCompile Include="../../lib\gsoap-2.7\gsoap\stdsoap2.cpp" />
+    <ClCompile Include="../../lib\sqlite\sqlite3.c" />
+    <ClCompile Include="../src/proc\detectfilter.cpp" />
+    <ClCompile Include="../src/land\earth.cpp" />
+    <ClCompile Include="../src/service\soapC.cpp" />
+    <ClCompile Include="../src/service\soapUnimapSoapXmlBindingService.cpp" />
+    <ClCompile Include="../src/unimap_service.cpp" />
+    <ClCompile Include="../src/util\func.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/land\geoip.cpp" />
+    <ClCompile Include="../src/util\geometry.cpp" />
+    <ClCompile Include="../src/logger\logger.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/config\mainconfig.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/observer\observatories.cpp" />
+    <ClCompile Include="../src/observer\observer.cpp" />
+    <ClCompile Include="../src/observer\observer_hardware.cpp" />
+    <ClCompile Include="../src/observer\observer_site.cpp" />
+    <ClCompile Include="../src/proc\sextractor.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/sound\sound_engine.cpp" />
+    <ClCompile Include="../src/sound\sound_player.cpp" />
+    <ClCompile Include="../src/stack\stack_func.cpp" />
+    <ClCompile Include="../src/match\starmatch.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/sysinfo.cpp" />
+    <ClCompile Include="../src/unimap.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/unimap_worker.cpp" />
+    <ClCompile Include="../src/util\json\jsonreader.cpp" />
+    <ClCompile Include="../src/util\json\jsonval.cpp" />
+    <ClCompile Include="../src/util\json\jsonwriter.cpp" />
+    <ClCompile Include="../src/util\webfunc.cpp" />
+    <ClCompile Include="../src/dataport\winserial.cpp" />
+    <ClCompile Include="../src/util\windows_func.cpp" />
+    <ClCompile Include="../src/worker.cpp" />
+    <ClCompile Include="../src/proc\wcs\tnx.c" />
+    <ClCompile Include="../src/proc\init_static.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_analyse.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_assoc.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_astrom.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_back.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_bpro.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_catout.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_check.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_clean.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_extract.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_field.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_filter.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_flag.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_growth.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_image.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_interpolate.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_manobjlist.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_neurro.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_pc.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_photom.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_plist.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_poly.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_prefs.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_psf.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_readimage.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_refine.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_retina.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_scan.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_som.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_weight.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_winpos.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\sextractor_xml.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitsbody.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitscat.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitscheck.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitscleanup.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitsconv.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitshead.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitskey.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitsmisc.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitsread.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitstab.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitsutil.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/proc\fits\fitswrite.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/match\atpmatch.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/match\misc.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/graphics\spline\Assert.c">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
+    </ClCompile>
+    <ClCompile Include="../src/graphics\spline\intersect.cpp" />
+    <ClCompile Include="../src/graphics\spline\Spline.cpp" />
+    <ClCompile Include="../src/graphics\tps\linalg3d.cpp" />
+    <ClCompile Include="../src/gui\about.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\astro_img_view.cpp" />
+    <ClCompile Include="../src/gui\calc_units_dlg.cpp" />
+    <ClCompile Include="../src/gui\canoneos_setup_dlg.cpp" />
+    <ClCompile Include="../src/gui\catalog_download.cpp" />
+    <ClCompile Include="../src/gui\catalog_view.cpp" />
+    <ClCompile Include="../src/gui\catalogconfig.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\designSkin.cpp" />
+    <ClCompile Include="../src/gui\detectconfigview.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\dist_tool_view.cpp" />
+    <ClCompile Include="../src/gui\dynamic_img_view.cpp" />
+    <ClCompile Include="../src/gui\earth_view.cpp" />
+    <ClCompile Include="../src/gui\file_export_dlg.cpp" />
+    <ClCompile Include="../src/gui\finddlg.cpp" />
+    <ClCompile Include="../src/gui\frame.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\frame_instruments.cpp" />
+    <ClCompile Include="../src/gui\graph_base_view.cpp" />
+    <ClCompile Include="../src/gui\grid_data_view.cpp" />
+    <ClCompile Include="../src/gui\group_add_dlg.cpp" />
+    <ClCompile Include="../src/gui\groupdlg.cpp" />
+    <ClCompile Include="../src/gui\groupproperty.cpp" />
+    <ClCompile Include="../src/gui\groupview.cpp" />
+    <ClCompile Include="../src/gui\hardware_add_dlg.cpp" />
+    <ClCompile Include="../src/gui\hardware_select_dlg.cpp" />
+    <ClCompile Include="../src/gui\HistogramView.cpp" />
+    <ClCompile Include="../src/gui\image3dbase.cpp" />
+    <ClCompile Include="../src/gui\image_notes_dlg.cpp" />
+    <ClCompile Include="../src/gui\image_save_dlg.cpp" />
+    <ClCompile Include="../src/gui\img_view_dlg.cpp" />
+    <ClCompile Include="../src/gui\imgproperty.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\imgview3dcolormap.cpp" />
+    <ClCompile Include="../src/gui\imgview3ddistmap.cpp" />
+    <ClCompile Include="../src/gui\imgview3dspacedist.cpp" />
+    <ClCompile Include="../src/gui\instruments_cfg_dlg.cpp" />
+    <ClCompile Include="../src/gui\light_pollution_dlg.cpp" />
+    <ClCompile Include="../src/gui\location_dialog.cpp" />
+    <ClCompile Include="../src/gui\mainconfigview.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\matchconfig.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\mmMultiButton.cpp" />
+    <ClCompile Include="../src/gui\news_dlg.cpp" />
+    <ClCompile Include="../src/gui\observatories_dlg.cpp" />
+    <ClCompile Include="../src/gui\observer_cfg_dlg.cpp" />
+    <ClCompile Include="../src/gui\online_browse_dlg.cpp" />
+    <ClCompile Include="../src/gui\online_cfg_dlg.cpp" />
+    <ClCompile Include="../src/gui\online_comments_dlg.cpp" />
+    <ClCompile Include="../src/gui\poshintdlg.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\print.cpp" />
+    <ClCompile Include="../src/gui\RadialProfileView.cpp" />
+    <ClCompile Include="../src/gui\simple_common_dlg.cpp" />
+    <ClCompile Include="../src/gui\skyobj_select_dlg.cpp" />
+    <ClCompile Include="../src/gui\slideshow_dlg.cpp" />
+    <ClCompile Include="../src/gui\starviewdlg.cpp" />
+    <ClCompile Include="../src/gui\sun_view_dlg.cpp" />
+    <ClCompile Include="../src/gui\taskbar_icon.cpp" />
+    <ClCompile Include="../src/gui\telescope_setup_dlg.cpp" />
+    <ClCompile Include="../src/gui\tlens_select_dlg.cpp" />
+    <ClCompile Include="../src/gui\upload_custom_dlg.cpp" />
+    <ClCompile Include="../src/gui\user_feedback_dlg.cpp" />
+    <ClCompile Include="../src/gui\view_objects_dlg.cpp" />
+    <ClCompile Include="../src/gui\waitdialog.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/gui\waitdialogmatch.cpp" />
+    <ClCompile Include="../src/gui\waitdialogstack.cpp" />
+    <ClCompile Include="../src/gui\weather_cforecast_dlg.cpp" />
+    <ClCompile Include="../src/gui\weather_satvis_dlg.cpp" />
+    <ClCompile Include="../src/gui\weather_seeing_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\blur_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\colors_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\deconv_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\edge_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\filter_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\gradient_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\process_base_dlg.cpp" />
+    <ClCompile Include="../src/gui\process\sharp_dlg.cpp" />
+    <ClCompile Include="../src/image\astroimage.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/image\baseimage.cpp" />
+    <ClCompile Include="../src/image\digitalimage.cpp" />
+    <ClCompile Include="../src/image\histogram.cpp" />
+    <ClCompile Include="../src/util\image_func.cpp" />
+    <ClCompile Include="../src/image\image_note.cpp" />
+    <ClCompile Include="../src/image\image_shift.cpp" />
+    <ClCompile Include="../src/image\imagechannel.cpp" />
+    <ClCompile Include="../src/image\imagedb.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/image\imagefft.cpp" />
+    <ClCompile Include="../src/image\imagegroup.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="../src/image\imagelayer.cpp" />
+    <ClCompile Include="../src/image\radialprofile.cpp" />
+    <ClCompile Include="../src/image\process\imagecolors.cpp" />
+    <ClCompile Include="../src/math\fitgsl.cpp" />
+    <ClCompile Include="../src/sky\ads_site.cpp" />
+    <ClCompile Include="../src/sky\bibdb.cpp" />
+    <ClCompile Include="../src/sky\catalog.cpp" />
+    <ClCompile Include="../src/sky\catalog_aes.cpp" />
+    <ClCompile Include="../src/sky\catalog_aes_celestrak.cpp" />
+    <ClCompile Include="../src/sky\catalog_asteroids.cpp" />
+    <ClCompile Include="../src/sky\catalog_asteroids_omp.cpp" />
+    <ClCompile Include="../src/sky\catalog_blackholes.cpp" />
+    <ClCompile Include="../src/sky\catalog_blackholes_rxe_agn.cpp" />
+    <ClCompile Include="../src/sky\catalog_blackholes_sdss_dr5.cpp" />
+    <ClCompile Include="../src/sky\catalog_comets.cpp" />
+    <ClCompile Include="../src/sky\catalog_comets_cocom.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_assoc.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_ic.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_messier.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_mgc.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_names.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_ngc.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_pgc.cpp" />
+    <ClCompile Include="../src/sky\catalog_dso_ugc.cpp" />
+    <ClCompile Include="../src/sky\catalog_exoplanets.cpp" />
+    <ClCompile Include="../src/sky\catalog_exoplanets_eu.cpp" />
+    <ClCompile Include="../src/sky\catalog_mstars.cpp" />
+    <ClCompile Include="../src/sky\catalog_mstars_ccdm.cpp" />
+    <ClCompile Include="../src/sky\catalog_mstars_wds.cpp" />
+    <ClCompile Include="../src/sky\catalog_radio.cpp" />
+    <ClCompile Include="../src/sky\catalog_radio_msl.cpp" />
+    <ClCompile Include="../src/sky\catalog_radio_nvss.cpp" />
+    <ClCompile Include="../src/sky\catalog_radio_specfind.cpp" />
+    <ClCompile Include="../src/sky\catalog_radio_vlss.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_2mass.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_assoc.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_gsc.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_hipparcos.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_names.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_nomad.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_sao.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_tycho.cpp" />
+    <ClCompile Include="../src/sky\catalog_stars_unsob.cpp" />
+    <ClCompile Include="../src/sky\catalog_supernovas.cpp" />
+    <ClCompile Include="../src/sky\catalog_supernovas_asc.cpp" />
+    <ClCompile Include="../src/sky\catalog_supernovas_ssc.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma_2xmmi.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma_batse.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma_bepposax.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma_heao.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma_integral.cpp" />
+    <ClCompile Include="../src/sky\catalog_xgamma_rosat.cpp" />
+    <ClCompile Include="../src/sky\celestraksite.cpp" />
+    <ClCompile Include="../src/sky\constellations.cpp" />
+    <ClCompile Include="../src/sky\exoplaneteusite.cpp" />
+    <ClCompile Include="../src/sky\ledasite.cpp" />
+    <ClCompile Include="../src/sky\ned_site.cpp" />
+    <ClCompile Include="../src/sky\nofs_navy_mil.cpp" />
+    <ClCompile Include="../src/sky\nstars_site.cpp" />
+    <ClCompile Include="../src/sky\objdetails.cpp" />
+    <ClCompile Include="../src/sky\simbad.cpp" />
+    <ClCompile Include="../src/sky\sky.cpp" />
+    <ClCompile Include="../src/sky\sky_finder.cpp" />
+    <ClCompile Include="../src/sky\skyview_site.cpp" />
+    <ClCompile Include="../src/sky\solar_orbits.cpp" />
+    <ClCompile Include="../src/sky\solar_planets.cpp" />
+    <ClCompile Include="../src/spectrum\spectrum.cpp" />
+    <ClCompile Include="../src/sky\star.cpp" />
+    <ClCompile Include="../src/sky\sun_fetch.cpp" />
+    <ClCompile Include="../src/sky\unimapsite.cpp" />
+    <ClCompile Include="../src/sky\vizier.cpp">
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Disabled</Optimization>
+      <Optimization Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Disabled</Optimization>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">ProgramDatabase</DebugInformationFormat>
+      <DebugInformationFormat Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ClCompile Include="../src/sky\solar\alt_az.cpp" />
+    <ClCompile Include="../src/sky\solar\astfuncs.cpp" />
+    <ClCompile Include="../src/sky\solar\date.cpp" />
+    <ClCompile Include="../src/sky\solar\delta_t.cpp" />
+    <ClCompile Include="../src/sky\solar\eart2000.cpp" />
+    <ClCompile Include="../src/sky\solar\miscell.cpp" />
+    <ClCompile Include="../src/sky\libastro\aa_hadec.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="../src/sky\libastro\aberration.cpp" />
+    <ClCompile Include="../src/sky\libastro\actan.cpp" />
+    <ClCompile Include="../src/sky\libastro\airmass.cpp" />
+    <ClCompile Include="../src/sky\libastro\anomaly.cpp" />
+    <ClCompile Include="../src/sky\libastro\ap_as.cpp" />
+    <ClCompile Include="../src/sky\libastro\atlas.cpp" />
+    <ClCompile Include="../src/sky\libastro\auxil.cpp" />
+    <ClCompile Include="../src/sky\libastro\bdl.cpp" />
+    <ClCompile Include="../src/sky\libastro\chap95.cpp" />
+    <ClCompile Include="../src/sky\libastro\chap95_data.cpp" />
+    <ClCompile Include="../src/sky\libastro\circum.cpp" />
+    <ClCompile Include="../src/sky\libastro\comet.cpp" />
+    <ClCompile Include="../src/sky\libastro\dbfmt.cpp" />
+    <ClCompile Include="../src/sky\libastro\deep.cpp" />
+    <ClCompile Include="../src/sky\libastro\deltat.cpp" />
+    <ClCompile Include="../src/sky\libastro\earthsat.cpp" />
+    <ClCompile Include="../src/sky\libastro\eq_ecl.cpp" />
+    <ClCompile Include="../src/sky\libastro\eq_gal.cpp" />
+    <ClCompile Include="../src/sky\libastro\formats.cpp" />
+    <ClCompile Include="../src/sky\libastro\helio.cpp" />
+    <ClCompile Include="../src/sky\libastro\jupmoon.cpp" />
+    <ClCompile Include="../src/sky\libastro\libration.cpp" />
+    <ClCompile Include="../src/sky\libastro\magdecl.cpp" />
+    <ClCompile Include="../src/sky\libastro\marsmoon.cpp" />
+    <ClCompile Include="../src/sky\libastro\misc.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Default</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Default</CompileAs>
+    </ClCompile>
+    <ClCompile Include="../src/sky\libastro\mjd.cpp" />
+    <ClCompile Include="../src/sky\libastro\moon.cpp" />
+    <ClCompile Include="../src/sky\libastro\mooncolong.cpp" />
+    <ClCompile Include="../src/sky\libastro\moonnf.cpp" />
+    <ClCompile Include="../src/sky\libastro\nutation.cpp" />
+    <ClCompile Include="../src/sky\libastro\obliq.cpp" />
+    <ClCompile Include="../src/sky\libastro\parallactic.cpp" />
+    <ClCompile Include="../src/sky\libastro\parallax.cpp" />
+    <ClCompile Include="../src/sky\libastro\plans.cpp" />
+    <ClCompile Include="../src/sky\libastro\plmoon.cpp" />
+    <ClCompile Include="../src/sky\libastro\plshadow.cpp" />
+    <ClCompile Include="../src/sky\libastro\precess.cpp" />
+    <ClCompile Include="../src/sky\libastro\probfunc.cpp" />
+    <ClCompile Include="../src/sky\libastro\reduce.cpp" />
+    <ClCompile Include="../src/sky\libastro\refract.cpp" />
+    <ClCompile Include="../src/sky\libastro\rings.cpp" />
+    <ClCompile Include="../src/sky\libastro\riset.cpp" />
+    <ClCompile Include="../src/sky\libastro\riset_cir.cpp" />
+    <ClCompile Include="../src/sky\libastro\satmoon.cpp" />
+    <ClCompile Include="../src/sky\libastro\sdp4.cpp" />
+    <ClCompile Include="../src/sky\libastro\sgp4.cpp" />
+    <ClCompile Include="../src/sky\libastro\sphcart.cpp" />
+    <ClCompile Include="../src/sky\libastro\sun.cpp" />
+    <ClCompile Include="../src/sky\libastro\thetag.cpp" />
+    <ClCompile Include="../src/sky\libastro\twobody.cpp" />
+    <ClCompile Include="../src/sky\libastro\umoon.cpp" />
+    <ClCompile Include="../src/sky\libastro\utc_gst.cpp" />
+    <ClCompile Include="../src/sky\libastro\vsop87.cpp" />
+    <ClCompile Include="../src/sky\libastro\vsop87_data.cpp" />
+    <ClCompile Include="../src/sky\sat_code\basics.cpp" />
+    <ClCompile Include="../src/sky\sat_code\common.cpp" />
+    <ClCompile Include="../src/sky\sat_code\fdeep.cpp" />
+    <ClCompile Include="../src/sky\sat_code\fsdp4.cpp" />
+    <ClCompile Include="../src/sky\sat_code\fsgp4.cpp" />
+    <ClCompile Include="../src/sky\sat_code\get_el.cpp" />
+    <ClCompile Include="../src/sky\solar\obliquit.cpp" />
+    <ClCompile Include="../src/sky\sat_code\observe.cpp" />
+    <ClCompile Include="../src/sky\sat_code\sdp8.cpp" />
+    <ClCompile Include="../src/sky\sat_code\sgp.cpp" />
+    <ClCompile Include="../src/sky\sat_code\sgp8.cpp" />
+    <ClCompile Include="../src/sky\solar\snutation.cpp" />
+    <ClCompile Include="../src/sky\solar\sprecess.cpp" />
+    <ClCompile Include="../src/sky\sat_code\tle_out.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_arc.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_arrowhead.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_bezier_arc.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_bspline.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_curves.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_embedded_raster_fonts.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_gsv_text.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_image_filters.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_line_aa_basics.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_line_profile_aa.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_rounded_rect.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_sqrt_tables.cpp" />
+    <ClCompile Include="../../lib\agg\examples\svg_viewer\agg_svg_parser.cpp" />
+    <ClCompile Include="../../lib\agg\examples\svg_viewer\agg_svg_path_renderer.cpp" />
+    <ClCompile Include="../../lib\agg\examples\svg_viewer\agg_svg_path_tokenizer.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_trans_affine.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_trans_double_path.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_trans_single_path.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_trans_warp_magnifier.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vcgen_bspline.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vcgen_contour.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vcgen_dash.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vcgen_markers_term.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vcgen_smooth_poly1.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vcgen_stroke.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vpgen_clip_polygon.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vpgen_clip_polyline.cpp" />
+    <ClCompile Include="../../lib\agg\src\agg_vpgen_segmentator.cpp" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\caphot.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\cel.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\distort.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\dsspos.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\hget.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\hput.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\iget.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\imio.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\lin.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\platepos.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\proj.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\sph.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\tnxpos.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\wcs.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\wcscon.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\wcsinit.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\wcslib.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\wcstrig.c" />
+    <ClCompile Include="../../lib\wcstools-3.7.7\libwcs\worldpos.c" />
+    <ClCompile Include="../src/weather\clear_sky_chart.cpp" />
+    <ClCompile Include="../src/weather\meteo_blue.cpp" />
+    <ClCompile Include="../src/weather\satimg_fetch.cpp" />
+    <ClCompile Include="../src/weather\weather.cpp" />
+    <ClCompile Include="../src/weather\weather_under.cpp" />
+    <ClCompile Include="../src/util\apps_manager.cpp" />
+    <ClCompile Include="../src/util\astro_algorithms.cpp" />
+    <ClCompile Include="../src/util\crypt-md5.cpp" />
+    <ClCompile Include="../src/util\files_manager.cpp" />
+    <ClCompile Include="../src/httpengine\wxcurl_base.cpp" />
+    <ClCompile Include="../src/httpengine\wxcurl_http.cpp" />
+    <ClCompile Include="../src/online\unimap_online.cpp" />
+    <ClCompile Include="../src/telescope\ascom.cpp" />
+    <ClCompile Include="../src/telescope\focuser.cpp" />
+    <ClCompile Include="../src/telescope\focuser_driver.cpp" />
+    <ClCompile Include="../src/telescope\focuser_jmi.cpp" />
+    <ClCompile Include="../src/telescope\focusevent.cpp" />
+    <ClCompile Include="../src/telescope\telescope.cpp" />
+    <ClCompile Include="../src/telescope\telescope_driver.cpp" />
+    <ClCompile Include="../src/telescope\telescope_lx200.cpp" />
+    <ClCompile Include="../src/telescope\telescope_nexstar.cpp" />
+    <ClCompile Include="../src/telescope\telworker.cpp" />
+    <ClCompile Include="../src/camera\camera.cpp" />
+    <ClCompile Include="../src/camera\camera_canoneos.cpp" />
+    <ClCompile Include="../src/camera\camera_driver.cpp" />
+    <ClCompile Include="../src/camera\camera_video.cpp" />
+    <ClCompile Include="../src/camera\camera_wia.cpp" />
+    <ClCompile Include="../src/camera\wia\wiaBitmapUtil.cpp" />
+    <ClCompile Include="../src/camera\wia\wiaDataCallback.cpp" />
+    <ClCompile Include="../src/camera\wia\wiaEventCallback.cpp" />
+    <ClCompile Include="../src/camera\worker_dcam.cpp" />
+    <ClCompile Include="../src/camera\worker_vcam.cpp" />
+    <ClCompile Include="../src/news\esa_news.cpp" />
+    <ClCompile Include="../src/news\nasa_news.cpp" />
+    <ClCompile Include="../src/news\news.cpp" />
+    <ClCompile Include="../src/news\sciencedaily_news.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../src/config\config.h" />
+    <ClInclude Include="../src/db\unimap_db.h" />
+    <ClInclude Include="../src/image\format\cfitsio\cfortran.h" />
+    <ClInclude Include="../src/image\format\cfitsio\compress.h" />
+    <ClInclude Include="../src/image\format\cfitsio\drvrgsiftp.h" />
+    <ClInclude Include="../src/image\format\cfitsio\drvrsmem.h" />
+    <ClInclude Include="../src/image\format\cfitsio\eval_defs.h" />
+    <ClInclude Include="../src/image\format\cfitsio\eval_tab.h" />
+    <ClInclude Include="../src/image\format\cfitsio\f77_wrap.h" />
+    <ClInclude Include="../src/image\format\cfitsio\fitsio.h" />
+    <ClInclude Include="../src/image\format\cfitsio\fitsio2.h" />
+    <ClInclude Include="../src/image\format\cfitsio\fpack.h" />
+    <ClInclude Include="../src/image\format\cfitsio\group.h" />
+    <ClInclude Include="../src/image\format\cfitsio\grparser.h" />
+    <ClInclude Include="../src/image\format\cfitsio\longnam.h" />
+    <ClInclude Include="../src/image\format\cfitsio\region.h" />
+    <ClInclude Include="../src/image\format\cfitsio\ricecomp.h" />
+    <ClInclude Include="../src/image\format\image_fits.h" />
+    <ClInclude Include="../../lib\gsoap-2.7\gsoap\stdsoap2.h" />
+    <ClInclude Include="../src/unimap_service.h" />
+    <ClInclude Include="../src/util\defines.h" />
+    <ClInclude Include="../src/config\detectconfig.h" />
+    <ClInclude Include="../src/proc\detectfilter.h" />
+    <ClInclude Include="../src/land\earth.h" />
+    <ClInclude Include="../src/util\folders.h" />
+    <ClInclude Include="../src/util\func.h" />
+    <ClInclude Include="../src/land\geoip.h" />
+    <ClInclude Include="../src/util\geometry.h" />
+    <ClInclude Include="../src/logger\logger.h" />
+    <ClInclude Include="../src/config\mainconfig.h" />
+    <ClInclude Include="../src/observer\observatories.h" />
+    <ClInclude Include="../src/observer\observer.h" />
+    <ClInclude Include="../src/observer\observer_hardware.h" />
+    <ClInclude Include="../src/observer\observer_site.h" />
+    <ClInclude Include="../src/resource.h" />
+    <ClInclude Include="../src/proc\sextractor.h" />
+    <ClInclude Include="../src/sound\sound_engine.h" />
+    <ClInclude Include="../src/sound\sound_player.h" />
+    <ClInclude Include="../src/stack\stack_func.h" />
+    <ClInclude Include="../src/match\starmatch.h" />
+    <ClInclude Include="../src/sysinfo.h" />
+    <ClInclude Include="../src/unimap.h" />
+    <ClInclude Include="../src/unimap_worker.h" />
+    <ClInclude Include="../src/util\units.h" />
+    <ClInclude Include="../src/util\webfunc.h" />
+    <ClInclude Include="../src/dataport\winserial.h" />
+    <ClInclude Include="../src/util\windows_func.h" />
+    <ClInclude Include="../src/worker.h" />
+    <ClInclude Include="../src/proc\init_static.h" />
+    <ClInclude Include="../src/proc\sextractor_assoc.h" />
+    <ClInclude Include="../src/proc\sextractor_astrom.h" />
+    <ClInclude Include="../src/proc\sextractor_back.h" />
+    <ClInclude Include="../src/proc\sextractor_bpro.h" />
+    <ClInclude Include="../src/proc\sextractor_check.h" />
+    <ClInclude Include="../src/proc\sextractor_clean.h" />
+    <ClInclude Include="../src/proc\sextractor_define.h" />
+    <ClInclude Include="../src/proc\sextractor_extract.h" />
+    <ClInclude Include="../src/proc\sextractor_field.h" />
+    <ClInclude Include="../src/proc\sextractor_filter.h" />
+    <ClInclude Include="../src/proc\sextractor_flag.h" />
+    <ClInclude Include="../src/proc\sextractor_globals.h" />
+    <ClInclude Include="../src/proc\sextractor_growth.h" />
+    <ClInclude Include="../src/proc\sextractor_image.h" />
+    <ClInclude Include="../src/proc\sextractor_interpolate.h" />
+    <ClInclude Include="../src/proc\sextractor_key.h" />
+    <ClInclude Include="../src/proc\sextractor_neurro.h" />
+    <ClInclude Include="../src/proc\sextractor_param.h" />
+    <ClInclude Include="../src/proc\sextractor_photom.h" />
+    <ClInclude Include="../src/proc\sextractor_plist.h" />
+    <ClInclude Include="../src/proc\sextractor_poly.h" />
+    <ClInclude Include="../src/proc\sextractor_preflist.h" />
+    <ClInclude Include="../src/proc\sextractor_prefs.h" />
+    <ClInclude Include="../src/proc\sextractor_psf.h" />
+    <ClInclude Include="../src/proc\sextractor_retina.h" />
+    <ClInclude Include="../src/proc\sextractor_sexhead.h" />
+    <ClInclude Include="../src/proc\sextractor_sexhead1.h" />
+    <ClInclude Include="../src/proc\sextractor_sexheadsc.h" />
+    <ClInclude Include="../src/proc\sextractor_som.h" />
+    <ClInclude Include="../src/proc\sextractor_types.h" />
+    <ClInclude Include="../src/proc\sextractor_weight.h" />
+    <ClInclude Include="../src/proc\sextractor_winpos.h" />
+    <ClInclude Include="../src/proc\sextractor_xml.h" />
+    <ClInclude Include="../src/graphics\spline\Assert.h" />
+    <ClInclude Include="../src/graphics\spline\intersect.h" />
+    <ClInclude Include="../src/graphics\spline\line2.h" />
+    <ClInclude Include="../src/graphics\spline\Line3.h" />
+    <ClInclude Include="../src/graphics\spline\Matrix2.h" />
+    <ClInclude Include="../src/graphics\spline\Matrix3.h" />
+    <ClInclude Include="../src/graphics\spline\matrix4.h" />
+    <ClInclude Include="../src/graphics\spline\MatrixN.h" />
+    <ClInclude Include="../src/graphics\spline\plane.h" />
+    <ClInclude Include="../src/graphics\spline\quaternion.h" />
+    <ClInclude Include="../src/graphics\spline\random.h" />
+    <ClInclude Include="../src/graphics\spline\Rect.h" />
+    <ClInclude Include="../src/graphics\spline\Spline.h" />
+    <ClInclude Include="../src/graphics\spline\Utility.h" />
+    <ClInclude Include="../src/graphics\spline\vector2.h" />
+    <ClInclude Include="../src/graphics\spline\vector3.h" />
+    <ClInclude Include="../src/graphics\spline\vector4.h" />
+    <ClInclude Include="../src/gui\about.h" />
+    <ClInclude Include="../src/gui\astro_img_view.h" />
+    <ClInclude Include="../src/gui\calc_units_dlg.h" />
+    <ClInclude Include="../src/gui\canoneos_setup_dlg.h" />
+    <ClInclude Include="../src/gui\catalog_download.h" />
+    <ClInclude Include="../src/gui\catalog_view.h" />
+    <ClInclude Include="../src/gui\catalogconfig.h" />
+    <ClInclude Include="../src/gui\custom_wxwidgets.h" />
+    <ClInclude Include="../src/gui\designSkin.h" />
+    <ClInclude Include="../src/gui\detectconfigview.h" />
+    <ClInclude Include="../src/gui\dist_tool_view.h" />
+    <ClInclude Include="../src/gui\dynamic_img_view.h" />
+    <ClInclude Include="../src/gui\earth_view.h" />
+    <ClInclude Include="../src/gui\file_export_dlg.h" />
+    <ClInclude Include="../src/gui\finddlg.h" />
+    <ClInclude Include="../src/gui\frame.h" />
+    <ClInclude Include="../src/gui\graph_base_view.h" />
+    <ClInclude Include="../src/gui\grid_data_view.h" />
+    <ClInclude Include="../src/gui\group_add_dlg.h" />
+    <ClInclude Include="../src/gui\groupdlg.h" />
+    <ClInclude Include="../src/gui\groupproperty.h" />
+    <ClInclude Include="../src/gui\groupview.h" />
+    <ClInclude Include="../src/gui\hardware_add_dlg.h" />
+    <ClInclude Include="../src/gui\hardware_select_dlg.h" />
+    <ClInclude Include="../src/gui\HistogramView.h" />
+    <ClInclude Include="../src/gui\image3dbase.h" />
+    <ClInclude Include="../src/gui\image_notes_dlg.h" />
+    <ClInclude Include="../src/gui\image_save_dlg.h" />
+    <ClInclude Include="../src/gui\img_view_dlg.h" />
+    <ClInclude Include="../src/gui\imgproperty.h" />
+    <ClInclude Include="../src/gui\imgview3dcolormap.h" />
+    <ClInclude Include="../src/gui\imgview3ddistmap.h" />
+    <ClInclude Include="../src/gui\imgview3dspacedist.h" />
+    <ClInclude Include="../src/gui\instruments_cfg_dlg.h" />
+    <ClInclude Include="../src/gui\light_pollution_dlg.h" />
+    <ClInclude Include="../src/gui\location_dialog.h" />
+    <ClInclude Include="../src/gui\mainconfigview.h" />
+    <ClInclude Include="../src/gui\matchconfig.h" />
+    <ClInclude Include="../src/gui\news_dlg.h" />
+    <ClInclude Include="../src/gui\observatories_dlg.h" />
+    <ClInclude Include="../src/gui\observer_cfg_dlg.h" />
+    <ClInclude Include="../src/gui\online_browse_dlg.h" />
+    <ClInclude Include="../src/gui\online_cfg_dlg.h" />
+    <ClInclude Include="../src/gui\online_comments_dlg.h" />
+    <ClInclude Include="../src/gui\poshintdlg.h" />
+    <ClInclude Include="../src/gui\print.h" />
+    <ClInclude Include="../src/gui\RadialProfileView.h" />
+    <ClInclude Include="../src/gui\simple_common_dlg.h" />
+    <ClInclude Include="../src/gui\skyobj_select_dlg.h" />
+    <ClInclude Include="../src/gui\slideshow_dlg.h" />
+    <ClInclude Include="../src/gui\starviewdlg.h" />
+    <ClInclude Include="../src/gui\sun_view_dlg.h" />
+    <ClInclude Include="../src/gui\taskbar_icon.h" />
+    <ClInclude Include="../src/gui\telescope_setup_dlg.h" />
+    <ClInclude Include="../src/gui\tlens_select_dlg.h" />
+    <ClInclude Include="../src/gui\upload_custom_dlg.h" />
+    <ClInclude Include="../src/gui\user_feedback_dlg.h" />
+    <ClInclude Include="../src/gui\view_objects_dlg.h" />
+    <ClInclude Include="../src/gui\waitdialog.h" />
+    <ClInclude Include="../src/gui\waitdialogmatch.h" />
+    <ClInclude Include="../src/gui\waitdialogstack.h" />
+    <ClInclude Include="../src/gui\weather_cforecast_dlg.h" />
+    <ClInclude Include="../src/gui\weather_satvis_dlg.h" />
+    <ClInclude Include="../src/gui\weather_seeing_dlg.h" />
+    <ClInclude Include="../src/gui\wxaggPixelFormatConvertor.h" />
+    <ClInclude Include="../src/gui\process\blur_dlg.h" />
+    <ClInclude Include="../src/gui\process\colors_dlg.h" />
+    <ClInclude Include="../src/gui\process\deconv_dlg.h" />
+    <ClInclude Include="../src/gui\process\edge_dlg.h" />
+    <ClInclude Include="../src/gui\process\filter_dlg.h" />
+    <ClInclude Include="../src/gui\process\gradient_dlg.h" />
+    <ClInclude Include="../src/gui\process\process_base_dlg.h" />
+    <ClInclude Include="../src/gui\process\sharp_dlg.h" />
+    <ClInclude Include="../src/image\astroimage.h" />
+    <ClInclude Include="../src/image\baseimage.h" />
+    <ClInclude Include="../src/image\digitalimage.h" />
+    <ClInclude Include="../src/image\histogram.h" />
+    <ClInclude Include="../src/util\image_func.h" />
+    <ClInclude Include="../src/image\image_note.h" />
+    <ClInclude Include="../src/image\image_shift.h" />
+    <ClInclude Include="../src/image\imagearea.h" />
+    <ClInclude Include="../src/image\imagechannel.h" />
+    <ClInclude Include="../src/image\imagedb.h" />
+    <ClInclude Include="../src/image\imagefft.h" />
+    <ClInclude Include="../src/image\imagegroup.h" />
+    <ClInclude Include="../src/image\imagelayer.h" />
+    <ClInclude Include="../src/image\radialprofile.h" />
+    <ClInclude Include="../src/image\process\imagecolors.h" />
+    <ClInclude Include="../src/math\fitgsl.h" />
+    <ClInclude Include="../src/sky\ads_site.h" />
+    <ClInclude Include="../src/sky\bibdb.h" />
+    <ClInclude Include="../src/sky\catalog.h" />
+    <ClInclude Include="../src/sky\catalog_aes.h" />
+    <ClInclude Include="../src/sky\catalog_aes_celestrak.h" />
+    <ClInclude Include="../src/sky\catalog_asteroids.h" />
+    <ClInclude Include="../src/sky\catalog_asteroids_omp.h" />
+    <ClInclude Include="../src/sky\catalog_blackholes.h" />
+    <ClInclude Include="../src/sky\catalog_blackholes_rxe_agn.h" />
+    <ClInclude Include="../src/sky\catalog_blackholes_sdss_dr5.h" />
+    <ClInclude Include="../src/sky\catalog_comets.h" />
+    <ClInclude Include="../src/sky\catalog_comets_cocom.h" />
+    <ClInclude Include="../src/sky\catalog_dso.h" />
+    <ClInclude Include="../src/sky\catalog_dso_assoc.h" />
+    <ClInclude Include="../src/sky\catalog_dso_ic.h" />
+    <ClInclude Include="../src/sky\catalog_dso_messier.h" />
+    <ClInclude Include="../src/sky\catalog_dso_mgc.h" />
+    <ClInclude Include="../src/sky\catalog_dso_names.h" />
+    <ClInclude Include="../src/sky\catalog_dso_ngc.h" />
+    <ClInclude Include="../src/sky\catalog_dso_pgc.h" />
+    <ClInclude Include="../src/sky\catalog_dso_ugc.h" />
+    <ClInclude Include="../src/sky\catalog_exoplanets.h" />
+    <ClInclude Include="../src/sky\catalog_exoplanets_eu.h" />
+    <ClInclude Include="../src/sky\catalog_mstars.h" />
+    <ClInclude Include="../src/sky\catalog_mstars_ccdm.h" />
+    <ClInclude Include="../src/sky\catalog_mstars_wds.h" />
+    <ClInclude Include="../src/sky\catalog_radio.h" />
+    <ClInclude Include="../src/sky\catalog_radio_msl.h" />
+    <ClInclude Include="../src/sky\catalog_radio_nvss.h" />
+    <ClInclude Include="../src/sky\catalog_radio_specfind.h" />
+    <ClInclude Include="../src/sky\catalog_radio_vlss.h" />
+    <ClInclude Include="../src/sky\catalog_stars.h" />
+    <ClInclude Include="../src/sky\catalog_stars_2mass.h" />
+    <ClInclude Include="../src/sky\catalog_stars_assoc.h" />
+    <ClInclude Include="../src/sky\catalog_stars_gsc.h" />
+    <ClInclude Include="../src/sky\catalog_stars_hipparcos.h" />
+    <ClInclude Include="../src/sky\catalog_stars_names.h" />
+    <ClInclude Include="../src/sky\catalog_stars_nomad.h" />
+    <ClInclude Include="../src/sky\catalog_stars_sao.h" />
+    <ClInclude Include="../src/sky\catalog_stars_tycho.h" />
+    <ClInclude Include="../src/sky\catalog_stars_usnob.h" />
+    <ClInclude Include="../src/sky\catalog_supernovas.h" />
+    <ClInclude Include="../src/sky\catalog_supernovas_asc.h" />
+    <ClInclude Include="../src/sky\catalog_supernovas_ssc.h" />
+    <ClInclude Include="../src/sky\catalog_types.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma_2xmmi.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma_batse.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma_bepposax.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma_heao.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma_integral.h" />
+    <ClInclude Include="../src/sky\catalog_xgamma_rosat.h" />
+    <ClInclude Include="../src/sky\celestraksite.h" />
+    <ClInclude Include="../src/sky\constellations.h" />
+    <ClInclude Include="../src/sky\exoplaneteusite.h" />
+    <ClInclude Include="../src/sky\ledasite.h" />
+    <ClInclude Include="../src/sky\ned_site.h" />
+    <ClInclude Include="../src/sky\nofs_navy_mil.h" />
+    <ClInclude Include="../src/sky\nstars_site.h" />
+    <ClInclude Include="../src/sky\objdetails.h" />
+    <ClInclude Include="../src/sky\simbad.h" />
+    <ClInclude Include="../src/sky\sky.h" />
+    <ClInclude Include="../src/sky\sky_finder.h" />
+    <ClInclude Include="../src/sky\skyview_site.h" />
+    <ClInclude Include="../src/sky\solar_orbits.h" />
+    <ClInclude Include="../src/sky\solar_planets.h" />
+    <ClInclude Include="../src/spectrum\spectrum.h" />
+    <ClInclude Include="../src/sky\star.h" />
+    <ClInclude Include="../src/sky\sun_fetch.h" />
+    <ClInclude Include="../src/sky\unimapsite.h" />
+    <ClInclude Include="../src/sky\vizier.h" />
+    <ClInclude Include="../src/sky\solar\afuncs.h" />
+    <ClInclude Include="../src/sky\libastro\astro.h" />
+    <ClInclude Include="../src/sky\libastro\chap95.h" />
+    <ClInclude Include="../src/sky\libastro\deepconst.h" />
+    <ClInclude Include="../src/sky\libastro\libastro.h" />
+    <ClInclude Include="../src/sky\libastro\misc.h" />
+    <ClInclude Include="../src/sky\libastro\preferences.h" />
+    <ClInclude Include="../src/sky\libastro\probfunc.h" />
+    <ClInclude Include="../src/sky\libastro\satlib.h" />
+    <ClInclude Include="../src/sky\libastro\satspec.h" />
+    <ClInclude Include="../src/sky\libastro\sattypes.h" />
+    <ClInclude Include="../src/sky\libastro\vector.h" />
+    <ClInclude Include="../src/sky\libastro\vsop87.h" />
+    <ClInclude Include="../src/sky\sat_code\deep.h" />
+    <ClInclude Include="../src/sky\sat_code\norad.h" />
+    <ClInclude Include="../src/sky\sat_code\norad_in.h" />
+    <ClInclude Include="../src/sky\sat_code\observe.h" />
+    <ClInclude Include="../src/weather\clear_sky_chart.h" />
+    <ClInclude Include="../src/weather\meteo_blue.h" />
+    <ClInclude Include="../src/weather\satimg_fetch.h" />
+    <ClInclude Include="../src/weather\weather.h" />
+    <ClInclude Include="../src/weather\weather_under.h" />
+    <ClInclude Include="../src/util\apps_manager.h" />
+    <ClInclude Include="../src/util\astro_algorithms.h" />
+    <ClInclude Include="../src/httpengine\base64.h" />
+    <ClInclude Include="../src/util\crypt-md5.h" />
+    <ClInclude Include="../src/util\files_manager.h" />
+    <ClInclude Include="../src/httpengine\wxcurl_base.h" />
+    <ClInclude Include="../src/httpengine\wxcurl_http.h" />
+    <ClInclude Include="../src/online\unimap_online.h" />
+    <ClInclude Include="../src/telescope\ascom.h" />
+    <ClInclude Include="../src/telescope\focuser.h" />
+    <ClInclude Include="../src/telescope\focuser_driver.h" />
+    <ClInclude Include="../src/telescope\focuser_jmi.h" />
+    <ClInclude Include="../src/telescope\focusevent.h" />
+    <ClInclude Include="../src/telescope\protocol.h" />
+    <ClInclude Include="../src/telescope\telescope.h" />
+    <ClInclude Include="../src/telescope\telescope_driver.h" />
+    <ClInclude Include="../src/telescope\telescope_lx200.h" />
+    <ClInclude Include="../src/telescope\telescope_nexstar.h" />
+    <ClInclude Include="../src/telescope\telworker.h" />
+    <ClInclude Include="../src/camera\camera.h" />
+    <ClInclude Include="../src/camera\camera_canoneos.h" />
+    <ClInclude Include="../src/camera\camera_defs.h" />
+    <ClInclude Include="../src/camera\camera_driver.h" />
+    <ClInclude Include="../src/camera\camera_video.h" />
+    <ClInclude Include="../src/camera\camera_wia.h" />
+    <ClInclude Include="../src/camera\gdiplus_init.h" />
+    <ClInclude Include="../src/camera\wia\wiaBitmapUtil.h" />
+    <ClInclude Include="../src/camera\wia\wiaDataCallback.h" />
+    <ClInclude Include="../src/camera\wia\wiaEventCallback.h" />
+    <ClInclude Include="../src/camera\worker_dcam.h" />
+    <ClInclude Include="../src/camera\worker_vcam.h" />
+    <ClInclude Include="../src/news\esa_news.h" />
+    <ClInclude Include="../src/news\nasa_news.h" />
+    <ClInclude Include="../src/news\news.h" />
+    <ClInclude Include="../src/news\sciencedaily_news.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram31.cd" />
+    <None Include="../resources/icon1.ico" />
+    <None Include="../resources/unimap.bmp" />
+    <None Include="../resources/unimap.ico" />
+    <None Include="../resources/unimap2.ico" />
+    <None Include="../resources\unmap5.ico" />
+    <None Include="../resources\zoom_in.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="unimap.rc">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

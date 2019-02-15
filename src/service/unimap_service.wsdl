@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="Unimap"
+ targetNamespace="urn:UnimapSoapXml"
+ xmlns:tns="urn:UnimapSoapXml"
+ xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+ xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:SOAP="http://schemas.xmlsoap.org/wsdl/soap/"
+ xmlns:MIME="http://schemas.xmlsoap.org/wsdl/mime/"
+ xmlns:DIME="http://schemas.xmlsoap.org/ws/2002/04/dime/wsdl/"
+ xmlns:WSDL="http://schemas.xmlsoap.org/wsdl/"
+ xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+<types>
+
+ <schema targetNamespace="urn:UnimapSoapXml"
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://www.w3.org/2001/XMLSchema"
+  elementFormDefault="unqualified"
+  attributeFormDefault="unqualified">
+  <import namespace="http://schemas.xmlsoap.org/soap/encoding/" schemaLocation="http://schemas.xmlsoap.org/soap/encoding/"/>
+  <complexType name="ResponseStatusType">
+   <sequence>
+     <element name="ResponseResult" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+     <element name="ResponseCode" type="xsd:short" minOccurs="1" maxOccurs="1"/>
+     <element name="ResponseMessage" type="xsd:string" minOccurs="0" maxOccurs="unbounded"/>
+   </sequence>
+  </complexType>
+
+   <!-- image data header -->
+  <complexType name="ImgDataHeaderType">
+   <sequence>
+     <element name="ObjDetected" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+	 <element name="ObjMatched" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+     <element name="TargetName" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+     <element name="OrigRa" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+     <element name="OrigDec" type="xsd:double" minOccurs="1" maxOccurs="1"/>	 
+	 <element name="FieldWidth" type="xsd:double" minOccurs="1" maxOccurs="1"/>	 
+	 <element name="FieldHeight" type="xsd:double" minOccurs="1" maxOccurs="1"/>	 
+	 <element name="MinMag" type="xsd:double" minOccurs="1" maxOccurs="1"/>	 
+	 <element name="MaxMag" type="xsd:double" minOccurs="1" maxOccurs="1"/>	 
+   </sequence>
+  </complexType>
+  
+   <!-- star detected type -->
+  <complexType name="ImgObjDetectedType">
+   <sequence>
+     <element name="id" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+     <element name="name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+     <element name="x" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+     <element name="y" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+     <element name="ra" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+     <element name="dec" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+	 <element name="mag" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+	</sequence>
+  </complexType>
+  
+  <!-- operation request element -->
+  <element name="ImageSolveRequest" type="tns:ImageSolveRequestType"/>
+  <complexType name="ImageSolveRequestType">
+   <sequence>
+     <element name="ImageName" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+     <element name="ImagePath" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+	 <element name="SearchCatalog" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+   </sequence>
+  </complexType>
+  <!-- operation response element -->
+  <element name="ImageSolveResponse" type="tns:ImageSolveResponseType"/>
+   <complexType name="ImageSolveResponseType">
+    <sequence>
+     <element name="ResponseStatus" type="tns:ResponseStatusType" minOccurs="1" maxOccurs="1" nillable="true"/>
+	 <element name="ImgDataHeader" type="tns:ImgDataHeaderType" minOccurs="1" maxOccurs="1" nillable="true"/>
+     <element name="vectImgObjDetected" type="tns:ImgObjDetectedType" minOccurs="0" maxOccurs="unbounded" nillable="true"/>
+    </sequence>
+   </complexType>  
+  <complexType name="ScopePositionSetRequestType">
+   <sequence>
+     <element name="ScopeId" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+     <element name="RA" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+     <element name="DEC" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+   </sequence>
+  </complexType>
+  <complexType name="ScopePositionSetResponseType">
+   <sequence>
+     <element name="ResponseStatus" type="tns:ResponseStatusType" minOccurs="1" maxOccurs="1" nillable="true"/>
+   </sequence>
+  </complexType>
+  <complexType name="ScopePositionGetRequestType">
+   <sequence>
+     <element name="ScopeId" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+   </sequence>
+  </complexType>
+  <complexType name="ScopePositionGetResponseType">
+   <sequence>
+     <element name="ResponseStatus" type="tns:ResponseStatusType" minOccurs="1" maxOccurs="1" nillable="true"/>
+     <element name="RA" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+     <element name="DEC" type="xsd:double" minOccurs="1" maxOccurs="1"/>
+   </sequence>
+  </complexType>
+  <complexType name="CameraImageTakeRequestType">
+   <sequence>
+     <element name="ExposureTime" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+     <element name="NoOfExposures" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+     <element name="ExposuresDelay" type="xsd:integer" minOccurs="1" maxOccurs="1"/>
+   </sequence>
+  </complexType>
+  <complexType name="CameraImageTakeResponseType">
+   <sequence>
+     <element name="ResponseStatus" type="tns:ResponseStatusType" minOccurs="1" maxOccurs="1" nillable="true"/>
+   </sequence>
+  </complexType>
+  <complexType name="ScopeFocusAdjustRequestType">
+   <sequence>
+     <element name="Position" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+     <element name="Speed" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+   </sequence>
+  </complexType>
+  <complexType name="ScopeFocusAdjustResponseType">
+   <sequence>
+     <element name="ResponseStatus" type="tns:ResponseStatusType" minOccurs="1" maxOccurs="1" nillable="true"/>
+   </sequence>
+  </complexType>
+
+ </schema>
+
+</types>
+
+<message name="ImageSolveRequest">
+ <part name="parameters" element="tns:ImageSolveRequest"/>
+</message>
+
+<message name="ImageSolveResponse">
+ <part name="parameters" element="tns:ImageSolveResponse"/>
+</message>
+
+<message name="ScopePositionSetRequest">
+ <part name="input" type="tns:ScopePositionSetRequestType"/>
+</message>
+
+<message name="ScopePositionSetRequestResponse">
+ <part name="result" type="tns:ScopePositionSetResponseType"/>
+</message>
+
+<message name="ScopePositionGetRequest">
+ <part name="input" type="tns:ScopePositionGetRequestType"/>
+</message>
+
+<message name="ScopePositionGetRequestResponse">
+ <part name="result" type="tns:ScopePositionGetResponseType"/>
+</message>
+
+<message name="CameraImageTakeRequest">
+ <part name="input" type="tns:CameraImageTakeRequestType"/>
+</message>
+
+<message name="CameraImageTakeRequestResponse">
+ <part name="result" type="tns:CameraImageTakeResponseType"/>
+</message>
+
+<message name="ScopeFocusAdjustRequest">
+ <part name="input" type="tns:ScopeFocusAdjustRequestType"/>
+</message>
+
+<message name="ScopeFocusAdjustRequestResponse">
+ <part name="result" type="tns:ScopeFocusAdjustResponseType"/>
+</message>
+
+<portType name="UnimapSoapXmlPort">
+ <operation name="ImageSolve">
+  <documentation>Service definition of function ns__ImageSolve</documentation>
+  <input message="tns:ImageSolveRequest"/>
+  <output message="tns:ImageSolveResponse"/>
+ </operation>
+ <operation name="ScopePositionSet">
+  <documentation>Service definition of function ns__ScopePositionSetRequest</documentation>
+  <input message="tns:ScopePositionSetRequest"/>
+  <output message="tns:ScopePositionSetRequestResponse"/>
+ </operation>
+ <operation name="ScopePositionGet">
+  <documentation>Service definition of function ns__ScopePositionGetRequest</documentation>
+  <input message="tns:ScopePositionGetRequest"/>
+  <output message="tns:ScopePositionGetRequestResponse"/>
+ </operation>
+ <operation name="CameraImageTake">
+  <documentation>Service definition of function ns__CameraImageTakeRequest</documentation>
+  <input message="tns:CameraImageTakeRequest"/>
+  <output message="tns:CameraImageTakeRequestResponse"/>
+ </operation>
+ <operation name="ScopeFocusAdjust">
+  <documentation>Service definition of function ns__ScopeFocusAdjustRequest</documentation>
+  <input message="tns:ScopeFocusAdjustRequest"/>
+  <output message="tns:ScopeFocusAdjustRequestResponse"/>
+ </operation>
+</portType>
+
+<binding name="UnimapSoapXmlBinding" type="tns:UnimapSoapXmlPort">
+ <SOAP:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+ <operation name="ImageSolve">
+  <SOAP:operation soapAction="urn:UnimapSoapXml/ImageSolve"/>
+  <input>
+     <SOAP:body use="literal" />
+  </input>
+  <output>
+     <SOAP:body use="literal" />
+  </output>
+ </operation>
+ <operation name="ScopePositionSet">
+  <SOAP:operation soapAction="urn:UnimapSoapXml#ScopePositionSetRequest"/>
+  <input>
+     <SOAP:body use="literal" />
+  </input>
+  <output>
+     <SOAP:body use="literal" />
+  </output>
+ </operation>
+ <operation name="ScopePositionGet">
+  <SOAP:operation soapAction="urn:UnimapSoapXml#ScopePositionGetRequest"/>
+  <input>
+     <SOAP:body use="literal" />
+  </input>
+  <output>
+     <SOAP:body use="literal" />
+  </output>
+ </operation>
+ <operation name="CameraImageTake">
+  <SOAP:operation soapAction="urn:UnimapSoapXml#CameraImageTakeRequest"/>
+  <input>
+     <SOAP:body use="literal" />
+  </input>
+  <output>
+     <SOAP:body use="literal" />
+  </output>
+ </operation>
+ <operation name="ScopeFocusAdjust">
+  <SOAP:operation soapAction="urn:UnimapSoapXml#ScopeFocusAdjustRequest"/>
+  <input>
+     <SOAP:body use="literal" />
+  </input>
+  <output>
+     <SOAP:body use="literal" />
+  </output>
+ </operation>
+</binding>
+
+<service name="UnimapService">
+ <documentation>Unimap Soap Xml Service</documentation>
+ <port name="UnimapServices" binding="tns:UnimapSoapXmlBinding">
+  <SOAP:address location="http://127.0.0.1:11011/unimap_service.cgi"/>
+ </port>
+</service>
+
+</definitions>

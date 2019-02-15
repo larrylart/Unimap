@@ -12,28 +12,25 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
 
 # Fortran module files
 *.mod
 *.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+
 
 # Executables
-*.exe
 *.out
 *.app
 unimap.sdf
 ipch/unimap-3c9421cb/unimap-d09ce1c0.ipch
+build_win/Debug
+build_win/Release
+build_win/ipch
 Debug
 Release
+ipch
 data/bibcodes
 unimap.log
 data/object/tmp
